@@ -26,10 +26,13 @@ class GenericQueryBuilder:
     def delete(table: str, where: Optional[Dict[str, any]] = None):
 
         query = f"DELETE FROM {table}"
+        values = []
+
         if where:
-            where_clause = ", ".join([f"{key} = ?" for key in where.keys()])
+            where_clause = " AND ".join([f"{key} = ?" for key in where.keys()])
             query += f" WHERE {where_clause}"
-        values = list(where.values())
+            values = list(where.values())
+
         return query, values
 
     @staticmethod
@@ -38,12 +41,17 @@ class GenericQueryBuilder:
 
         columns_clause = ", ".join(columns) if columns else "*"
         query = f"SELECT {columns_clause} FROM {table}"
+
+        values = []
         if where:
-            where_clause = ", ".join([f"{key} = ?" for key in where.keys()])
+            where_clause = " AND ".join([f"{key} = ?" for key in where.keys()])
             query += f" WHERE {where_clause}"
+            values = list(where.values())
+
         if order_by:
             query += f" ORDER BY {order_by}"
+
         if limit:
             query += f" LIMIT {limit}"
-        values = list(where.values())
+
         return query, values

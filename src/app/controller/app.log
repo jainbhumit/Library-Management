@@ -82,3 +82,662 @@
 2024-12-12 00:23:02,481 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000018C6567B230>),), kwargs: {}
 2024-12-12 00:23:03,122 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
 2024-12-12 00:23:03,123 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 10:03:07,353 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002B20578F230>),), kwargs: {}
+2024-12-12 10:03:07,600 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 10:03:07,600 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 10:12:14,456 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000155DAC9B380>),), kwargs: {}
+2024-12-12 10:12:14,456 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Error occurred in create_book: 400 Bad Request: Failed to decode JSON object: Expecting value: line 2 column 13 (char 15)
+2024-12-12 10:12:14,456 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 10:18:55,088 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000155DAC9B380>),), kwargs: {}
+2024-12-12 10:18:55,099 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 10:18:55,099 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 10:18:55,099 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 10:26:32,011 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002744B2D3230>),), kwargs: {}
+2024-12-12 10:26:32,012 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:26:32,012 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:26:32,012 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002744B2D3230>),), kwargs: {}
+2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:36:15,762 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000217AE643230>),), kwargs: {}
+2024-12-12 10:36:15,763 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:36:15,763 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:36:15,763 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:36:47,266 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000206E5F7B0E0>),), kwargs: {}
+2024-12-12 10:36:47,267 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:36:47,267 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:36:47,267 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:37:14,276 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000028CE89EB0E0>),), kwargs: {}
+2024-12-12 10:37:14,277 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:37:14,277 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:37:14,277 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:39:25,705 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000022C372AB0E0>),), kwargs: {}
+2024-12-12 10:39:25,706 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:39:25,706 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:39:25,706 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:39:35,578 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000190A5343230>),), kwargs: {}
+2024-12-12 10:39:35,579 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:39:35,579 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:39:35,579 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:43:06,211 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000190A5343230>),), kwargs: {}
+2024-12-12 10:43:06,213 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:43:06,213 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:43:06,213 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:43:21,189 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001A57201F0E0>),), kwargs: {}
+2024-12-12 10:43:21,189 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:43:21,190 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:43:21,190 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:43:52,363 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001CE1D85B0E0>),), kwargs: {}
+2024-12-12 10:43:52,364 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:43:52,364 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:43:52,364 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:46:16,668 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002BCC69630E0>),), kwargs: {}
+2024-12-12 10:46:16,669 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:46:16,669 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:46:16,669 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:46:42,168 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000023A43DFF0E0>),), kwargs: {}
+2024-12-12 10:46:42,169 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:46:42,169 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:46:42,169 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:47:01,451 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000012F72E730E0>),), kwargs: {}
+2024-12-12 10:47:01,452 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:47:01,453 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:47:01,453 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:47:35,021 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC11B32F90>),), kwargs: {}
+2024-12-12 10:47:35,022 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:47:35,022 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:47:35,022 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 10:47:59,241 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002B8F5752F90>),), kwargs: {}
+2024-12-12 10:47:59,243 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
+2024-12-12 10:47:59,243 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 10:47:59,243 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:05:16,362 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002B6E2B12E40>),), kwargs: {}
+2024-12-12 11:05:16,597 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 11:05:16,597 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 11:05:19,696 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002B6E2B12F90>),), kwargs: {}
+2024-12-12 11:05:19,706 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:05:19,706 - Thread-4 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
+2024-12-12 11:05:19,706 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:05:19,707 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:06:43,284 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001FCF6842F90>),), kwargs: {}
+2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
+2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:06:55,731 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002B860F32F90>),), kwargs: {}
+2024-12-12 11:06:55,735 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:06:55,736 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
+2024-12-12 11:06:55,736 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:06:55,736 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:07:26,308 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DA1B29EF90>),), kwargs: {}
+2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
+2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:11:17,224 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019D261BEF90>),), kwargs: {}
+2024-12-12 11:11:17,226 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:11:17,226 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:11:17,226 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:17:20,600 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001BD9A242F90>),), kwargs: {}
+2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
+2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:18:33,195 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:18:33,196 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:18:33,196 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:18:33,196 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:19:20,590 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:19:20,591 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:19:20,591 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:19:20,591 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:19:52,557 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:19:52,557 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:19:52,557 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:19:52,558 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:20:07,149 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:20:07,150 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:20:07,150 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:20:07,150 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - ERROR - Invalid Request Body
+2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 11:29:32,382 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:29:32,397 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 11:29:32,397 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 11:29:32,397 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 11:29:35,497 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:29:35,498 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:29:35,498 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:29:35,498 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:29:48,936 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:29:48,936 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:29:48,937 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:29:48,937 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:29:59,594 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:29:59,594 - Thread-11 (process_request_thread) - ThreadSafeLogger - ERROR - Error occurred in update_book: 400 Bad Request: Failed to decode JSON object: Expecting value: line 4 column 14 (char 97)
+2024-12-12 11:29:59,594 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 11:30:31,911 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:30:31,920 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
+2024-12-12 11:30:31,920 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
+2024-12-12 11:30:31,920 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 11:30:36,495 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:30:36,496 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:30:36,496 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:30:36,496 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:31:49,344 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {'book_id': '825f3d2a-acad-4a2d-ad93-224617fdd50b'}
+2024-12-12 11:31:49,358 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 11:31:49,358 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
+2024-12-12 11:31:49,358 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
+2024-12-12 11:31:54,106 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:31:54,107 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:31:54,107 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:31:54,108 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:37:46,477 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {'book_id': '825f3d2a-acad-4a2d-ad93-224617fdd50b'}
+2024-12-12 11:37:46,491 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 11:37:46,492 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
+2024-12-12 11:37:46,492 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
+2024-12-12 11:37:52,638 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
+2024-12-12 11:37:52,639 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 11:37:52,639 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 11:37:52,639 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 11:40:16,194 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001DC9FBCF0E0>),), kwargs: {}
+2024-12-12 11:40:16,196 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 11:40:16,196 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 11:40:16,196 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 12:04:51,733 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
+2024-12-12 12:04:51,736 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 12:04:51,736 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 12:04:51,737 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 12:04:59,250 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
+2024-12-12 12:04:59,252 - Thread-4 (process_request_thread) - ThreadSafeLogger - ERROR - Book doesn't exist
+2024-12-12 12:04:59,253 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 12:04:59,253 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 12:07:27,397 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:07:27,961 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:07:27,962 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:07:31,682 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
+2024-12-12 12:07:31,704 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 12:07:31,704 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 12:07:31,704 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 12:08:02,276 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:08:02,278 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:08:02,278 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:08:19,433 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:08:20,045 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:08:20,045 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:08:26,344 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:08:26,346 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:08:26,346 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:10:44,807 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:10:45,351 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:10:45,352 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:16:43,928 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:16:44,473 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:16:44,473 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:17:31,029 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:17:31,031 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:17:31,031 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:18:01,425 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:18:01,707 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:18:01,707 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:20:27,073 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:20:27,363 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:20:27,363 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:21:28,900 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:21:28,903 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:21:28,903 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:21:31,659 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:21:32,204 - Thread-19 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:21:32,205 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:21:36,688 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:21:37,197 - Thread-20 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:21:37,197 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:24:41,695 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:24:42,224 - Thread-21 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:24:42,224 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:25:00,127 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:25:00,692 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:25:00,692 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:25:06,894 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:25:07,426 - Thread-23 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:25:07,427 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:27:22,859 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:27:23,462 - Thread-24 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 12:27:23,462 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 12:27:28,221 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
+2024-12-12 12:27:28,677 - Thread-25 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 12:27:28,677 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 12:27:47,768 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
+2024-12-12 12:27:47,770 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 12:27:47,771 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 12:27:47,771 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 12:28:18,225 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
+2024-12-12 12:28:18,227 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 12:28:18,228 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 12:28:18,228 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 12:34:00,080 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000010FF3F7F0E0>),), kwargs: {}
+2024-12-12 12:34:00,112 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
+2024-12-12 12:34:00,112 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 12:34:00,112 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 12:39:50,133 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000002928A1CF0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
+2024-12-12 12:39:50,145 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
+2024-12-12 12:39:50,145 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 12:39:50,145 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 13:49:25,194 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000022D09EAEE40>),), kwargs: {}
+2024-12-12 13:49:25,427 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 13:49:25,427 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 13:49:40,320 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000022D09EAF0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
+2024-12-12 13:49:40,328 - Thread-4 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
+2024-12-12 13:49:40,328 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 13:49:40,328 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 13:51:06,055 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001E82302F0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
+2024-12-12 13:51:06,072 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
+2024-12-12 13:51:06,073 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 13:51:06,073 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 13:52:19,481 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000027B0ED9F0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
+2024-12-12 13:52:19,490 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
+2024-12-12 13:52:19,490 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 13:52:19,490 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 13:58:12,445 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
+2024-12-12 13:58:12,469 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
+2024-12-12 13:58:12,469 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 13:58:12,469 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 13:58:36,665 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 13:58:36,674 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - 'book_id'
+2024-12-12 13:58:36,674 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 13:58:36,674 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 13:59:55,973 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 13:59:55,989 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
+2024-12-12 13:59:55,990 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 13:59:55,990 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 14:00:12,671 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 14:00:12,672 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:00:12,672 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:00:12,672 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:01:41,045 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001F213C8EE40>),), kwargs: {}
+2024-12-12 14:01:41,281 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:01:41,281 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:01:43,663 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 14:01:43,664 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:01:43,664 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:01:43,664 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:05:15,588 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 14:05:15,589 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:05:15,589 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:05:15,589 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:06:57,252 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 14:06:57,253 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:06:57,253 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:06:57,253 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:07:05,694 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 14:07:05,696 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:07:05,696 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:07:05,696 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:07:19,232 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
+2024-12-12 14:07:19,233 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:07:19,233 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:07:19,233 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:18:32,888 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:18:33,127 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 14:18:33,127 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 14:18:33,198 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:18:33,429 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:18:33,430 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:18:33,514 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:18:33,746 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:18:33,746 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:18:33,846 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:33,853 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:18:33,853 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:18:33,854 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:18:33,894 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:33,902 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:18:33,902 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:18:33,902 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:18:33,957 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:33,958 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:18:33,958 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:18:33,958 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:18:34,026 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:34,027 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:18:34,027 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:18:34,027 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:18:34,113 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:34,120 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
+2024-12-12 14:18:34,120 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
+2024-12-12 14:18:34,120 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 14:18:34,193 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
+2024-12-12 14:18:34,200 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:18:34,200 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
+2024-12-12 14:18:34,200 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
+2024-12-12 14:18:34,271 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
+2024-12-12 14:18:34,278 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:18:34,278 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
+2024-12-12 14:18:34,278 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
+2024-12-12 14:18:34,350 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:34,351 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:18:34,351 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:18:34,351 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:18:34,426 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:34,434 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:18:34,434 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:18:34,434 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:18:34,520 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:34,521 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:18:34,521 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:18:34,521 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:18:34,614 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:34,614 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:18:34,615 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:18:34,615 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:18:34,693 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:34,711 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
+2024-12-12 14:18:34,711 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 14:18:34,711 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 14:18:34,787 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:34,788 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:18:34,788 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:18:34,788 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:18:34,851 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '6601ece1-b068-4368-91bc-a015da1b8cc6'}
+2024-12-12 14:18:34,868 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
+2024-12-12 14:18:34,868 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 14:18:34,868 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 14:18:44,851 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:18:45,098 - Thread-19 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 14:18:45,098 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 14:18:45,175 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:18:45,407 - Thread-20 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:18:45,407 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:18:45,475 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:18:45,704 - Thread-21 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:18:45,704 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:18:45,803 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:45,810 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:18:45,810 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:18:45,810 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:18:45,882 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:45,889 - Thread-23 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:18:45,889 - Thread-23 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:18:45,889 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:18:45,959 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:45,960 - Thread-24 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:18:45,960 - Thread-24 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:18:45,960 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:18:46,054 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:46,055 - Thread-25 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:18:46,055 - Thread-25 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:18:46,055 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:18:46,147 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:46,156 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
+2024-12-12 14:18:46,157 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
+2024-12-12 14:18:46,157 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 14:18:46,240 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6601ece1-b068-4368-91bc-a015da1b8cc6'}
+2024-12-12 14:18:46,247 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:18:46,247 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
+2024-12-12 14:18:46,247 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
+2024-12-12 14:18:46,319 - Thread-28 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6601ece1-b068-4368-91bc-a015da1b8cc6'}
+2024-12-12 14:18:46,327 - Thread-28 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:18:46,327 - Thread-28 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
+2024-12-12 14:18:46,327 - Thread-28 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
+2024-12-12 14:18:46,383 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:46,384 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:18:46,384 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:18:46,384 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:18:46,447 - Thread-30 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:46,454 - Thread-30 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:18:46,454 - Thread-30 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:18:46,454 - Thread-30 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:18:46,527 - Thread-31 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:46,527 - Thread-31 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:18:46,528 - Thread-31 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:18:46,528 - Thread-31 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:18:46,606 - Thread-32 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:18:46,607 - Thread-32 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:18:46,607 - Thread-32 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:18:46,607 - Thread-32 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:18:46,686 - Thread-33 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:46,699 - Thread-33 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
+2024-12-12 14:18:46,700 - Thread-33 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 14:18:46,700 - Thread-33 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 14:18:46,797 - Thread-34 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:18:46,798 - Thread-34 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:18:46,798 - Thread-34 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:18:46,798 - Thread-34 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:18:46,892 - Thread-35 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '2f6e24a3-ac55-4768-9968-5bb00672623c'}
+2024-12-12 14:18:46,905 - Thread-35 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
+2024-12-12 14:18:46,905 - Thread-35 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 14:18:46,905 - Thread-35 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 14:19:12,171 - Thread-36 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:19:12,412 - Thread-36 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 14:19:12,412 - Thread-36 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 14:19:12,467 - Thread-37 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:19:12,700 - Thread-37 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:19:12,700 - Thread-37 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:19:12,781 - Thread-38 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:19:13,012 - Thread-38 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:19:13,012 - Thread-38 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:19:13,111 - Thread-39 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:13,121 - Thread-39 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:19:13,121 - Thread-39 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:19:13,121 - Thread-39 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:19:13,189 - Thread-40 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:13,195 - Thread-40 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:19:13,195 - Thread-40 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:19:13,195 - Thread-40 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:19:13,269 - Thread-41 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:13,270 - Thread-41 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:19:13,270 - Thread-41 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:19:13,270 - Thread-41 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:19:13,331 - Thread-42 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:13,332 - Thread-42 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:19:13,332 - Thread-42 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:19:13,332 - Thread-42 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:19:13,410 - Thread-43 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:13,417 - Thread-43 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
+2024-12-12 14:19:13,417 - Thread-43 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
+2024-12-12 14:19:13,417 - Thread-43 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 14:19:13,490 - Thread-44 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '2f6e24a3-ac55-4768-9968-5bb00672623c'}
+2024-12-12 14:19:13,498 - Thread-44 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:19:13,498 - Thread-44 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
+2024-12-12 14:19:13,498 - Thread-44 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
+2024-12-12 14:19:13,584 - Thread-45 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '2f6e24a3-ac55-4768-9968-5bb00672623c'}
+2024-12-12 14:19:13,592 - Thread-45 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:19:13,592 - Thread-45 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
+2024-12-12 14:19:13,592 - Thread-45 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
+2024-12-12 14:19:13,663 - Thread-46 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:13,664 - Thread-46 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:19:13,664 - Thread-46 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:19:13,664 - Thread-46 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:19:13,758 - Thread-47 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:13,764 - Thread-47 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:19:13,764 - Thread-47 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:19:13,764 - Thread-47 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:19:13,835 - Thread-48 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:13,836 - Thread-48 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:19:13,836 - Thread-48 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:19:13,836 - Thread-48 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:19:13,995 - Thread-50 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:14,009 - Thread-50 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
+2024-12-12 14:19:14,010 - Thread-50 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 14:19:14,010 - Thread-50 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 14:19:14,022 - Thread-51 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:14,023 - Thread-51 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:19:14,024 - Thread-51 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:19:14,024 - Thread-51 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:19:14,105 - Thread-52 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '3d27a36c-5e0f-49c5-bb42-9782cd1a02a6'}
+2024-12-12 14:19:14,118 - Thread-52 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
+2024-12-12 14:19:14,119 - Thread-52 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 14:19:14,119 - Thread-52 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 14:19:47,784 - Thread-53 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:19:48,025 - Thread-53 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 14:19:48,025 - Thread-53 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 14:19:48,115 - Thread-54 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:19:48,345 - Thread-54 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:19:48,346 - Thread-54 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:19:48,428 - Thread-55 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:19:48,660 - Thread-55 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:19:48,660 - Thread-55 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:19:48,757 - Thread-56 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:48,764 - Thread-56 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:19:48,764 - Thread-56 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:19:48,764 - Thread-56 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:19:48,852 - Thread-57 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:48,859 - Thread-57 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:19:48,859 - Thread-57 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:19:48,860 - Thread-57 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:19:48,946 - Thread-58 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:48,947 - Thread-58 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:19:48,947 - Thread-58 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:19:48,947 - Thread-58 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:19:49,027 - Thread-59 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:49,028 - Thread-59 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:19:49,028 - Thread-59 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:19:49,028 - Thread-59 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:19:49,121 - Thread-60 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:49,130 - Thread-60 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
+2024-12-12 14:19:49,130 - Thread-60 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
+2024-12-12 14:19:49,130 - Thread-60 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 14:19:49,200 - Thread-61 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '3d27a36c-5e0f-49c5-bb42-9782cd1a02a6'}
+2024-12-12 14:19:49,207 - Thread-61 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:19:49,208 - Thread-61 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
+2024-12-12 14:19:49,208 - Thread-61 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
+2024-12-12 14:19:49,293 - Thread-62 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '3d27a36c-5e0f-49c5-bb42-9782cd1a02a6'}
+2024-12-12 14:19:49,300 - Thread-62 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:19:49,301 - Thread-62 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
+2024-12-12 14:19:49,301 - Thread-62 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
+2024-12-12 14:19:49,388 - Thread-63 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:49,389 - Thread-63 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:19:49,389 - Thread-63 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:19:49,390 - Thread-63 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:19:49,454 - Thread-64 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:49,460 - Thread-64 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:19:49,460 - Thread-64 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:19:49,460 - Thread-64 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:19:49,548 - Thread-65 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:49,549 - Thread-65 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:19:49,550 - Thread-65 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:19:49,550 - Thread-65 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:19:49,628 - Thread-66 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:19:49,629 - Thread-66 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:19:49,629 - Thread-66 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:19:49,629 - Thread-66 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:19:49,727 - Thread-67 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:49,741 - Thread-67 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
+2024-12-12 14:19:49,741 - Thread-67 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 14:19:49,741 - Thread-67 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 14:19:49,831 - Thread-68 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:19:49,831 - Thread-68 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:19:49,832 - Thread-68 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:19:49,832 - Thread-68 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:19:49,911 - Thread-69 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '7239aa27-fdd0-4349-8618-e1eee8f77d8b'}
+2024-12-12 14:19:49,924 - Thread-69 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
+2024-12-12 14:19:49,924 - Thread-69 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 14:19:49,924 - Thread-69 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-12 14:20:20,360 - Thread-70 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:20:20,361 - Thread-70 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:20:20,361 - Thread-70 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:20:20,361 - Thread-70 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:29:56,776 - Thread-71 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:29:56,777 - Thread-71 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:29:56,777 - Thread-71 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:29:56,777 - Thread-71 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:30:19,120 - Thread-72 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:30:19,122 - Thread-72 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:30:19,122 - Thread-72 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:30:19,122 - Thread-72 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:30:29,306 - Thread-73 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:30:29,307 - Thread-73 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:30:29,307 - Thread-73 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:30:29,307 - Thread-73 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:31:03,878 - Thread-74 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:31:03,893 - Thread-74 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
+2024-12-12 14:31:03,893 - Thread-74 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
+2024-12-12 14:31:03,893 - Thread-74 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 14:32:54,000 - Thread-75 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:32:54,001 - Thread-75 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:32:54,001 - Thread-75 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:32:54,001 - Thread-75 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:33:02,815 - Thread-76 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:33:02,816 - Thread-76 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:33:02,816 - Thread-76 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:33:02,816 - Thread-76 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:34:17,526 - Thread-77 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:34:17,527 - Thread-77 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:34:17,527 - Thread-77 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:34:17,527 - Thread-77 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:34:32,141 - Thread-78 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:34:32,141 - Thread-78 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:34:32,141 - Thread-78 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:34:32,142 - Thread-78 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:35:43,764 - Thread-79 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:35:44,002 - Thread-79 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-12 14:35:44,003 - Thread-79 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-12 14:35:44,092 - Thread-80 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:35:44,322 - Thread-80 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:35:44,322 - Thread-80 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:35:44,407 - Thread-81 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
+2024-12-12 14:35:44,636 - Thread-81 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 14:35:44,636 - Thread-81 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 14:35:44,721 - Thread-82 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:35:44,729 - Thread-82 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:35:44,729 - Thread-82 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:35:44,729 - Thread-82 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:35:44,798 - Thread-83 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:35:44,806 - Thread-83 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:35:44,806 - Thread-83 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:35:44,807 - Thread-83 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:35:44,890 - Thread-84 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:35:44,892 - Thread-84 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:35:44,892 - Thread-84 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:35:44,892 - Thread-84 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:35:44,984 - Thread-85 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:35:44,985 - Thread-85 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:35:44,985 - Thread-85 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:35:44,986 - Thread-85 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:35:45,061 - Thread-86 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:35:45,076 - Thread-86 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
+2024-12-12 14:35:45,076 - Thread-86 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
+2024-12-12 14:35:45,076 - Thread-86 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
+2024-12-12 14:35:45,154 - Thread-87 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '7239aa27-fdd0-4349-8618-e1eee8f77d8b'}
+2024-12-12 14:35:45,161 - Thread-87 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:35:45,161 - Thread-87 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
+2024-12-12 14:35:45,161 - Thread-87 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
+2024-12-12 14:35:45,247 - Thread-88 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '7239aa27-fdd0-4349-8618-e1eee8f77d8b'}
+2024-12-12 14:35:45,255 - Thread-88 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
+2024-12-12 14:35:45,255 - Thread-88 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
+2024-12-12 14:35:45,255 - Thread-88 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
+2024-12-12 14:35:45,327 - Thread-89 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:35:45,328 - Thread-89 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:35:45,328 - Thread-89 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:35:45,328 - Thread-89 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:35:45,422 - Thread-90 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:35:45,429 - Thread-90 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
+2024-12-12 14:35:45,429 - Thread-90 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
+2024-12-12 14:35:45,429 - Thread-90 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
+2024-12-12 14:35:45,517 - Thread-91 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:35:45,518 - Thread-91 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:35:45,518 - Thread-91 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:35:45,518 - Thread-91 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:35:45,611 - Thread-92 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
+2024-12-12 14:35:45,612 - Thread-92 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
+2024-12-12 14:35:45,612 - Thread-92 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
+2024-12-12 14:35:45,612 - Thread-92 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
+2024-12-12 14:35:45,675 - Thread-93 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:35:45,697 - Thread-93 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
+2024-12-12 14:35:45,697 - Thread-93 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
+2024-12-12 14:35:45,697 - Thread-93 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
+2024-12-12 14:35:45,787 - Thread-94 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
+2024-12-12 14:35:45,788 - Thread-94 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
+2024-12-12 14:35:45,788 - Thread-94 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
+2024-12-12 14:35:45,788 - Thread-94 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
+2024-12-12 14:35:45,851 - Thread-95 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '9fdc2199-bbb5-47ac-a8b2-5517acc24d50'}
+2024-12-12 14:35:45,865 - Thread-95 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
+2024-12-12 14:35:45,865 - Thread-95 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
+2024-12-12 14:35:45,865 - Thread-95 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user

@@ -19,7 +19,7 @@ def create_issue_book_route(issue_book_service:IssueBookService) -> Blueprint:
         '/return-book/<book_id>',
         'return-book',
         issue_book_handler.return_book_by_user,
-        methods=['POST']
+        methods=['PATCH']
     )
 
     issue_book_routes_blueprint.add_url_rule(

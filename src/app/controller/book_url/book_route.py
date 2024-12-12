@@ -11,35 +11,35 @@ def create_book_route(book_service:BookService):
     book_handler = BookHandler(book_service)
 
     book_route_blueprint.add_url_rule(
-        '/book',
+        '/admin/book',
         "create-book",
         book_handler.create_book,
         methods=['POST']
     )
 
     book_route_blueprint.add_url_rule(
-        '/book',
+        '/admin/book',
         "update-book",
         book_handler.update_book,
         methods=['PUT']
     )
 
     book_route_blueprint.add_url_rule(
-        '/book/<book_id>',
+        '/admin/book/<book_id>',
         "remove-book",
         book_handler.remove_book,
         methods=['PATCH']
     )
 
     book_route_blueprint.add_url_rule(
-        '/book/<book_id>',
+        '/admin/book/<book_id>',
         "delete-book",
         book_handler.delete_book,
         methods=['DELETE']
     )
 
     book_route_blueprint.add_url_rule(
-        '/book',
+        '/user/book',
         "get-book",
         book_handler.get_all_books,
         methods=['GET']

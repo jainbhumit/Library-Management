@@ -35,8 +35,8 @@ def create_app():
     )
 
     app.register_blueprint(
-        create_book_route(book_service),
-        url_prefix='/admin'
+        create_book_route(book_service)
+
     )
     @app.route('/')
     def index():

@@ -55,7 +55,10 @@ class BooksRepository:
                     "number_of_copies",
                     "number_of_available_books",
                 ],limit=limit)
-                cursor.execute(query,value)
+                if value:
+                    cursor.execute(query,value)
+                else:
+                    cursor.execute(query)
                 results = cursor.fetchall()
                 return [Books(id=row[0],
                               title=row[1],
