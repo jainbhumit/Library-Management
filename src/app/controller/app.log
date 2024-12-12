@@ -1,0 +1,84 @@
+2024-12-11 13:36:59,691 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000015B57989400>),), kwargs: {}
+2024-12-11 13:36:59,695 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:36:59,695 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:38:33,203 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000020D4D0D9400>),), kwargs: {}
+2024-12-11 13:38:33,206 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:38:33,215 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:39:52,500 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000201B4D192B0>),), kwargs: {}
+2024-12-11 13:39:52,501 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:39:52,502 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:40:36,631 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000264BFDB92B0>),), kwargs: {}
+2024-12-11 13:40:36,633 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:40:36,633 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:41:13,728 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001F6889F92B0>),), kwargs: {}
+2024-12-11 13:41:13,730 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:41:13,731 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:43:32,301 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002BF766692B0>),), kwargs: {}
+2024-12-11 13:43:32,302 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:43:32,303 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:45:39,784 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001B2B6FED2B0>),), kwargs: {}
+2024-12-11 13:45:39,786 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:45:39,787 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:47:28,902 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001BEA96F12B0>),), kwargs: {}
+2024-12-11 13:47:28,904 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:47:28,905 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:50:56,962 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001D3B44612B0>),), kwargs: {}
+2024-12-11 13:50:56,964 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:50:56,965 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:52:39,171 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001DBFD3792B0>),), kwargs: {}
+2024-12-11 13:52:40,420 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:52:40,421 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:56:48,636 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000013B00AC2900>),), kwargs: {}
+2024-12-11 13:56:48,642 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:56:48,643 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 13:57:43,385 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000013B00AC2900>),), kwargs: {}
+2024-12-11 13:57:44,578 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 13:57:44,579 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:04:25,693 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
+2024-12-11 14:04:25,701 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:04:25,701 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:04:45,598 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
+2024-12-11 14:04:45,599 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:04:45,599 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:04:53,641 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
+2024-12-11 14:04:53,642 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:04:53,643 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:05:03,166 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
+2024-12-11 14:05:03,167 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:05:03,168 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:05:12,537 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
+2024-12-11 14:05:12,538 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:05:12,538 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:05:16,442 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
+2024-12-11 14:05:16,443 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:05:16,443 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:06:14,014 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
+2024-12-11 14:06:15,200 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
+2024-12-11 14:06:15,200 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
+2024-12-11 14:13:02,156 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000112AEC1E900>),), kwargs: {}
+2024-12-11 14:13:02,157 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Error occurred in login: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-12-11 14:13:02,157 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-11 14:13:57,397 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000112AEC1E900>),), kwargs: {}
+2024-12-11 14:13:58,554 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:13:58,554 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-11 14:53:27,843 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
+2024-12-11 14:53:29,001 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:53:29,001 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-11 14:53:45,246 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
+2024-12-11 14:53:45,250 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:53:45,251 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-11 14:53:51,462 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
+2024-12-11 14:53:51,465 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:53:51,466 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-11 14:54:22,672 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
+2024-12-11 14:54:23,821 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-11 14:54:23,821 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 00:20:00,274 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000018C6567B230>),), kwargs: {}
+2024-12-12 00:20:00,970 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 00:20:00,970 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 00:20:52,220 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000018C6567B230>),), kwargs: {}
+2024-12-12 00:20:52,822 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 00:20:52,823 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
+2024-12-12 00:23:02,481 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000018C6567B230>),), kwargs: {}
+2024-12-12 00:23:03,122 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
+2024-12-12 00:23:03,123 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
