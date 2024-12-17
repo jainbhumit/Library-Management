@@ -75,22 +75,5 @@ class IssuedBookRepository:
         except Exception as e:
             raise DatabaseError(str(e))
 
-    # def update_return_date(self,issue_book:IssuedBooks):
-    #     try:
-    #         conn = self.db.get_connection()
-    #         with conn:
-    #             query,value = GenericQueryBuilder.update("issuedBook",{
-    #                 "return_date":issue_book.return_date,
-    #             },{
-    #                 "user_id":issue_book.user_id,
-    #                 "book_id":issue_book.book_id,
-    #             })
-    #             conn.execute(query,value)
-    #     except Exception as e:
-    #         raise DatabaseError(str(e))
-
-
-def new_issued_book_repository(db):
-    return IssuedBookRepository(db)
 
 

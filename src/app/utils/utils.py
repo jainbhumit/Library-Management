@@ -4,7 +4,7 @@ import datetime
 
 from flask import jsonify,g
 
-from src.app.config.types import Role
+from src.app.config.enumeration import Role
 
 
 class Utils:

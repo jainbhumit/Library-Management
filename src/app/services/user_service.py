@@ -1,3 +1,4 @@
+from src.app.config.messages import INCORRECT_EMAIL_PASSWORD
 from src.app.model.user import User
 from src.app.repositories.user_repository import UserRepository
 from src.app.utils.errors.error import UserExistsError, InvalidCredentialsError
@@ -23,5 +24,5 @@ class UserService:
     def login_user(self, email: str, password: str) -> User:
         user = self.user_repository.fetch_user_by_email(email)
         if user is None or not Utils.check_password(password, user.password):
-            raise InvalidCredentialsError("Email or password incorrect")
+            raise InvalidCredentialsError(INCORRECT_EMAIL_PASSWORD)
         return user

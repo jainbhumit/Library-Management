@@ -7,7 +7,7 @@ class UserExistsError(UserError):
     """Raised when attempting to create a user that already exists"""
 
     def __init__(self, email: str):
-        super().__init__(f"User with email {email} already exists")
+        super().__init__(f"User already exists")
 
 
 class InvalidCredentialsError(UserError):
@@ -49,4 +49,5 @@ class InvalidRequestBody(Exception):
 
     def __init__(self,message: str):
         super().__init__(message)
+
 

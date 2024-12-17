@@ -1,5 +1,5 @@
 import uuid
-from src.app.config.types import Role
+from src.app.config.enumeration import Role
 
 
 class User:

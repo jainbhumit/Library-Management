@@ -1,0 +1,1296 @@
+2024-12-17 16:10:18,868 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:10:18,876 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:10:18,877 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:10:18,879 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:14:56,524 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:14:56,539 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:14:56,541 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:14:56,544 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:15:50,805 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:15:50,812 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:15:50,813 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:15:50,818 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:16:11,954 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:16:11,959 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:16:11,959 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:16:11,960 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:17:00,069 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:17:00,073 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:17:00,074 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:17:00,075 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:20:01,241 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:20:01,247 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:20:01,248 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:20:01,249 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:22:12,999 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:22:13,010 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:22:13,012 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:22:13,013 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:23:57,095 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:23:57,100 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:23:57,101 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:23:57,102 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:25:26,651 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:25:26,657 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:25:26,658 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:25:26,659 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:25:59,290 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:25:59,296 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:25:59,297 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:25:59,297 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:26:39,641 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:26:39,646 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:26:39,647 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:26:39,648 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:27:01,783 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:27:01,789 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:27:01,790 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:27:01,791 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:27:52,311 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:27:52,316 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:27:52,317 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:27:52,318 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:32:46,381 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:32:46,386 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:32:46,388 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:32:46,388 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:33:15,098 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:33:15,103 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:33:15,105 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:33:15,106 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:33:46,436 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:33:46,442 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:33:46,443 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:33:46,444 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:34:12,882 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 16:34:12,890 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 16:34:12,892 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 16:34:12,893 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 16:43:54,284 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: None
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=admin
+2024-12-17 16:43:54,290 - INFO - Issue book fetched successfully - for user_id=None | role=admin
+2024-12-17 16:43:54,291 - INFO - get_issued_books executed successfully. - for user_id=None | role=admin
+2024-12-17 16:43:54,292 - DEBUG - Exiting get_issued_books - for user_id=None | role=admin
+2024-12-17 16:43:55,042 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: None
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=admin
+2024-12-17 16:43:55,044 - INFO - Issue book fetched successfully - for user_id=None | role=admin
+2024-12-17 16:43:55,045 - INFO - get_issued_books executed successfully. - for user_id=None | role=admin
+2024-12-17 16:43:55,046 - DEBUG - Exiting get_issued_books - for user_id=None | role=admin
+2024-12-17 16:43:55,144 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: None
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=user
+2024-12-17 16:43:55,146 - ERROR - Invalid token - for user_id=None | role=user
+2024-12-17 16:43:55,147 - INFO - get_issued_books executed successfully. - for user_id=None | role=user
+2024-12-17 16:43:55,147 - DEBUG - Exiting get_issued_books - for user_id=None | role=user
+2024-12-17 16:43:55,237 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:43:55,239 - INFO - Issue book fetched successfully - for user_id=123 | role=user
+2024-12-17 16:43:55,240 - INFO - get_issued_books executed successfully. - for user_id=123 | role=user
+2024-12-17 16:43:55,240 - DEBUG - Exiting get_issued_books - for user_id=123 | role=user
+2024-12-17 16:43:55,326 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: None
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'book_id': '456', 'return_date': '2024-01-15'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=user
+2024-12-17 16:43:55,328 - ERROR - Invalid token - for user_id=None | role=user
+2024-12-17 16:43:55,329 - INFO - issue_book_by_user executed successfully. - for user_id=None | role=user
+2024-12-17 16:43:55,329 - DEBUG - Exiting issue_book_by_user - for user_id=None | role=user
+2024-12-17 16:43:55,431 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'book_id': '456', 'return_date': '2024-01-15'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:43:55,442 - INFO - Book issued successfully - for user_id=123 | role=user
+2024-12-17 16:43:55,444 - INFO - issue_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:43:55,445 - DEBUG - Exiting issue_book_by_user - for user_id=123 | role=user
+2024-12-17 16:43:55,624 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '2'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:43:55,637 - ERROR - Validation Error: [{"type":"missing","loc":["book_id"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"},{"type":"missing","loc":["return_date"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"}] - for user_id=123 | role=user
+2024-12-17 16:43:55,641 - INFO - issue_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:43:55,643 - DEBUG - Exiting issue_book_by_user - for user_id=123 | role=user
+2024-12-17 16:43:55,773 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:43:55,774 - INFO - Book returned successfully - for user_id=123 | role=user
+2024-12-17 16:43:55,775 - INFO - return_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:43:55,777 - DEBUG - Exiting return_book_by_user - for user_id=123 | role=user
+2024-12-17 16:43:55,871 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:43:55,872 - ERROR - Unexpected error - for user_id=123 | role=user
+2024-12-17 16:43:55,873 - INFO - get_issued_books executed successfully. - for user_id=123 | role=user
+2024-12-17 16:43:55,874 - DEBUG - Exiting get_issued_books - for user_id=123 | role=user
+2024-12-17 16:45:10,106 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: None
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=admin
+2024-12-17 16:45:10,111 - INFO - Issue book fetched successfully - for user_id=None | role=admin
+2024-12-17 16:45:10,112 - INFO - get_issued_books executed successfully. - for user_id=None | role=admin
+2024-12-17 16:45:10,113 - DEBUG - Exiting get_issued_books - for user_id=None | role=admin
+2024-12-17 16:45:10,226 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: None
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=admin
+2024-12-17 16:45:10,228 - INFO - Issue book fetched successfully - for user_id=None | role=admin
+2024-12-17 16:45:10,229 - INFO - get_issued_books executed successfully. - for user_id=None | role=admin
+2024-12-17 16:45:10,230 - DEBUG - Exiting get_issued_books - for user_id=None | role=admin
+2024-12-17 16:45:10,255 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: None
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=user
+2024-12-17 16:45:10,257 - ERROR - Invalid token - for user_id=None | role=user
+2024-12-17 16:45:10,258 - INFO - get_issued_books executed successfully. - for user_id=None | role=user
+2024-12-17 16:45:10,259 - DEBUG - Exiting get_issued_books - for user_id=None | role=user
+2024-12-17 16:45:10,286 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:45:10,288 - INFO - Issue book fetched successfully - for user_id=123 | role=user
+2024-12-17 16:45:10,289 - INFO - get_issued_books executed successfully. - for user_id=123 | role=user
+2024-12-17 16:45:10,290 - DEBUG - Exiting get_issued_books - for user_id=123 | role=user
+2024-12-17 16:45:10,318 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: None
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'book_id': '456', 'return_date': '2024-01-15'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=None | role=user
+2024-12-17 16:45:10,320 - ERROR - Invalid token - for user_id=None | role=user
+2024-12-17 16:45:10,321 - INFO - issue_book_by_user executed successfully. - for user_id=None | role=user
+2024-12-17 16:45:10,322 - DEBUG - Exiting issue_book_by_user - for user_id=None | role=user
+2024-12-17 16:45:10,354 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'book_id': '456', 'return_date': '2024-01-15'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:45:10,357 - INFO - Book issued successfully - for user_id=123 | role=user
+2024-12-17 16:45:10,358 - INFO - issue_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:45:10,359 - DEBUG - Exiting issue_book_by_user - for user_id=123 | role=user
+2024-12-17 16:45:11,031 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '2'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:45:11,033 - ERROR - Validation Error: [{"type":"missing","loc":["book_id"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"},{"type":"missing","loc":["return_date"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"}] - for user_id=123 | role=user
+2024-12-17 16:45:11,034 - INFO - issue_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:45:11,034 - DEBUG - Exiting issue_book_by_user - for user_id=123 | role=user
+2024-12-17 16:45:11,060 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:45:11,062 - INFO - Book returned successfully - for user_id=123 | role=user
+2024-12-17 16:45:11,063 - INFO - return_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:45:11,063 - DEBUG - Exiting return_book_by_user - for user_id=123 | role=user
+2024-12-17 16:45:11,095 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:45:11,097 - ERROR - Unexpected error - for user_id=123 | role=user
+2024-12-17 16:45:11,098 - INFO - get_issued_books executed successfully. - for user_id=123 | role=user
+2024-12-17 16:45:11,099 - DEBUG - Exiting get_issued_books - for user_id=123 | role=user
+2024-12-17 16:47:35,333 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'book_id': '456', 'return_date': '2024-01-15'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:47:35,340 - INFO - Book issued successfully - for user_id=123 | role=user
+2024-12-17 16:47:35,342 - INFO - issue_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:47:35,342 - DEBUG - Exiting issue_book_by_user - for user_id=123 | role=user
+2024-12-17 16:48:15,746 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 123
+  - role: user
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'book_id': '456', 'return_date': '2024-01-15'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=123 | role=user
+2024-12-17 16:48:15,755 - INFO - Book issued successfully - for user_id=123 | role=user
+2024-12-17 16:48:15,756 - INFO - issue_book_by_user executed successfully. - for user_id=123 | role=user
+2024-12-17 16:48:15,757 - DEBUG - Exiting issue_book_by_user - for user_id=123 | role=user
+2024-12-17 17:03:44,206 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'author': 'Test Author', 'title': 'Test Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:03:44,215 - INFO - Book added successfully - for user_id=unknown | role=unknown
+2024-12-17 17:03:44,216 - INFO - create_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:03:44,217 - DEBUG - Exiting create_book - for user_id=unknown | role=unknown
+2024-12-17 17:07:32,786 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'author': 'Test Author', 'title': 'Test Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:07:32,799 - INFO - Book added successfully - for user_id=unknown | role=admin
+2024-12-17 17:07:32,801 - INFO - create_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:07:32,802 - DEBUG - Exiting create_book - for user_id=unknown | role=admin
+2024-12-17 17:08:37,410 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:08:37,416 - ERROR - Unexpected error - for user_id=unknown | role=unknown
+2024-12-17 17:08:37,417 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:08:37,417 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:08:51,714 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:08:51,720 - ERROR - Unexpected error - for user_id=unknown | role=unknown
+2024-12-17 17:08:51,721 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:08:51,723 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:09:07,411 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'author': 'Test Author', 'title': 'Test Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:09:07,419 - INFO - Book added successfully - for user_id=unknown | role=admin
+2024-12-17 17:09:07,420 - INFO - create_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:09:07,421 - DEBUG - Exiting create_book - for user_id=unknown | role=admin
+2024-12-17 17:09:07,526 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '2'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:09:07,528 - ERROR - Validation error: [{"type":"missing","loc":["title"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"},{"type":"missing","loc":["author"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"}] - for user_id=unknown | role=admin
+2024-12-17 17:09:07,529 - INFO - create_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:09:07,529 - DEBUG - Exiting create_book - for user_id=unknown | role=admin
+2024-12-17 17:09:08,185 - DEBUG - Entering delete_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:09:08,187 - INFO - Book delete successfully - for user_id=unknown | role=admin
+2024-12-17 17:09:08,187 - INFO - delete_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:09:08,188 - DEBUG - Exiting delete_book - for user_id=unknown | role=admin
+2024-12-17 17:09:08,267 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,269 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,270 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,271 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,296 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,298 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,299 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,300 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,326 - DEBUG - Entering remove_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:09:08,327 - INFO - Book delete successfully - for user_id=unknown | role=admin
+2024-12-17 17:09:08,328 - INFO - remove_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:09:08,329 - DEBUG - Exiting remove_book - for user_id=unknown | role=admin
+2024-12-17 17:09:08,408 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,410 - ERROR - Unexpected error - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,411 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,412 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:09:08,438 - DEBUG - Entering update_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: PUT
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '67'}
+  - body: {'author': 'Updated Author', 'book_id': 1, 'title': 'Updated Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:09:08,449 - ERROR - Validation error: [{"type":"string_type","loc":["book_id"],"msg":"Input should be a valid string","input":1,"url":"https://errors.pydantic.dev/2.10/v/string_type"}] - for user_id=unknown | role=admin
+2024-12-17 17:09:08,450 - INFO - update_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:09:08,451 - DEBUG - Exiting update_book - for user_id=unknown | role=admin
+2024-12-17 17:11:05,445 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'author': 'Test Author', 'title': 'Test Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:11:05,460 - INFO - Book added successfully - for user_id=unknown | role=admin
+2024-12-17 17:11:05,462 - INFO - create_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:11:05,464 - DEBUG - Exiting create_book - for user_id=unknown | role=admin
+2024-12-17 17:11:05,573 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '2'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:11:05,575 - ERROR - Validation error: [{"type":"missing","loc":["title"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"},{"type":"missing","loc":["author"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"}] - for user_id=unknown | role=admin
+2024-12-17 17:11:05,576 - INFO - create_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:11:05,577 - DEBUG - Exiting create_book - for user_id=unknown | role=admin
+2024-12-17 17:11:05,602 - DEBUG - Entering delete_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:11:05,604 - INFO - Book delete successfully - for user_id=unknown | role=admin
+2024-12-17 17:11:05,605 - INFO - delete_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:11:05,605 - DEBUG - Exiting delete_book - for user_id=unknown | role=admin
+2024-12-17 17:11:05,637 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,639 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,640 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,641 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,669 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,671 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,672 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,673 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,701 - DEBUG - Entering remove_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:11:05,703 - INFO - Book delete successfully - for user_id=unknown | role=admin
+2024-12-17 17:11:05,704 - INFO - remove_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:11:05,705 - DEBUG - Exiting remove_book - for user_id=unknown | role=admin
+2024-12-17 17:11:05,734 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,736 - ERROR - Unexpected error - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,737 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,738 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:11:05,768 - DEBUG - Entering update_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: PUT
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '67'}
+  - body: {'author': 'Updated Author', 'book_id': 1, 'title': 'Updated Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:11:05,769 - ERROR - Validation error: [{"type":"string_type","loc":["book_id"],"msg":"Input should be a valid string","input":1,"url":"https://errors.pydantic.dev/2.10/v/string_type"}] - for user_id=unknown | role=admin
+2024-12-17 17:11:05,770 - INFO - update_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:11:05,771 - DEBUG - Exiting update_book - for user_id=unknown | role=admin
+2024-12-17 17:12:43,822 - DEBUG - Entering update_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: PUT
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '69'}
+  - body: {'author': 'Updated Author', 'book_id': '1', 'title': 'Updated Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:12:43,828 - INFO - Book update successfully - for user_id=unknown | role=admin
+2024-12-17 17:12:43,829 - INFO - update_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:12:43,830 - DEBUG - Exiting update_book - for user_id=unknown | role=admin
+2024-12-17 17:12:59,825 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '47'}
+  - body: {'author': 'Test Author', 'title': 'Test Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:12:59,837 - INFO - Book added successfully - for user_id=unknown | role=admin
+2024-12-17 17:12:59,839 - INFO - create_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:12:59,840 - DEBUG - Exiting create_book - for user_id=unknown | role=admin
+2024-12-17 17:12:59,938 - DEBUG - Entering create_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '2'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:12:59,940 - ERROR - Validation error: [{"type":"missing","loc":["title"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"},{"type":"missing","loc":["author"],"msg":"Field required","input":{},"url":"https://errors.pydantic.dev/2.10/v/missing"}] - for user_id=unknown | role=admin
+2024-12-17 17:12:59,941 - INFO - create_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:12:59,942 - DEBUG - Exiting create_book - for user_id=unknown | role=admin
+2024-12-17 17:12:59,968 - DEBUG - Entering delete_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:12:59,970 - INFO - Book delete successfully - for user_id=unknown | role=admin
+2024-12-17 17:12:59,971 - INFO - delete_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:12:59,971 - DEBUG - Exiting delete_book - for user_id=unknown | role=admin
+2024-12-17 17:13:00,000 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,002 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,003 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,003 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,049 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,051 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,052 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,054 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,083 - DEBUG - Entering remove_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:13:00,086 - INFO - Book delete successfully - for user_id=unknown | role=admin
+2024-12-17 17:13:00,087 - INFO - remove_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:13:00,088 - DEBUG - Exiting remove_book - for user_id=unknown | role=admin
+2024-12-17 17:13:00,124 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: GET
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,126 - ERROR - Unexpected error - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,128 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,129 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-17 17:13:00,155 - DEBUG - Entering update_book
+User Context:
+  - user_id: Unknown
+  - role: admin
+Request Context:
+  - method: PUT
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '69'}
+  - body: {'author': 'Updated Author', 'book_id': '1', 'title': 'Updated Book'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=unknown | role=admin
+2024-12-17 17:13:00,157 - INFO - Book update successfully - for user_id=unknown | role=admin
+2024-12-17 17:13:00,158 - INFO - update_book executed successfully. - for user_id=unknown | role=admin
+2024-12-17 17:13:00,159 - DEBUG - Exiting update_book - for user_id=unknown | role=admin
+2024-12-17 17:44:32,434 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '56'}
+  - body: {'email': 'invalid_email', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:44:32,443 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:44:32,444 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,110 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,112 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,112 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,214 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,216 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,217 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,367 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '125'}
+  - body: {'branch': 'CSE', 'email': 'invalid_email', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,369 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,370 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,460 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,462 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,463 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,554 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,556 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,557 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,705 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '120'}
+  - body: {'branch': '', 'email': 'john.doe@example.com', 'name': '', 'password': '***', 'role': 'INVALID_ROLE', 'year': 'abcd'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,707 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:44:33,708 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:50:51,483 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '56'}
+  - body: {'email': 'invalid_email', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:51,491 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:51,492 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,173 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,175 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,176 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,280 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,281 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,282 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,373 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,375 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,376 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,462 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '125'}
+  - body: {'branch': 'CSE', 'email': 'invalid_email', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,463 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,464 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,548 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,550 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,551 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,633 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,635 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,636 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,720 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,722 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,723 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,815 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '120'}
+  - body: {'branch': '', 'email': 'john.doe@example.com', 'name': '', 'password': '***', 'role': 'INVALID_ROLE', 'year': 'abcd'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,816 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 17:50:52,817 - DEBUG - Exiting signup - for user_id=unknown | role=unknown

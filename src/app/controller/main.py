@@ -1,8 +1,8 @@
 from flask import Flask
 
-from src.app.controller.book_url.book_route import create_book_route
-from src.app.controller.user_url.user_route import create_user_routes
-from src.app.controller.issue_book_url.issue_book_route import create_issue_book_route
+from src.app.controller.book.route import create_book_route
+from src.app.controller.user.route import create_user_routes
+from src.app.controller.issue_book.route import create_issue_book_route
 from src.app.repositories.user_repository import UserRepository
 from src.app.repositories.issued_book_repository import IssuedBookRepository
 from src.app.repositories.books_repository import BooksRepository

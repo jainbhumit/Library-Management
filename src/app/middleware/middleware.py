@@ -1,7 +1,11 @@
 import jwt
 from flask import request, jsonify, g
 
+from src.app.config.enumeration import Status
+from src.app.model.responses import Response
 from src.app.utils.utils import Utils
+from src.app.config.messages import *
+from src.app.config.custome_error_code import *
 
 
 def auth_middleware():
@@ -10,25 +14,22 @@ def auth_middleware():
 
     auth_token = request.headers.get('Authorization')
     if not auth_token or not auth_token.startswith('Bearer '):
-        return jsonify({'error': 'Unauthorized, missing or invalid token'}), 401
+        return Response.response(MISSING_OR_INVALID_TOKEN,Status.FAIL.value,TOKEN_MISSING),401
 
     token = auth_token.split(' ')[1]
     try:
-        # Decode the token using the secret key
         decoded_token = Utils.decode_jwt_token(token)
 
-        # Extract user_id and role from the decoded token
         user_id = decoded_token.get("user_id")
         role = decoded_token.get("role")
 
         if not user_id or not role:
-            return jsonify({'error': 'Unauthorized, invalid token payload'}), 401
+            return Response.response(INVALID_TOKEN,Status.FAIL.value,TOKEN_INVALID),401
 
-        # Set user_id and role in Flask's global context
         g.user_id = user_id
         g.role = role
 
     except jwt.ExpiredSignatureError:
-        return jsonify({'error': 'Unauthorized, token has expired'}), 401
+        return Response.response(TOKEN_EXPIRE,Status.FAIL.value,TOKEN_EXPIRED),401
     except jwt.InvalidTokenError:
-        return jsonify({'error': 'Unauthorized, invalid token'}), 401
+        return Response.response(INVALID_TOKEN,Status.FAIL.value,TOKEN_INVALID),401

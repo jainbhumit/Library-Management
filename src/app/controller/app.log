@@ -1,743 +1,815 @@
-2024-12-11 13:36:59,691 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000015B57989400>),), kwargs: {}
-2024-12-11 13:36:59,695 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:36:59,695 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:38:33,203 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000020D4D0D9400>),), kwargs: {}
-2024-12-11 13:38:33,206 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:38:33,215 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:39:52,500 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000201B4D192B0>),), kwargs: {}
-2024-12-11 13:39:52,501 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:39:52,502 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:40:36,631 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000264BFDB92B0>),), kwargs: {}
-2024-12-11 13:40:36,633 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:40:36,633 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:41:13,728 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001F6889F92B0>),), kwargs: {}
-2024-12-11 13:41:13,730 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:41:13,731 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:43:32,301 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002BF766692B0>),), kwargs: {}
-2024-12-11 13:43:32,302 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:43:32,303 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:45:39,784 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001B2B6FED2B0>),), kwargs: {}
-2024-12-11 13:45:39,786 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:45:39,787 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:47:28,902 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001BEA96F12B0>),), kwargs: {}
-2024-12-11 13:47:28,904 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:47:28,905 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:50:56,962 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001D3B44612B0>),), kwargs: {}
-2024-12-11 13:50:56,964 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:50:56,965 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:52:39,171 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001DBFD3792B0>),), kwargs: {}
-2024-12-11 13:52:40,420 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:52:40,421 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:56:48,636 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000013B00AC2900>),), kwargs: {}
-2024-12-11 13:56:48,642 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:56:48,643 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 13:57:43,385 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000013B00AC2900>),), kwargs: {}
-2024-12-11 13:57:44,578 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 13:57:44,579 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:04:25,693 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
-2024-12-11 14:04:25,701 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 14:04:25,701 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:04:45,598 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
-2024-12-11 14:04:45,599 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 14:04:45,599 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:04:53,641 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
-2024-12-11 14:04:53,642 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 14:04:53,643 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:05:03,166 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
-2024-12-11 14:05:03,167 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 14:05:03,168 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:05:12,537 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
-2024-12-11 14:05:12,538 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 14:05:12,538 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:05:16,442 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
-2024-12-11 14:05:16,443 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 14:05:16,443 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:06:14,014 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000021A2765E900>),), kwargs: {}
-2024-12-11 14:06:15,200 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-11 14:06:15,200 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-11 14:13:02,156 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000112AEC1E900>),), kwargs: {}
-2024-12-11 14:13:02,157 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Error occurred in login: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
-2024-12-11 14:13:02,157 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-11 14:13:57,397 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x00000112AEC1E900>),), kwargs: {}
-2024-12-11 14:13:58,554 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-11 14:13:58,554 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-11 14:53:27,843 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
-2024-12-11 14:53:29,001 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-11 14:53:29,001 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-11 14:53:45,246 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
-2024-12-11 14:53:45,250 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-11 14:53:45,251 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-11 14:53:51,462 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
-2024-12-11 14:53:51,465 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-11 14:53:51,466 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-11 14:54:22,672 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002263CE3E900>),), kwargs: {}
-2024-12-11 14:54:23,821 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-11 14:54:23,821 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 00:20:00,274 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000018C6567B230>),), kwargs: {}
-2024-12-12 00:20:00,970 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 00:20:00,970 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 00:20:52,220 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000018C6567B230>),), kwargs: {}
-2024-12-12 00:20:52,822 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 00:20:52,823 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 00:23:02,481 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000018C6567B230>),), kwargs: {}
-2024-12-12 00:23:03,122 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 00:23:03,123 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 10:03:07,353 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002B20578F230>),), kwargs: {}
-2024-12-12 10:03:07,600 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 10:03:07,600 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 10:12:14,456 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000155DAC9B380>),), kwargs: {}
-2024-12-12 10:12:14,456 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Error occurred in create_book: 400 Bad Request: Failed to decode JSON object: Expecting value: line 2 column 13 (char 15)
-2024-12-12 10:12:14,456 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 10:18:55,088 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000155DAC9B380>),), kwargs: {}
-2024-12-12 10:18:55,099 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 10:18:55,099 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 10:18:55,099 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 10:26:32,011 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002744B2D3230>),), kwargs: {}
-2024-12-12 10:26:32,012 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:26:32,012 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:26:32,012 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002744B2D3230>),), kwargs: {}
-2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:27:48,759 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:36:15,762 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000217AE643230>),), kwargs: {}
-2024-12-12 10:36:15,763 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:36:15,763 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:36:15,763 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:36:47,266 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000206E5F7B0E0>),), kwargs: {}
-2024-12-12 10:36:47,267 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:36:47,267 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:36:47,267 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:37:14,276 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000028CE89EB0E0>),), kwargs: {}
-2024-12-12 10:37:14,277 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:37:14,277 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:37:14,277 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:39:25,705 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000022C372AB0E0>),), kwargs: {}
-2024-12-12 10:39:25,706 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:39:25,706 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:39:25,706 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:39:35,578 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000190A5343230>),), kwargs: {}
-2024-12-12 10:39:35,579 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:39:35,579 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:39:35,579 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:43:06,211 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x00000190A5343230>),), kwargs: {}
-2024-12-12 10:43:06,213 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:43:06,213 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:43:06,213 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:43:21,189 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001A57201F0E0>),), kwargs: {}
-2024-12-12 10:43:21,189 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:43:21,190 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:43:21,190 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:43:52,363 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001CE1D85B0E0>),), kwargs: {}
-2024-12-12 10:43:52,364 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:43:52,364 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:43:52,364 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:46:16,668 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002BCC69630E0>),), kwargs: {}
-2024-12-12 10:46:16,669 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:46:16,669 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:46:16,669 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:46:42,168 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000023A43DFF0E0>),), kwargs: {}
-2024-12-12 10:46:42,169 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:46:42,169 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:46:42,169 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:47:01,451 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000012F72E730E0>),), kwargs: {}
-2024-12-12 10:47:01,452 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:47:01,453 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:47:01,453 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:47:35,021 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC11B32F90>),), kwargs: {}
-2024-12-12 10:47:35,022 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:47:35,022 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:47:35,022 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 10:47:59,241 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002B8F5752F90>),), kwargs: {}
-2024-12-12 10:47:59,243 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - 'NoneType' object has no attribute 'values'
-2024-12-12 10:47:59,243 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 10:47:59,243 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:05:16,362 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000002B6E2B12E40>),), kwargs: {}
-2024-12-12 11:05:16,597 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 11:05:16,597 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 11:05:19,696 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002B6E2B12F90>),), kwargs: {}
-2024-12-12 11:05:19,706 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:05:19,706 - Thread-4 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
-2024-12-12 11:05:19,706 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:05:19,707 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:06:43,284 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001FCF6842F90>),), kwargs: {}
-2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
-2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:06:43,285 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:06:55,731 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000002B860F32F90>),), kwargs: {}
-2024-12-12 11:06:55,735 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:06:55,736 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
-2024-12-12 11:06:55,736 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:06:55,736 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:07:26,308 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DA1B29EF90>),), kwargs: {}
-2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
-2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:07:26,309 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:11:17,224 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019D261BEF90>),), kwargs: {}
-2024-12-12 11:11:17,226 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:11:17,226 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:11:17,226 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:17:20,600 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001BD9A242F90>),), kwargs: {}
-2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - Object of type Books is not JSON serializable
-2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:17:20,601 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:18:33,195 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:18:33,196 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:18:33,196 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:18:33,196 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:19:20,590 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:19:20,591 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:19:20,591 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:19:20,591 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:19:52,557 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:19:52,557 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:19:52,557 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:19:52,558 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:20:07,149 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:20:07,150 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:20:07,150 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:20:07,150 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - ERROR - Invalid Request Body
-2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 11:28:59,294 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 11:29:32,382 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:29:32,397 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 11:29:32,397 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 11:29:32,397 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 11:29:35,497 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:29:35,498 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:29:35,498 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:29:35,498 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:29:48,936 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:29:48,936 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:29:48,937 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:29:48,937 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:29:59,594 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:29:59,594 - Thread-11 (process_request_thread) - ThreadSafeLogger - ERROR - Error occurred in update_book: 400 Bad Request: Failed to decode JSON object: Expecting value: line 4 column 14 (char 97)
-2024-12-12 11:29:59,594 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 11:30:31,911 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:30:31,920 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
-2024-12-12 11:30:31,920 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
-2024-12-12 11:30:31,920 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 11:30:36,495 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:30:36,496 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:30:36,496 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:30:36,496 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:31:49,344 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {'book_id': '825f3d2a-acad-4a2d-ad93-224617fdd50b'}
-2024-12-12 11:31:49,358 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 11:31:49,358 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
-2024-12-12 11:31:49,358 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
-2024-12-12 11:31:54,106 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:31:54,107 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:31:54,107 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:31:54,108 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:37:46,477 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {'book_id': '825f3d2a-acad-4a2d-ad93-224617fdd50b'}
-2024-12-12 11:37:46,491 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 11:37:46,492 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
-2024-12-12 11:37:46,492 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
-2024-12-12 11:37:52,638 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x000001DC9FBCEF90>),), kwargs: {}
-2024-12-12 11:37:52,639 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 11:37:52,639 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 11:37:52,639 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 11:40:16,194 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001DC9FBCF0E0>),), kwargs: {}
-2024-12-12 11:40:16,196 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 11:40:16,196 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 11:40:16,196 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 12:04:51,733 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
-2024-12-12 12:04:51,736 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 12:04:51,736 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 12:04:51,737 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 12:04:59,250 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
-2024-12-12 12:04:59,252 - Thread-4 (process_request_thread) - ThreadSafeLogger - ERROR - Book doesn't exist
-2024-12-12 12:04:59,253 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 12:04:59,253 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 12:07:27,397 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:07:27,961 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:07:27,962 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:07:31,682 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
-2024-12-12 12:07:31,704 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 12:07:31,704 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 12:07:31,704 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 12:08:02,276 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:08:02,278 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:08:02,278 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:08:19,433 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:08:20,045 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:08:20,045 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:08:26,344 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:08:26,346 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:08:26,346 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:10:44,807 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:10:45,351 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:10:45,352 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:16:43,928 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:16:44,473 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:16:44,473 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:17:31,029 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:17:31,031 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:17:31,031 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:18:01,425 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:18:01,707 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:18:01,707 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:20:27,073 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:20:27,363 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:20:27,363 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:21:28,900 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:21:28,903 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:21:28,903 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:21:31,659 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:21:32,204 - Thread-19 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:21:32,205 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:21:36,688 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:21:37,197 - Thread-20 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:21:37,197 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:24:41,695 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:24:42,224 - Thread-21 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:24:42,224 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:25:00,127 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:25:00,692 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:25:00,692 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:25:06,894 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:25:07,426 - Thread-23 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:25:07,427 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:27:22,859 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:27:23,462 - Thread-24 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 12:27:23,462 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 12:27:28,221 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000010FF3F7EE40>),), kwargs: {}
-2024-12-12 12:27:28,677 - Thread-25 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 12:27:28,677 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 12:27:47,768 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
-2024-12-12 12:27:47,770 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 12:27:47,771 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 12:27:47,771 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 12:28:18,225 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000010FF3F7EF90>),), kwargs: {}
-2024-12-12 12:28:18,227 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 12:28:18,228 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 12:28:18,228 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 12:34:00,080 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000010FF3F7F0E0>),), kwargs: {}
-2024-12-12 12:34:00,112 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
-2024-12-12 12:34:00,112 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 12:34:00,112 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 12:39:50,133 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000002928A1CF0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
-2024-12-12 12:39:50,145 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
-2024-12-12 12:39:50,145 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 12:39:50,145 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 13:49:25,194 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000022D09EAEE40>),), kwargs: {}
-2024-12-12 13:49:25,427 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 13:49:25,427 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 13:49:40,320 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000022D09EAF0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
-2024-12-12 13:49:40,328 - Thread-4 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
-2024-12-12 13:49:40,328 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 13:49:40,328 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 13:51:06,055 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001E82302F0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
-2024-12-12 13:51:06,072 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
-2024-12-12 13:51:06,073 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 13:51:06,073 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 13:52:19,481 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000027B0ED9F0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
-2024-12-12 13:52:19,490 - Thread-2 (process_request_thread) - ThreadSafeLogger - ERROR - near ",": syntax error
-2024-12-12 13:52:19,490 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 13:52:19,490 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 13:58:12,445 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
-2024-12-12 13:58:12,469 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
-2024-12-12 13:58:12,469 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 13:58:12,469 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 13:58:36,665 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 13:58:36,674 - Thread-3 (process_request_thread) - ThreadSafeLogger - ERROR - 'book_id'
-2024-12-12 13:58:36,674 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 13:58:36,674 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 13:59:55,973 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 13:59:55,989 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
-2024-12-12 13:59:55,990 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 13:59:55,990 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 14:00:12,671 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 14:00:12,672 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:00:12,672 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:00:12,672 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:01:41,045 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x000001F213C8EE40>),), kwargs: {}
-2024-12-12 14:01:41,281 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:01:41,281 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:01:43,663 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 14:01:43,664 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:01:43,664 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:01:43,664 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:05:15,588 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 14:05:15,589 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:05:15,589 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:05:15,589 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:06:57,252 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 14:06:57,253 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:06:57,253 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:06:57,253 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:07:05,694 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 14:07:05,696 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:07:05,696 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:07:05,696 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:07:19,232 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x000001F213C8F0E0>),), kwargs: {}
-2024-12-12 14:07:19,233 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:07:19,233 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:07:19,233 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:18:32,888 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:18:33,127 - Thread-2 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 14:18:33,127 - Thread-2 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 14:18:33,198 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:18:33,429 - Thread-3 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:18:33,430 - Thread-3 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:18:33,514 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:18:33,746 - Thread-4 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:18:33,746 - Thread-4 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:18:33,846 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:33,853 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:18:33,853 - Thread-5 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:18:33,854 - Thread-5 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:18:33,894 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:33,902 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:18:33,902 - Thread-6 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:18:33,902 - Thread-6 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:18:33,957 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:33,958 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:18:33,958 - Thread-7 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:18:33,958 - Thread-7 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:18:34,026 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:34,027 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:18:34,027 - Thread-8 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:18:34,027 - Thread-8 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:18:34,113 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:34,120 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
-2024-12-12 14:18:34,120 - Thread-9 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
-2024-12-12 14:18:34,120 - Thread-9 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 14:18:34,193 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
-2024-12-12 14:18:34,200 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:18:34,200 - Thread-10 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
-2024-12-12 14:18:34,200 - Thread-10 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
-2024-12-12 14:18:34,271 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6e696a6c-d131-4493-bc35-9ed7ee837723'}
-2024-12-12 14:18:34,278 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:18:34,278 - Thread-11 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
-2024-12-12 14:18:34,278 - Thread-11 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
-2024-12-12 14:18:34,350 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:34,351 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:18:34,351 - Thread-12 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:18:34,351 - Thread-12 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:18:34,426 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:34,434 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:18:34,434 - Thread-13 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:18:34,434 - Thread-13 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:18:34,520 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:34,521 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:18:34,521 - Thread-14 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:18:34,521 - Thread-14 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:18:34,614 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:34,614 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:18:34,615 - Thread-15 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:18:34,615 - Thread-15 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:18:34,693 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:34,711 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
-2024-12-12 14:18:34,711 - Thread-16 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 14:18:34,711 - Thread-16 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 14:18:34,787 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:34,788 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:18:34,788 - Thread-17 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:18:34,788 - Thread-17 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:18:34,851 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '6601ece1-b068-4368-91bc-a015da1b8cc6'}
-2024-12-12 14:18:34,868 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
-2024-12-12 14:18:34,868 - Thread-18 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 14:18:34,868 - Thread-18 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 14:18:44,851 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:18:45,098 - Thread-19 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 14:18:45,098 - Thread-19 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 14:18:45,175 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:18:45,407 - Thread-20 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:18:45,407 - Thread-20 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:18:45,475 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:18:45,704 - Thread-21 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:18:45,704 - Thread-21 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:18:45,803 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:45,810 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:18:45,810 - Thread-22 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:18:45,810 - Thread-22 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:18:45,882 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:45,889 - Thread-23 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:18:45,889 - Thread-23 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:18:45,889 - Thread-23 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:18:45,959 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:45,960 - Thread-24 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:18:45,960 - Thread-24 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:18:45,960 - Thread-24 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:18:46,054 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:46,055 - Thread-25 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:18:46,055 - Thread-25 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:18:46,055 - Thread-25 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:18:46,147 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:46,156 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
-2024-12-12 14:18:46,157 - Thread-26 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
-2024-12-12 14:18:46,157 - Thread-26 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 14:18:46,240 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6601ece1-b068-4368-91bc-a015da1b8cc6'}
-2024-12-12 14:18:46,247 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:18:46,247 - Thread-27 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
-2024-12-12 14:18:46,247 - Thread-27 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
-2024-12-12 14:18:46,319 - Thread-28 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '6601ece1-b068-4368-91bc-a015da1b8cc6'}
-2024-12-12 14:18:46,327 - Thread-28 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:18:46,327 - Thread-28 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
-2024-12-12 14:18:46,327 - Thread-28 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
-2024-12-12 14:18:46,383 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:46,384 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:18:46,384 - Thread-29 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:18:46,384 - Thread-29 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:18:46,447 - Thread-30 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:46,454 - Thread-30 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:18:46,454 - Thread-30 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:18:46,454 - Thread-30 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:18:46,527 - Thread-31 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:46,527 - Thread-31 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:18:46,528 - Thread-31 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:18:46,528 - Thread-31 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:18:46,606 - Thread-32 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:18:46,607 - Thread-32 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:18:46,607 - Thread-32 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:18:46,607 - Thread-32 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:18:46,686 - Thread-33 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:46,699 - Thread-33 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
-2024-12-12 14:18:46,700 - Thread-33 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 14:18:46,700 - Thread-33 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 14:18:46,797 - Thread-34 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:18:46,798 - Thread-34 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:18:46,798 - Thread-34 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:18:46,798 - Thread-34 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:18:46,892 - Thread-35 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '2f6e24a3-ac55-4768-9968-5bb00672623c'}
-2024-12-12 14:18:46,905 - Thread-35 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
-2024-12-12 14:18:46,905 - Thread-35 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 14:18:46,905 - Thread-35 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 14:19:12,171 - Thread-36 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:19:12,412 - Thread-36 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 14:19:12,412 - Thread-36 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 14:19:12,467 - Thread-37 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:19:12,700 - Thread-37 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:19:12,700 - Thread-37 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:19:12,781 - Thread-38 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:19:13,012 - Thread-38 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:19:13,012 - Thread-38 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:19:13,111 - Thread-39 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:13,121 - Thread-39 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:19:13,121 - Thread-39 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:19:13,121 - Thread-39 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:19:13,189 - Thread-40 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:13,195 - Thread-40 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:19:13,195 - Thread-40 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:19:13,195 - Thread-40 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:19:13,269 - Thread-41 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:13,270 - Thread-41 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:19:13,270 - Thread-41 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:19:13,270 - Thread-41 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:19:13,331 - Thread-42 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:13,332 - Thread-42 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:19:13,332 - Thread-42 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:19:13,332 - Thread-42 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:19:13,410 - Thread-43 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:13,417 - Thread-43 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
-2024-12-12 14:19:13,417 - Thread-43 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
-2024-12-12 14:19:13,417 - Thread-43 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 14:19:13,490 - Thread-44 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '2f6e24a3-ac55-4768-9968-5bb00672623c'}
-2024-12-12 14:19:13,498 - Thread-44 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:19:13,498 - Thread-44 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
-2024-12-12 14:19:13,498 - Thread-44 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
-2024-12-12 14:19:13,584 - Thread-45 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '2f6e24a3-ac55-4768-9968-5bb00672623c'}
-2024-12-12 14:19:13,592 - Thread-45 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:19:13,592 - Thread-45 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
-2024-12-12 14:19:13,592 - Thread-45 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
-2024-12-12 14:19:13,663 - Thread-46 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:13,664 - Thread-46 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:19:13,664 - Thread-46 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:19:13,664 - Thread-46 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:19:13,758 - Thread-47 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:13,764 - Thread-47 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:19:13,764 - Thread-47 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:19:13,764 - Thread-47 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:19:13,835 - Thread-48 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:13,836 - Thread-48 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:19:13,836 - Thread-48 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:19:13,836 - Thread-48 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:19:13,915 - Thread-49 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:19:13,995 - Thread-50 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:14,009 - Thread-50 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
-2024-12-12 14:19:14,010 - Thread-50 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 14:19:14,010 - Thread-50 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 14:19:14,022 - Thread-51 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:14,023 - Thread-51 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:19:14,024 - Thread-51 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:19:14,024 - Thread-51 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:19:14,105 - Thread-52 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '3d27a36c-5e0f-49c5-bb42-9782cd1a02a6'}
-2024-12-12 14:19:14,118 - Thread-52 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
-2024-12-12 14:19:14,119 - Thread-52 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 14:19:14,119 - Thread-52 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 14:19:47,784 - Thread-53 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:19:48,025 - Thread-53 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 14:19:48,025 - Thread-53 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 14:19:48,115 - Thread-54 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:19:48,345 - Thread-54 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:19:48,346 - Thread-54 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:19:48,428 - Thread-55 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:19:48,660 - Thread-55 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:19:48,660 - Thread-55 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:19:48,757 - Thread-56 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:48,764 - Thread-56 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:19:48,764 - Thread-56 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:19:48,764 - Thread-56 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:19:48,852 - Thread-57 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:48,859 - Thread-57 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:19:48,859 - Thread-57 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:19:48,860 - Thread-57 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:19:48,946 - Thread-58 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:48,947 - Thread-58 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:19:48,947 - Thread-58 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:19:48,947 - Thread-58 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:19:49,027 - Thread-59 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:49,028 - Thread-59 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:19:49,028 - Thread-59 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:19:49,028 - Thread-59 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:19:49,121 - Thread-60 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:49,130 - Thread-60 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
-2024-12-12 14:19:49,130 - Thread-60 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
-2024-12-12 14:19:49,130 - Thread-60 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 14:19:49,200 - Thread-61 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '3d27a36c-5e0f-49c5-bb42-9782cd1a02a6'}
-2024-12-12 14:19:49,207 - Thread-61 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:19:49,208 - Thread-61 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
-2024-12-12 14:19:49,208 - Thread-61 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
-2024-12-12 14:19:49,293 - Thread-62 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '3d27a36c-5e0f-49c5-bb42-9782cd1a02a6'}
-2024-12-12 14:19:49,300 - Thread-62 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:19:49,301 - Thread-62 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
-2024-12-12 14:19:49,301 - Thread-62 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
-2024-12-12 14:19:49,388 - Thread-63 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:49,389 - Thread-63 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:19:49,389 - Thread-63 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:19:49,390 - Thread-63 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:19:49,454 - Thread-64 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:49,460 - Thread-64 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:19:49,460 - Thread-64 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:19:49,460 - Thread-64 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:19:49,548 - Thread-65 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:49,549 - Thread-65 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:19:49,550 - Thread-65 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:19:49,550 - Thread-65 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:19:49,628 - Thread-66 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:19:49,629 - Thread-66 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:19:49,629 - Thread-66 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:19:49,629 - Thread-66 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:19:49,727 - Thread-67 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:49,741 - Thread-67 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
-2024-12-12 14:19:49,741 - Thread-67 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 14:19:49,741 - Thread-67 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 14:19:49,831 - Thread-68 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:19:49,831 - Thread-68 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:19:49,832 - Thread-68 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:19:49,832 - Thread-68 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:19:49,911 - Thread-69 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '7239aa27-fdd0-4349-8618-e1eee8f77d8b'}
-2024-12-12 14:19:49,924 - Thread-69 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
-2024-12-12 14:19:49,924 - Thread-69 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 14:19:49,924 - Thread-69 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
-2024-12-12 14:20:20,360 - Thread-70 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:20:20,361 - Thread-70 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:20:20,361 - Thread-70 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:20:20,361 - Thread-70 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:29:56,776 - Thread-71 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:29:56,777 - Thread-71 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:29:56,777 - Thread-71 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:29:56,777 - Thread-71 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:30:19,120 - Thread-72 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:30:19,122 - Thread-72 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:30:19,122 - Thread-72 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:30:19,122 - Thread-72 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:30:29,306 - Thread-73 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:30:29,307 - Thread-73 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:30:29,307 - Thread-73 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:30:29,307 - Thread-73 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:31:03,878 - Thread-74 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:31:03,893 - Thread-74 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
-2024-12-12 14:31:03,893 - Thread-74 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
-2024-12-12 14:31:03,893 - Thread-74 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 14:32:54,000 - Thread-75 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:32:54,001 - Thread-75 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:32:54,001 - Thread-75 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:32:54,001 - Thread-75 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:33:02,815 - Thread-76 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:33:02,816 - Thread-76 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:33:02,816 - Thread-76 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:33:02,816 - Thread-76 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:34:17,526 - Thread-77 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:34:17,527 - Thread-77 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:34:17,527 - Thread-77 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:34:17,527 - Thread-77 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:34:32,141 - Thread-78 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:34:32,141 - Thread-78 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:34:32,141 - Thread-78 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:34:32,142 - Thread-78 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:35:43,764 - Thread-79 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering signup with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:35:44,002 - Thread-79 (process_request_thread) - ThreadSafeLogger - INFO - signup executed successfully.
-2024-12-12 14:35:44,003 - Thread-79 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting signup
-2024-12-12 14:35:44,092 - Thread-80 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:35:44,322 - Thread-80 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:35:44,322 - Thread-80 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:35:44,407 - Thread-81 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering login with args: (UserHandler(user_service=<src.app.services.user_service.UserService object at 0x0000019C18BCEE40>),), kwargs: {}
-2024-12-12 14:35:44,636 - Thread-81 (process_request_thread) - ThreadSafeLogger - INFO - login executed successfully.
-2024-12-12 14:35:44,636 - Thread-81 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting login
-2024-12-12 14:35:44,721 - Thread-82 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:35:44,729 - Thread-82 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:35:44,729 - Thread-82 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:35:44,729 - Thread-82 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:35:44,798 - Thread-83 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:35:44,806 - Thread-83 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:35:44,806 - Thread-83 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:35:44,807 - Thread-83 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:35:44,890 - Thread-84 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:35:44,892 - Thread-84 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:35:44,892 - Thread-84 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:35:44,892 - Thread-84 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:35:44,984 - Thread-85 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:35:44,985 - Thread-85 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:35:44,985 - Thread-85 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:35:44,986 - Thread-85 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:35:45,061 - Thread-86 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering update_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:35:45,076 - Thread-86 (process_request_thread) - ThreadSafeLogger - INFO - Book update successfully
-2024-12-12 14:35:45,076 - Thread-86 (process_request_thread) - ThreadSafeLogger - INFO - update_book executed successfully.
-2024-12-12 14:35:45,076 - Thread-86 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting update_book
-2024-12-12 14:35:45,154 - Thread-87 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering remove_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '7239aa27-fdd0-4349-8618-e1eee8f77d8b'}
-2024-12-12 14:35:45,161 - Thread-87 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:35:45,161 - Thread-87 (process_request_thread) - ThreadSafeLogger - INFO - remove_book executed successfully.
-2024-12-12 14:35:45,161 - Thread-87 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting remove_book
-2024-12-12 14:35:45,247 - Thread-88 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering delete_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {'book_id': '7239aa27-fdd0-4349-8618-e1eee8f77d8b'}
-2024-12-12 14:35:45,255 - Thread-88 (process_request_thread) - ThreadSafeLogger - INFO - Book delete successfully
-2024-12-12 14:35:45,255 - Thread-88 (process_request_thread) - ThreadSafeLogger - INFO - delete_book executed successfully.
-2024-12-12 14:35:45,255 - Thread-88 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting delete_book
-2024-12-12 14:35:45,327 - Thread-89 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:35:45,328 - Thread-89 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:35:45,328 - Thread-89 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:35:45,328 - Thread-89 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:35:45,422 - Thread-90 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering create_book with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:35:45,429 - Thread-90 (process_request_thread) - ThreadSafeLogger - INFO - Book add successfully
-2024-12-12 14:35:45,429 - Thread-90 (process_request_thread) - ThreadSafeLogger - INFO - create_book executed successfully.
-2024-12-12 14:35:45,429 - Thread-90 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting create_book
-2024-12-12 14:35:45,517 - Thread-91 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:35:45,518 - Thread-91 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:35:45,518 - Thread-91 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:35:45,518 - Thread-91 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:35:45,611 - Thread-92 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_all_books with args: (BookHandler(book_service=<src.app.services.book_service.BookService object at 0x0000019C18BCEF90>),), kwargs: {}
-2024-12-12 14:35:45,612 - Thread-92 (process_request_thread) - ThreadSafeLogger - INFO - Book fetch successfully
-2024-12-12 14:35:45,612 - Thread-92 (process_request_thread) - ThreadSafeLogger - INFO - get_all_books executed successfully.
-2024-12-12 14:35:45,612 - Thread-92 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_all_books
-2024-12-12 14:35:45,675 - Thread-93 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering issue_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:35:45,697 - Thread-93 (process_request_thread) - ThreadSafeLogger - INFO - Book issued successfully
-2024-12-12 14:35:45,697 - Thread-93 (process_request_thread) - ThreadSafeLogger - INFO - issue_book_by_user executed successfully.
-2024-12-12 14:35:45,697 - Thread-93 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting issue_book_by_user
-2024-12-12 14:35:45,787 - Thread-94 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering get_issued_books with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {}
-2024-12-12 14:35:45,788 - Thread-94 (process_request_thread) - ThreadSafeLogger - INFO - Issue book fetch successfully
-2024-12-12 14:35:45,788 - Thread-94 (process_request_thread) - ThreadSafeLogger - INFO - get_issued_books executed successfully.
-2024-12-12 14:35:45,788 - Thread-94 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting get_issued_books
-2024-12-12 14:35:45,851 - Thread-95 (process_request_thread) - ThreadSafeLogger - DEBUG - Entering return_book_by_user with args: (IssueBookHandler(issue_book_service=<src.app.services.issue_book_service.IssueBookService object at 0x0000019C18BCF0E0>),), kwargs: {'book_id': '9fdc2199-bbb5-47ac-a8b2-5517acc24d50'}
-2024-12-12 14:35:45,865 - Thread-95 (process_request_thread) - ThreadSafeLogger - INFO - Book return successfully
-2024-12-12 14:35:45,865 - Thread-95 (process_request_thread) - ThreadSafeLogger - INFO - return_book_by_user executed successfully.
-2024-12-12 14:35:45,865 - Thread-95 (process_request_thread) - ThreadSafeLogger - DEBUG - Exiting return_book_by_user
+2024-12-13 12:20:58,221 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MDc0OTkwLCJpYXQiOjE3MzQwNzEzOTAsIm5iZiI6MTczNDA3MTM5MH0.8FOvlhyyvyEq-uXsImTPl7j-DKtNAG1icS8H-F_gfjs', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '9d9a8ed7-02d6-4722-91eb-b31b09f0bb23', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '71'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-13 12:20:58,254 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-13 12:20:58,255 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-13 12:20:58,256 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-14 21:40:04,801 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'fdb7ddc0-5f9c-48e3-aaec-6ed6af38ed3e', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '175'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya2111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-14 21:40:05,059 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-14 21:40:05,059 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-14 21:41:28,268 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '1cf7ba93-59b3-41f2-871d-6783cd6b785d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '94'}
+  - body: {'email': 'garvitbanthiya2111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-14 21:41:28,501 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-14 21:41:28,501 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-14 23:53:59,690 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '59dc5322-160d-4387-9126-cacde9606577', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '94'}
+  - body: {'email': 'garvitbanthiya2111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-14 23:54:00,945 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-14 23:54:00,945 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-15 01:13:19,375 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '5833a5bd-47be-44a6-bd57-fd689bb9c19b', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '176'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya21111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:13:20,793 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:13:20,793 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-15 01:13:21,056 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'ab1c9c67-8186-4776-a9dd-cbb9f8a41658', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '95'}
+  - body: {'email': 'garvitbanthiya21111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:13:22,261 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:13:22,261 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-15 01:13:22,371 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '9abb0ae0-1ac6-4156-8cce-0300140abde2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:13:23,541 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:13:23,542 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-15 01:13:48,915 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f01c576b-3fc8-45f6-8e23-058b648bff92', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '177'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya211111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:13:50,140 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:13:50,140 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-15 01:14:55,555 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8e2b6fb9-59c4-4376-9932-8f1b28f6cb50', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '178'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:14:56,820 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:14:56,820 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-15 01:15:12,401 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd589fff0-7449-43f8-9cbc-3985a0cab442', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
+  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:15:13,941 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:15:13,943 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-15 01:16:16,785 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'b3c4d421-51e5-493e-8022-f0b2a0333c34', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
+  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:16:18,048 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:16:18,049 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-15 01:18:53,636 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd6b43800-2c7a-471e-8f32-61b0de5bafbb', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:18:54,860 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:18:54,861 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-15 01:19:05,655 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '59704bbb-fbd8-4236-99b8-345034bf363c', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '71'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:05,675 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:05,676 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:05,676 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:18,800 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '064251ec-c39b-47fd-8309-61044b92a21f', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '71'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:18,827 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:18,828 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:18,828 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:30,039 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '3765094a-09bc-4ba3-8be7-02eff51dd644', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:30,062 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:30,063 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:30,063 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:46,591 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'cc073bb1-2412-40a0-9ced-1d149065cc48', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:46,596 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:46,597 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:46,598 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:58,588 - DEBUG - Entering update_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: PUT
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd614a935-a492-45d5-86ac-7cdcb7627f0c', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '127'}
+  - body: {'book_id': 'daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a', 'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:58,617 - INFO - Book update successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:58,617 - INFO - update_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:19:58,618 - DEBUG - Exiting update_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:14,996 - DEBUG - Entering remove_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: PATCH
+  - path: /admin/book/daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '22bff05d-f6d1-45b7-808e-26666fe6deb8', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:15,047 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:15,053 - INFO - remove_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:15,056 - DEBUG - Exiting remove_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:24,428 - DEBUG - Entering delete_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: DELETE
+  - path: /admin/book/daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '453f8a66-20b0-4280-84c9-eab70d4c7594', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:24,455 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:24,456 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:24,456 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:33,338 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8fb7a1dd-b121-4529-83ce-4db715acd806', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:33,343 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:33,344 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:20:33,345 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:21:05,526 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd7037e74-c142-4cb3-bda6-2b98e149359a', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:21:05,531 - INFO - Issue book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:21:05,531 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:21:05,532 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:21:29,472 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '96268a27-79e3-4037-b9c3-3648bb91e4f1', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
+  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-15 01:21:30,862 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-15 01:21:30,863 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-15 01:21:43,085 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '99aff7b7-fb58-4630-a5b1-2d0cabf0e6c2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:21:43,089 - INFO - Book fetch successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:21:43,090 - INFO - get_all_books executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:21:43,090 - DEBUG - Exiting get_all_books - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:21:53,078 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '6764b3d3-8cc9-401a-94a3-d6d942d003c7', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '91'}
+  - body: {'book_id': 'daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a', 'return_date': '2024-12-24'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:21:53,083 - ERROR - book doesn't exist - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:21:53,084 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:21:53,085 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:22:50,183 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f239dcb4-31f6-4aa4-8e0a-39af78a3d5da', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:22:50,186 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:22:50,187 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:22:50,187 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:22:59,917 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '04f7cec9-c104-4681-86db-ce76913e6d47', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '72'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:22:59,935 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:22:59,936 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:22:59,936 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-15 01:23:09,493 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a5da5205-10a7-4db9-b6cc-2d54c6e39cec', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '91'}
+  - body: {'book_id': 'daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a', 'return_date': '2024-12-24'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:09,498 - ERROR - book doesn't exist - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:09,499 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:09,499 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:19,081 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8cc4a5f7-4375-42e9-a180-730dc9bde0d1', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:19,086 - INFO - Book fetch successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:19,087 - INFO - get_all_books executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:19,087 - DEBUG - Exiting get_all_books - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:40,354 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '3756290d-4312-47b1-96ff-536a57a9c0d2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '91'}
+  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'return_date': '2024-12-24'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:40,393 - INFO - Book issued successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:40,394 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:40,395 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:49,178 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '49919caf-92a9-4e23-add6-b7adebceb2cc', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:49,182 - INFO - Issue book fetch successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:49,183 - INFO - get_issued_books executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:49,183 - DEBUG - Exiting get_issued_books - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:57,210 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/52d163e5-4af8-4f92-abb9-0ac926a94bf4
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '13ff6404-56a9-4976-9fa6-49329e06542d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:57,251 - INFO - Book return successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:57,252 - INFO - return_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-15 01:23:57,252 - DEBUG - Exiting return_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:18:52,616 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '2461646b-18fd-4d88-98c3-65d68d4045d5', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
+  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-16 10:18:53,105 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-16 10:18:53,106 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-16 10:19:01,142 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQzMjgxMzMsImlhdCI6MTczNDMyNDUzMywibmJmIjoxNzM0MzI0NTMzfQ.VCZmVGoAl3Zr-SueakMZOStlSKY5bzvnYs0gGpf-4i4', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '237b0a6f-1278-4ba4-9f3e-7195e9e6eeaa', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '107'}
+  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'return_date': '2024-12-24', 'bb': 'fd'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:19:01,176 - INFO - Book issued successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:19:01,177 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:19:01,177 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:23:57,671 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQzMjgxMzMsImlhdCI6MTczNDMyNDUzMywibmJmIjoxNzM0MzI0NTMzfQ.VCZmVGoAl3Zr-SueakMZOStlSKY5bzvnYs0gGpf-4i4', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '96f14105-8868-4cab-83d7-22b2b12698df', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '107'}
+  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'return_date': '2024-12-24', 'bb': 'fd'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:23:57,682 - ERROR - Validation Error: [{"type":"extra_forbidden","loc":["bb"],"msg":"Extra inputs are not permitted","input":"fd","url":"https://errors.pydantic.dev/2.10/v/extra_forbidden"}] - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:23:57,682 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-16 10:23:57,682 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
+2024-12-17 09:33:10,628 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f82262f1-2d42-4a90-8b6b-1f941f90a554', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '179'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya21111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 09:33:10,978 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 09:33:10,979 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-17 09:33:11,107 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '919bd5c6-c812-4dfd-8853-62811d66e853', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '98'}
+  - body: {'email': 'garvitbanthiya21111111111111111.it25@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 09:33:11,690 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 09:33:11,692 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 09:33:11,793 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'ba6d0f3c-ff80-4f2f-8c17-32ea268ff357', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 09:33:12,358 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 09:33:12,359 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-17 09:33:12,449 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '41498fff-e92e-4f22-8f21-655877443206', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '72'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,462 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,462 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,462 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,542 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '0d4bab8a-6098-4b59-be1d-a5874a44845a', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '72'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,551 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,551 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,551 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,636 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'be243ecb-cd85-4775-9d30-95abf955bf5f', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,637 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,637 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,637 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,729 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '4ca6e843-29d1-4132-90aa-40137ef5479d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,730 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,730 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,730 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,807 - DEBUG - Entering update_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: PUT
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '45a98820-22a5-4ce9-960f-5a19ba73e327', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '128'}
+  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,816 - INFO - Book update successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,816 - INFO - update_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,817 - DEBUG - Exiting update_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,902 - DEBUG - Entering remove_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: PATCH
+  - path: /admin/book/52d163e5-4af8-4f92-abb9-0ac926a94bf4
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'efa862a1-932d-4c85-b248-7d363575f5b6', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,910 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,910 - INFO - remove_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,910 - DEBUG - Exiting remove_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,978 - DEBUG - Entering delete_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: DELETE
+  - path: /admin/book/52d163e5-4af8-4f92-abb9-0ac926a94bf4
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a5bdd4fd-9922-4e2d-9b70-3a4b013863b2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,987 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,987 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:12,987 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,087 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f25e8cfd-df9c-47aa-ba06-4aadf694a1c5', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,088 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,088 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,088 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,178 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8541da01-8b21-4120-b03c-024e9834c371', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '73'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111'}
+Function Context:
+  - handler: BookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,186 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,186 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,186 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,270 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a22b6349-755a-48fa-a1c0-3c6076f8deb0', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,271 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,272 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,272 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-17 09:33:13,349 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - role: user
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '4f0aba41-4957-4527-bcdf-5f8ec53c3c1d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: BookHandler
+ - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,350 - INFO - Book fetched successfully - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,350 - INFO - get_all_books executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,350 - DEBUG - Exiting get_all_books - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,443 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'c6ff3814-5a94-4dd7-a1e3-bfa44feb1b85', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '107'}
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24', 'bb': 'fd'}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,458 - ERROR - Validation Error: [{"type":"extra_forbidden","loc":["bb"],"msg":"Extra inputs are not permitted","input":"fd","url":"https://errors.pydantic.dev/2.10/v/extra_forbidden"}] - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,459 - INFO - issue_book_by_user executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,459 - DEBUG - Exiting issue_book_by_user - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,520 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - role: user
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'cf876df1-6073-4e2f-a06f-22d360299087', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,521 - INFO - Issue book fetched successfully - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,521 - INFO - get_issued_books executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,522 - DEBUG - Exiting get_issued_books - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,597 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/74343cf0-a95c-4853-aefa-6d4d623b0830
+  - client_ip: 127.0.0.1
+  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a97171b2-be71-4ee0-bf03-d8f07ab24282', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
+  - body: {}
+Function Context:
+  - handler: IssueBookHandler
+ - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,607 - INFO - Book returned successfully - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,607 - INFO - return_book_by_user executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 09:33:13,607 - DEBUG - Exiting return_book_by_user - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
+2024-12-17 11:24:05,873 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'c02b4cd7-3838-4496-a870-41e55ad8010e', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '180'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya211111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-17 11:24:07,046 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-17 11:24:07,047 - DEBUG - Exiting signup - for user_id=unknown | role=unknown

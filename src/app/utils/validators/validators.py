@@ -1,6 +1,6 @@
 import re
 import uuid
-from src.app.config.types import BRANCH,Role
+from src.app.config.enumeration import Role, Branch
 
 
 class Validators:
@@ -61,9 +61,7 @@ class Validators:
 
     @staticmethod
     def is_branch_valid(branch: str) -> bool:
-        if branch.upper() in BRANCH:
-            return True
-        return False
+        return branch.upper() in Branch.__members__
 
     @staticmethod
     def is_valid_role(role:str):
@@ -71,23 +69,3 @@ class Validators:
             return True
         return False
 
-
-    @staticmethod
-    def is_valid_UUID(id: str) -> bool:
-        """
-        Checks if the given string is a valid UUID.
-
-        Args:
-            id (str): The string to check.
-
-        Returns:
-            bool: True if the string is a valid UUID, False otherwise.
-        """
-        try:
-            # Attempt to create a UUID object
-            uuid_obj = uuid.UUID(id)
-            # Check if the input string matches the generated UUID's string format
-            return str(uuid_obj) == id
-        except ValueError:
-            # If a ValueError is raised, the string is not a valid UUID
-            return False

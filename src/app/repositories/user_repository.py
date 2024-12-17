@@ -52,18 +52,3 @@ class UserRepository:
         except Exception as e:
             raise DatabaseError(str(e))
 
-    def delete_user_by_id(self,user_id:str):
-        try:
-            conn = self.db.get_connection()
-            with conn:
-                query,value = GenericQueryBuilder.delete("user",{"id":user_id})
-                conn.execute(query,value)
-        except Exception as e:
-            raise DatabaseError(str(e))
-
-
-
-
-
-def new_user_repository(db):
-    return UserRepository(db)

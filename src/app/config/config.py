@@ -1,12 +1,1 @@
 DB_ADDR="C:\\Users\\bjain\\OneDrive - WatchGuard Technologies Inc\\Python\\Project\\Library_Management\\src\\app\\utils\\db\\library.db"
-
-INVALID_REQUEST_BODY = "Invalid Request Body"
-INVALID_TOKEN = "Invalid token"
-BOOK_ISSUE_SUCCESSFULLY = "Book issued successfully"
-RETURN_SUCCESSFULLY = "Book return successfully"
-ISSUE_BOOK_FETCH_SUCCESSFULLY = "Issue book fetch successfully"
-BOOK_ADD_SUCCESSFULLY = "Book add successfully"
-BOOK_UPDATE_SUCCESSFULLY = "Book update successfully"
-BOOK_DELETE_SUCCESSFULLY = "Book delete successfully"
-BOOK_FETCH_SUCCESSFULLY = "Book fetch successfully"
-INVALID_DATE_FORMAT = "Invalid return_date format. Expected YYYY-MM-DD."
