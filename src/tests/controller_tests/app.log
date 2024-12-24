@@ -1294,3 +1294,288 @@ Function Context:
  - for user_id=unknown | role=unknown
 2024-12-17 17:50:52,816 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
 2024-12-17 17:50:52,817 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,066 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '56'}
+  - body: {'email': 'invalid_email', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,070 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,070 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,280 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,280 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,281 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,310 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,311 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,311 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,343 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,344 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,344 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,371 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '125'}
+  - body: {'branch': 'CSE', 'email': 'invalid_email', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,371 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,372 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,397 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,398 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,399 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,422 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,423 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,423 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,448 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,449 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,449 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,473 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '120'}
+  - body: {'branch': '', 'email': 'john.doe@example.com', 'name': '', 'password': '***', 'role': 'INVALID_ROLE', 'year': 'abcd'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,473 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:39:36,473 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:40:15,638 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '132'}
+  - body: {'branch': 'CSE', 'email': 'john.doe@example.com', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:40:15,640 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:40:15,640 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:41:45,386 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '128'}
+  - body: {'branch': 'IT', 'email': 'john.doe@jecrc.ac.in', 'name': 'John Doe', 'password': '***', 'role': 'user', 'year': '1'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:41:45,387 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:41:45,388 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:41:53,000 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '125'}
+  - body: {'branch': 'CSE', 'email': 'invalid_email', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:41:53,001 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:41:53,002 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:51:22,199 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '125'}
+  - body: {'branch': 'CSE', 'email': 'invalid_email', 'name': 'John Doe', 'password': '***', 'role': 'USER', 'year': '2023'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:51:22,201 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:51:22,201 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:52:55,873 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@example.com', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:52:55,875 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:52:55,875 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-23 13:53:36,185 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:53:36,187 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:53:36,187 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-23 13:53:46,825 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '56'}
+  - body: {'email': 'invalid_email', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:53:46,827 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:53:46,827 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-23 13:53:58,802 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '120'}
+  - body: {'branch': '', 'email': 'john.doe@example.com', 'name': '', 'password': '***', 'role': 'INVALID_ROLE', 'year': 'abcd'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:53:58,803 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:53:58,803 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:54:09,967 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '128'}
+  - body: {'branch': 'IT', 'email': 'john.doe@jecrc.ac.in', 'name': 'John Doe', 'password': '***', 'role': 'user', 'year': '1'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:54:09,969 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:54:09,969 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-23 13:54:18,073 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /
+  - client_ip: None
+  - headers: {'Host': 'localhost', 'Content-Type': 'application/json', 'Content-Length': '63'}
+  - body: {'email': 'john.doe@jecrc.ac.in', 'password': '***'}
+Function Context:
+  - handler: UserHandler
+ - for user_id=unknown | role=unknown
+2024-12-23 13:54:18,075 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-23 13:54:18,075 - DEBUG - Exiting login - for user_id=unknown | role=unknown

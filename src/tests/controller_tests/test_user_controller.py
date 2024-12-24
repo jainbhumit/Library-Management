@@ -24,11 +24,11 @@ class TestUserHandler(unittest.TestCase):
         # Test data
         self.valid_signup_payload = {
             "name": "John Doe",
-            "email": "john.doe@example.com",
+            "email": "john.doe@jecrc.ac.in",
             "password": "StrongPass123!",
-            "year": "2023",
-            "branch": "CSE",
-            "role": "USER"
+            "year": "1",
+            "branch": "IT",
+            "role": "user"
         }
         self.invalid_email_payload = {
             "name": "John Doe",
@@ -39,7 +39,7 @@ class TestUserHandler(unittest.TestCase):
             "role": "USER"
         }
         self.valid_login_payload = {
-            "email": "john.doe@example.com",
+            "email": "john.doe@jecrc.ac.in",
             "password": "StrongPass123!"
         }
 
@@ -62,15 +62,15 @@ class TestUserHandler(unittest.TestCase):
 
             response, status_code = self.user_handler.signup()
             self.assertEqual(status_code, 200)
-            self.assertEqual(response.json["message"], TOKEN_GENERATE_SUCCESSFULLY)
-            self.assertEqual(response.json["data"]["token"], "mocked_jwt_token")
+            self.assertEqual(response["message"], TOKEN_GENERATE_SUCCESSFULLY)
+            self.assertEqual(response["data"]["token"], "mocked_jwt_token")
 
     def test_signup_invalid_email(self):
         """Test signup with invalid email."""
         with self.app.test_request_context(method="POST", json=self.invalid_email_payload):
             response, status_code = self.user_handler.signup()
             self.assertEqual(status_code, 422)
-            self.assertEqual(response.json["message"], EMAIL_IS_NOT_VALID)
+            self.assertEqual(response["message"], EMAIL_IS_NOT_VALID)
 
     @patch("src.app.utils.utils.Utils.create_jwt_token", return_value="mocked_jwt_token")
     def test_login_success(self, mock_create_jwt_token):
@@ -80,9 +80,9 @@ class TestUserHandler(unittest.TestCase):
 
             response, status_code = self.user_handler.login()
             self.assertEqual(status_code, 200)
-            self.assertEqual(response.json["message"], TOKEN_GENERATE_SUCCESSFULLY)
-            self.assertEqual(response.json["data"]["token"], "mocked_jwt_token")
-            self.assertEqual(response.json["data"]["role"], self.mock_user.role)
+            self.assertEqual(response["message"], TOKEN_GENERATE_SUCCESSFULLY)
+            self.assertEqual(response["data"]["token"], "mocked_jwt_token")
+            self.assertEqual(response["data"]["role"], self.mock_user.role)
 
     def test_login_invalid_email(self):
         """Test login with invalid email."""
@@ -93,7 +93,7 @@ class TestUserHandler(unittest.TestCase):
         with self.app.test_request_context(method="POST", json=invalid_login_payload):
             response, status_code = self.user_handler.login()
             self.assertEqual(status_code, 422)
-            self.assertEqual(response.json["message"], EMAIL_IS_NOT_VALID)
+            self.assertEqual(response["message"], EMAIL_IS_NOT_VALID)
 
     def test_login_user_not_found(self):
         """Test login with user not found."""
@@ -102,7 +102,7 @@ class TestUserHandler(unittest.TestCase):
 
             response, status_code = self.user_handler.login()
             self.assertEqual(status_code, 400)
-            self.assertEqual(response.json["message"], INCORRECT_EMAIL_PASSWORD)
+            self.assertEqual(response["message"], INCORRECT_EMAIL_PASSWORD)
 
     def test_signup_validation_failure(self):
         """Test signup with validation errors for other fields."""
@@ -117,7 +117,7 @@ class TestUserHandler(unittest.TestCase):
         with self.app.test_request_context(method="POST", json=invalid_payload):
             response, status_code = self.user_handler.signup()
             self.assertEqual(status_code, 422)
-            self.assertEqual(response.json["message"], NAME_NOT_VALID)
+            self.assertEqual(response["message"], NAME_NOT_VALID)
 
     def test_signup_user_already_exists(self):
         """Test signup with a user that already exists."""
@@ -126,7 +126,7 @@ class TestUserHandler(unittest.TestCase):
 
             response, status_code = self.user_handler.signup()
             self.assertEqual(status_code, 400)
-            self.assertEqual(response.json["message"], USER_ALREADY_EXISTS)
+            self.assertEqual(response["message"], USER_ALREADY_EXISTS)
 
     def test_signup_unexpected_error(self):
         """Test signup with an unexpected error."""
@@ -135,7 +135,7 @@ class TestUserHandler(unittest.TestCase):
 
             response, status_code = self.user_handler.signup()
             self.assertEqual(status_code, 400)
-            self.assertEqual(response.json["message"], "Unexpected Error")
+            self.assertEqual(response["message"], "Unexpected Error")
 
     def test_login_unexpected_error(self):
         """Test login with an unexpected error."""
@@ -144,6 +144,6 @@ class TestUserHandler(unittest.TestCase):
 
             response, status_code = self.user_handler.login()
             self.assertEqual(status_code, 400)
-            self.assertEqual(response.json["message"], "Unexpected Error")
+            self.assertEqual(response["message"], "Unexpected Error")
 
 
