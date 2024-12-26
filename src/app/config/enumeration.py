@@ -15,3 +15,4 @@ class Branch(Enum):
 class Status(Enum):
     SUCCESS = "success"
     FAIL = "fail"
+

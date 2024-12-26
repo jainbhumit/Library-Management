@@ -1,136 +1,270 @@
-import unittest
-from unittest.mock import MagicMock
-from flask import Flask, g
-from datetime import datetime
+import pytest
+from unittest.mock import Mock, AsyncMock
+from fastapi import Request
+from datetime import datetime, timedelta
+
 from src.app.controller.issue_book.handler import IssueBookHandler
-from src.app.services.issue_book_service import IssueBookService
+from src.app.dto.issue_book import IssueBookDTO
 from src.app.model.issued_books import IssuedBooks
+from src.app.config.enumeration import Role, Status
+from src.app.utils.errors.error import NotExistsError, InvalidOperationError
 from src.app.config.messages import *
-from src.app.config.enumeration import Status, Role
+from src.app.config.custome_error_code import *
+import json
 
 
-class TestIssueBookHandler(unittest.TestCase):
+@pytest.fixture
+def mock_request():
+    """Mock FastAPI request fixture"""
+    mock_scope = {
+        "type": "http",
+        "headers": [],
+        "method": "POST",
+        "path": "/",
+        "query_string": b"",
+        "client": ("127.0.0.1", 8000),
+    }
 
-    def setUp(self):
-        # Create a Flask app and test client
-        self.app = Flask(__name__)
-        self.app.testing = True
-        self.client = self.app.test_client()
+    async def mock_receive():
+        return {"type": "http.request", "body": b""}
 
-        # Mock the IssueBookService
-        self.mock_issue_book_service = MagicMock(spec=IssueBookService)
-        self.issue_book_handler = IssueBookHandler.create(self.mock_issue_book_service)
+    request = Request(mock_scope, receive=mock_receive)
+    request.state.user = {"user_id": "test-user-id", "role": Role.USER.value}
+    return request
 
-        # Setup user info for g context
-        self.user_id = "123"
-        self.admin_role = Role.ADMIN.value
-        self.user_role = Role.USER.value
 
-        # Setup test data
-        self.test_issued_book = IssuedBooks(
-            user_id=self.user_id,
-            book_id="456",
-            borrow_date=datetime(2024, 1, 1),
-            return_date=datetime(2024, 1, 15)
-        )
-        self.valid_issue_payload = {
-            "book_id": "456",
-            "return_date": "2024-01-15"
-        }
+@pytest.fixture
+def admin_request():
+    """Mock FastAPI request fixture with admin role"""
+    mock_scope = {
+        "type": "http",
+        "headers": [],
+        "method": "GET",
+        "path": "/",
+        "query_string": b"user_id=test-user-id",  # Set query string in scope
+        "client": ("127.0.0.1", 8000),
+    }
 
-    def mock_g_context(self, user_id=None, role=None):
-        g.user_id = user_id
-        g.role = role
+    async def mock_receive():
+        return {"type": "http.request", "body": b""}
 
-    def test_issue_book_success(self):
-        """Test successful book issue by a user."""
-        with self.app.test_request_context(
-            method='POST',
-            json=self.valid_issue_payload
-        ):
-            self.mock_g_context(user_id=self.user_id, role=self.user_role)
-            self.mock_issue_book_service.issue_book.return_value = None
+    request = Request(mock_scope, receive=mock_receive)
+    request.state.user = {"user_id": "admin-id", "role": Role.ADMIN.value}
+    return request
 
-            response, status_code = self.issue_book_handler.issue_book_by_user()
-            self.assertEqual(status_code, 200)
-            self.assertEqual(response, {
-                "status": Status.SUCCESS.value,
-                "message": BOOK_ISSUE_SUCCESSFULLY,
-            })
 
-    def test_issue_book_invalid_token(self):
-        """Test book issue with invalid token."""
-        with self.app.test_request_context(method='POST', json=self.valid_issue_payload):
-            self.mock_g_context(user_id=None, role=self.user_role)
+@pytest.fixture
+def admin_request_no_params():
+    """Mock FastAPI request fixture with admin role and no query params"""
+    mock_scope = {
+        "type": "http",
+        "headers": [],
+        "method": "GET",
+        "path": "/",
+        "query_string": b"",
+        "client": ("127.0.0.1", 8000),
+    }
 
-            response, status_code = self.issue_book_handler.issue_book_by_user()
-            self.assertEqual(status_code, 401)
-            self.assertEqual(response["message"], INVALID_TOKEN)
+    async def mock_receive():
+        return {"type": "http.request", "body": b""}
 
-    def test_issue_book_validation_error(self):
-        """Test book issue with invalid payload."""
-        with self.app.test_request_context(method='POST', json={}):  # Missing required fields
-            self.mock_g_context(user_id=self.user_id, role=self.user_role)
+    request = Request(mock_scope, receive=mock_receive)
+    request.state.user = {"user_id": "admin-id", "role": Role.ADMIN.value}
+    return request
 
-            response, status_code = self.issue_book_handler.issue_book_by_user()
-            self.assertEqual(status_code, 422)
-            self.assertEqual(response["message"], INVALID_REQUEST_BODY)
 
-    def test_return_book_success(self):
-        """Test successful book return by a user."""
-        with self.app.test_request_context():
-            self.mock_g_context(user_id=self.user_id, role=self.user_role)
-            self.mock_issue_book_service.return_issue_book.return_value = None
+@pytest.fixture
+def issue_book_dto():
+    """Issue Book DTO fixture"""
+    return IssueBookDTO(
+        book_id="test-book-id",
+        return_date=(datetime.now() + timedelta(days=14)).date()
+    )
 
-            response, status_code = self.issue_book_handler.return_book_by_user(book_id="456")
-            self.assertEqual(status_code, 200)
-            self.assertEqual(response["message"], RETURN_SUCCESSFULLY)
 
-    def test_get_issued_books_user(self):
-        """Test fetching issued books for a user."""
-        with self.app.test_request_context():
-            self.mock_g_context(user_id=self.user_id, role=self.user_role)
-            self.mock_issue_book_service.get_issue_book_by_user_id.return_value = [self.test_issued_book]
+@pytest.fixture
+def sample_issued_book():
+    """Sample issued book fixture"""
+    return IssuedBooks(
+        id="test-issue-id",
+        user_id="test-user-id",
+        book_id="test-book-id",
+        borrow_date=datetime.now().date(),
+        return_date=(datetime.now() + timedelta(days=14)).date()
+    )
 
-            response, status_code = self.issue_book_handler.get_issued_books()
-            self.assertEqual(status_code, 200)
-            self.assertEqual(response["data"], [self.test_issued_book.__dict__])
 
-    def test_get_issued_books_admin_with_user_id(self):
-        """Test admin fetching issued books by a specific user ID."""
-        with self.app.test_request_context(query_string={"user_id": self.user_id}):
-            self.mock_g_context(role=self.admin_role)
-            self.mock_issue_book_service.get_issue_book_by_user_id.return_value = [self.test_issued_book]
+class TestIssueBookHandler:
+    def setup_method(self):
+        """Setup method that runs before each test"""
+        self.mock_service = Mock()
+        self.handler = IssueBookHandler.create(self.mock_service)
 
-            response, status_code = self.issue_book_handler.get_issued_books()
-            self.assertEqual(status_code, 200)
-            self.assertEqual(response["data"], [self.test_issued_book.__dict__])
+    @pytest.mark.asyncio
+    async def test_issue_book_success(self, mock_request, issue_book_dto):
+        # Call handler
+        response = await self.handler.issue_book_by_user(mock_request, issue_book_dto)
 
-    def test_get_all_issued_books_admin(self):
-        """Test admin fetching all issued books."""
-        with self.app.test_request_context():
-            self.mock_g_context(role=self.admin_role)
-            self.mock_issue_book_service.get_all_issued_books.return_value = [self.test_issued_book]
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+        else:
+            response_data = response
 
-            response, status_code = self.issue_book_handler.get_issued_books()
-            self.assertEqual(status_code, 200)
-            self.assertEqual(response["data"], [self.test_issued_book.__dict__])
+        assert response_data["status"] == Status.SUCCESS.value
+        assert response_data["message"] == BOOK_ISSUE_SUCCESSFULLY
 
-    def test_get_issued_books_invalid_token(self):
-        """Test fetching issued books with invalid token."""
-        with self.app.test_request_context():
-            self.mock_g_context(user_id=None, role=self.user_role)
+        # Verify service called correctly
+        self.mock_service.issue_book.assert_called_once()
+        issued_book = self.mock_service.issue_book.call_args[0][0]
+        assert issued_book.user_id == "test-user-id"
+        assert issued_book.book_id == issue_book_dto.book_id
 
-            response, status_code = self.issue_book_handler.get_issued_books()
-            self.assertEqual(status_code, 401)
-            self.assertEqual(response["message"], INVALID_TOKEN)
+    @pytest.mark.asyncio
+    async def test_issue_book_not_exists(self, mock_request, issue_book_dto):
+        # Mock service error
+        self.mock_service.issue_book.side_effect = NotExistsError("Book not found")
 
-    def test_unexpected_error(self):
-        """Test handling of unexpected errors."""
-        with self.app.test_request_context():
-            self.mock_g_context(user_id=self.user_id, role=self.user_role)
-            self.mock_issue_book_service.get_issue_book_by_user_id.side_effect = Exception("Unexpected error")
+        response = await self.handler.issue_book_by_user(mock_request, issue_book_dto)
 
-            response, status_code = self.issue_book_handler.get_issued_books()
-            self.assertEqual(status_code, 500)
-            self.assertEqual(response["message"], "Unexpected error")
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 200
+        else:
+            response_data = response
+
+        assert response_data["error_code"] == NOT_EXISTS
+        assert "Book not found" in response_data["message"]
+
+    @pytest.mark.asyncio
+    async def test_return_book_success(self, mock_request):
+        book_id = "test-book-id"
+
+        response = await self.handler.return_book_by_user(book_id, mock_request)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+        else:
+            response_data = response
+
+        assert response_data["status"] == Status.SUCCESS.value
+        assert response_data["message"] == RETURN_SUCCESSFULLY
+
+        self.mock_service.return_issue_book.assert_called_once_with("test-user-id", book_id)
+
+    @pytest.mark.asyncio
+    async def test_return_book_not_exists(self, mock_request):
+        book_id = "test-book-id"
+        self.mock_service.return_issue_book.side_effect = NotExistsError("Issue record not found")
+
+        response = await self.handler.return_book_by_user(book_id, mock_request)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 200
+        else:
+            response_data = response
+
+        assert response_data["error_code"] == NOT_EXISTS
+        assert "Issue record not found" in response_data["message"]
+
+    @pytest.mark.asyncio
+    async def test_get_issued_books_user(self, mock_request, sample_issued_book):
+        self.mock_service.get_issue_book_by_user_id.return_value = [sample_issued_book]
+
+        response = await self.handler.get_issued_books(mock_request)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+        else:
+            response_data = response
+
+        assert response_data["status"] == Status.SUCCESS.value
+        assert response_data["message"] == ISSUE_BOOK_FETCH_SUCCESSFULLY
+        assert len(response_data["data"]) == 1
+        assert response_data["data"][0]["book_id"] == sample_issued_book.book_id
+
+    @pytest.mark.asyncio
+    async def test_get_issued_books_admin_all(self, admin_request_no_params, sample_issued_book):
+        self.mock_service.get_all_issued_books.return_value = [sample_issued_book]
+
+        response = await self.handler.get_issued_books(admin_request_no_params)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+        else:
+            response_data = response
+
+        assert response_data["status"] == Status.SUCCESS.value
+        assert len(response_data["data"]) == 1
+        assert response_data["data"][0]["book_id"] == sample_issued_book.book_id
+
+    @pytest.mark.asyncio
+    async def test_get_issued_books_admin_by_user(self, admin_request, sample_issued_book):
+        self.mock_service.get_issue_book_by_user_id.return_value = [sample_issued_book]
+
+        response = await self.handler.get_issued_books(admin_request)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+        else:
+            response_data = response
+
+        assert response_data["status"] == Status.SUCCESS.value
+        assert len(response_data["data"]) == 1
+        assert response_data["data"][0]["book_id"] == sample_issued_book.book_id
+
+    @pytest.mark.asyncio
+    async def test_invalid_token(self, mock_request, issue_book_dto):
+        # Remove user_id from context
+        mock_request.state.user = {"role": Role.USER.value}
+
+        response = await self.handler.issue_book_by_user(mock_request, issue_book_dto)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 500
+        else:
+            response_data = response
+
+        assert response_data["error_code"] == INVALID_CREDENTIALS
+        assert INVALID_TOKEN in response_data["message"]
+
+    @pytest.mark.asyncio
+    async def test_invalid_operation(self, mock_request, issue_book_dto):
+        self.mock_service.issue_book.side_effect = InvalidOperationError("Book already issued")
+
+        response = await self.handler.issue_book_by_user(mock_request, issue_book_dto)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 200
+        else:
+            response_data = response
+
+        assert response_data["error_code"] == NOT_EXISTS
+        assert "Book already issued" in response_data["message"]
+
+    @pytest.mark.asyncio
+    async def test_unexpected_error(self, mock_request):
+        self.mock_service.get_issue_book_by_user_id.side_effect = Exception("Unexpected error")
+
+        response = await self.handler.get_issued_books(mock_request)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 500
+        else:
+            response_data = response
+
+        assert response_data["error_code"] == UNEXPECTED_ERROR
+        assert "Unexpected error" in response_data["message"]

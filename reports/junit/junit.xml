@@ -1,1 +1,510 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="102" time="3.718" timestamp="2024-12-23T13:55:18.541184+05:30" hostname="LAP-55354"><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_create_book_success" time="0.023" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_create_book_validation_error" time="0.006" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_delete_all_books_success" time="0.006" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_all_books" time="0.007" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_book_by_title" time="0.006" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_remove_book_success" time="0.006" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_unexpected_error" time="0.006" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_update_book_success" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_get_all_issued_books_admin" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_get_issued_books_admin_with_user_id" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_get_issued_books_invalid_token" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_get_issued_books_user" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_issue_book_invalid_token" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_issue_book_success" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_issue_book_validation_error" time="0.005" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_return_book_success" time="0.006" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_unexpected_error" time="0.006" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_login_invalid_email" time="0.006" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_login_success" time="0.007" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_login_unexpected_error" time="0.005" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_login_user_not_found" time="0.005" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_invalid_email" time="0.005" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_success" time="0.006" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_unexpected_error" time="0.005" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_user_already_exists" time="0.005" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_validation_failure" time="0.005" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_expired_token" time="0.003" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_invalid_token" time="0.001" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_invalid_token_format" time="0.002" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_missing_authorization_header" time="0.001" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_valid_token" time="0.001" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_add_book_raises_database_error" time="0.004" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_add_book_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_delete_book_raises_database_error" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_delete_book_success" time="0.007" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_id_not_found" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_id_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_title_not_found" time="0.006" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_title_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_books_empty" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_books_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_availability_raises_database_error" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_availability_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_raises_database_error" time="0.003" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_book_by_user_id_empty" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_book_by_user_id_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_books_empty" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_books_error" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_books_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_remove_issue_book_raises_database_error" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_remove_issue_book_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_save_issue_book_raises_database_error" time="0.003" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_save_issue_book_success" time="0.003" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_fetch_user_by_email_not_found" time="0.003" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_fetch_user_by_email_success" time="0.005" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_save_user_duplicate_entry_error" time="0.002" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_save_user_raises_database_error" time="0.002" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_save_user_success" time="0.003" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_add_book_existing_book" time="0.003" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_add_book_new_book" time="0.002" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_get_all_books" time="0.001" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_get_book_by_title_not_exist" time="0.001" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_get_book_by_title_success" time="0.001" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_all_book_by_id_not_exist" time="0.001" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_all_book_by_id_success" time="0.001" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_book_by_id_not_exist" time="0.001" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_book_by_id_success" time="0.001" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_update_book_by_id_not_exist" time="0.002" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_update_book_by_id_success" time="0.001" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_get_all_issued_books" time="0.001" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_get_issue_book_by_user_id" time="0.001" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_issue_book_not_available" time="0.002" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_issue_book_not_exists" time="0.001" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_issue_book_successfully" time="0.002" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_return_issue_book_not_exists" time="0.001" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_return_issue_book_successfully" time="0.002" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_login_user_invalid_password" time="0.002" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_login_user_not_found" time="0.001" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_login_user_successfully" time="0.002" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_signup_user_already_exists" time="0.001" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_signup_user_successfully" time="0.002" /><testcase classname="src.tests.utils.db.test_db" name="test_db_connection" time="0.004" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_delete" time="0.001" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_insert" time="0.001" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_select_with_all_parameters" time="0.001" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_select_with_minimum_parameters" time="0.001" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_select_with_where_clause" time="0.001" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_update" time="0.001" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_update_single_column" time="0.001" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_admin_decorator_with_admin_role" time="0.003" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_admin_decorator_with_non_admin_role" time="0.003" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_check_password" time="0.675" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_create_jwt_token" time="0.002" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_decode_jwt_token" time="0.002" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_hash_password" time="0.225" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_user_decorator_with_non_user_role" time="0.003" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_user_decorator_with_user_role" time="0.003" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_email_valid" time="0.003" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_name_valid" time="0.001" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_password_valid" time="0.001" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_year_valid" time="0.001" /></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="3" tests="118" time="27.433" timestamp="2024-12-26T18:28:42.778450+05:30" hostname="LAP-55354"><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_create_book_success" time="0.074" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_create_book_error" time="0.022" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_update_book_success" time="0.022" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_update_book_not_exists" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_update_book_error" time="0.023" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_remove_book_success" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_remove_book_not_exists" time="0.019" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_remove_book_error" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_delete_book_success" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_delete_book_not_exists" time="0.020" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_delete_book_error" time="0.020" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_all_books_success" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_all_books_empty" time="0.022" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_all_books_error" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_book_by_title_success" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_book_by_title_not_found" time="0.021" /><testcase classname="src.tests.controller_tests.test_book_controller.TestBookHandler" name="test_get_book_by_title_error" time="0.020" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_issue_book_success" time="0.022" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_issue_book_not_exists" time="0.021" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_return_book_success" time="0.020" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_return_book_not_exists" time="0.019" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_get_issued_books_user" time="0.023" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_get_issued_books_admin_all" time="0.021" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_get_issued_books_admin_by_user" time="0.021" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_invalid_token" time="0.021" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_invalid_operation" time="0.020" /><testcase classname="src.tests.controller_tests.test_issue_book_controller.TestIssueBookHandler" name="test_unexpected_error" time="0.024" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_login_success" time="0.026" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_login_invalid_credentials" time="0.019" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_login_unexpected_error" time="0.022" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_success" time="0.020" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_user_exists" time="0.019" /><testcase classname="src.tests.controller_tests.test_user_controller.TestUserHandler" name="test_signup_unexpected_error" time="0.022" /><testcase classname="src.tests.middleware_tests.test_middleware" name="test_protected" time="0.013"><skipped type="pytest.skip" message="async def function and no async plugin installed (see warnings)">C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py:149: async def function and no async plugin installed (see warnings)</skipped></testcase><testcase classname="src.tests.middleware_tests.test_middleware" name="test_login" time="0.003"><skipped type="pytest.skip" message="async def function and no async plugin installed (see warnings)">C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py:149: async def function and no async plugin installed (see warnings)</skipped></testcase><testcase classname="src.tests.middleware_tests.test_middleware" name="test_signup" time="0.003"><skipped type="pytest.skip" message="async def function and no async plugin installed (see warnings)">C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py:149: async def function and no async plugin installed (see warnings)</skipped></testcase><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_exempt_routes_login" time="0.112" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_exempt_routes_signup" time="0.023" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_missing_auth_header" time="0.021"><failure message="fastapi.exceptions.HTTPException: 401: {'status': 'fail', 'message': 'Missing or invalid token', 'error_code': 4104}">+ Exception Group Traceback (most recent call last):
+  |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\_utils.py", line 76, in collapse_excgroups
+  |     yield
+  |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\base.py", line 186, in __call__
+  |     async with anyio.create_task_group() as task_group:
+  |                ~~~~~~~~~~~~~~~~~~~~~~~^^
+  |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\anyio\_backends\_asyncio.py", line 815, in __aexit__
+  |     raise BaseExceptionGroup(
+  |         "unhandled errors in a TaskGroup", self._exceptions
+  |     )
+  | ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)
+  +-+---------------- 1 ----------------
+    | Traceback (most recent call last):
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 341, in from_call
+    |     result: TResult | None = func()
+    |                              ~~~~^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 242, in &lt;lambda&gt;
+    |     lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+    |             ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_hooks.py", line 513, in __call__
+    |     return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+    |            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    |     return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+    |            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 182, in _multicall
+    |     return outcome.get_result()
+    |            ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_result.py", line 100, in get_result
+    |     raise exc.with_traceback(exc.__traceback__)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 167, in _multicall
+    |     teardown.throw(outcome._exception)
+    |     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\threadexception.py", line 92, in pytest_runtest_call
+    |     yield from thread_exception_runtest_hook()
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\threadexception.py", line 68, in thread_exception_runtest_hook
+    |     yield
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 167, in _multicall
+    |     teardown.throw(outcome._exception)
+    |     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\unraisableexception.py", line 95, in pytest_runtest_call
+    |     yield from unraisable_exception_runtest_hook()
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\unraisableexception.py", line 70, in unraisable_exception_runtest_hook
+    |     yield
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 167, in _multicall
+    |     teardown.throw(outcome._exception)
+    |     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\logging.py", line 846, in pytest_runtest_call
+    |     yield from self._runtest_for(item, "call")
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\logging.py", line 829, in _runtest_for
+    |     yield
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 167, in _multicall
+    |     teardown.throw(outcome._exception)
+    |     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\capture.py", line 880, in pytest_runtest_call
+    |     return (yield)
+    |             ^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 167, in _multicall
+    |     teardown.throw(outcome._exception)
+    |     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\skipping.py", line 257, in pytest_runtest_call
+    |     return (yield)
+    |             ^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 103, in _multicall
+    |     res = hook_impl.function(*args)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\runner.py", line 174, in pytest_runtest_call
+    |     item.runtest()
+    |     ~~~~~~~~~~~~^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 1627, in runtest
+    |     self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_hooks.py", line 513, in __call__
+    |     return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+    |            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_manager.py", line 120, in _hookexec
+    |     return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+    |            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 182, in _multicall
+    |     return outcome.get_result()
+    |            ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_result.py", line 100, in get_result
+    |     raise exc.with_traceback(exc.__traceback__)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\pluggy\_callers.py", line 103, in _multicall
+    |     res = hook_impl.function(*args)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\_pytest\python.py", line 159, in pytest_pyfunc_call
+    |     result = testfunction(**testargs)
+    |   File "C:\Users\bjain\OneDrive - WatchGuard Technologies Inc\Python\Project\Library_Management\src\tests\middleware_tests\test_middleware.py", line 67, in test_missing_auth_header
+    |     response = self.client.get("/test-protected")
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py", line 514, in get
+    |     return super().get(
+    |            ~~~~~~~~~~~^
+    |         url,
+    |         ^^^^
+    |     ...&lt;6 lines&gt;...
+    |         extensions=extensions,
+    |         ^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py", line 1053, in get
+    |     return self.request(
+    |            ~~~~~~~~~~~~^
+    |         "GET",
+    |         ^^^^^^
+    |     ...&lt;7 lines&gt;...
+    |         extensions=extensions,
+    |         ^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py", line 484, in request
+    |     return super().request(
+    |            ~~~~~~~~~~~~~~~^
+    |         method,
+    |         ^^^^^^^
+    |     ...&lt;11 lines&gt;...
+    |         extensions=extensions,
+    |         ^^^^^^^^^^^^^^^^^^^^^^
+    |     )
+    |     ^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py", line 825, in request
+    |     return self.send(request, auth=auth, follow_redirects=follow_redirects)
+    |            ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py", line 914, in send
+    |     response = self._send_handling_auth(
+    |         request,
+    |     ...&lt;2 lines&gt;...
+    |         history=[],
+    |     )
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    |     response = self._send_handling_redirects(
+    |         request,
+    |         follow_redirects=follow_redirects,
+    |         history=history,
+    |     )
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    |     response = self._send_single_request(request)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    |     response = transport.handle_request(request)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py", line 377, in handle_request
+    |     raise exc
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py", line 374, in handle_request
+    |     portal.call(self.app, scope, receive, send)
+    |     ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\anyio\from_thread.py", line 290, in call
+    |     return cast(T_Retval, self.start_task_soon(func, *args).result())
+    |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Program Files\Python313\Lib\concurrent\futures\_base.py", line 456, in result
+    |     return self.__get_result()
+    |            ~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Program Files\Python313\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    |     raise self._exception
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\anyio\from_thread.py", line 221, in _call_func
+    |     retval = await retval_or_awaitable
+    |              ^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\fastapi\applications.py", line 1054, in __call__
+    |     await super().__call__(scope, receive, send)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\applications.py", line 113, in __call__
+    |     await self.middleware_stack(scope, receive, send)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\errors.py", line 187, in __call__
+    |     raise exc
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\errors.py", line 165, in __call__
+    |     await self.app(scope, receive, _send)
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\base.py", line 185, in __call__
+    |     with collapse_excgroups():
+    |          ~~~~~~~~~~~~~~~~~~^^
+    |   File "C:\Program Files\Python313\Lib\contextlib.py", line 162, in __exit__
+    |     self.gen.throw(value)
+    |     ~~~~~~~~~~~~~~^^^^^^^
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\_utils.py", line 82, in collapse_excgroups
+    |     raise exc
+    |   File "C:\Users\bjain\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\base.py", line 187, in __call__
+    |     response = await self.dispatch_func(request, call_next)
+    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |   File "C:\Users\bjain\OneDrive - WatchGuard Technologies Inc\Python\Project\Library_Management\src\app\middleware\middleware.py", line 23, in dispatch
+    |     raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
+    |                         detail=Response.response(MISSING_OR_INVALID_TOKEN, Status.FAIL.value, TOKEN_MISSING))
+    | fastapi.exceptions.HTTPException: 401: {'status': 'fail', 'message': 'Missing or invalid token', 'error_code': 4104}
+    +------------------------------------
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C155914050&gt;
+
+    def test_missing_auth_header(self):
+        """Test request without Authorization header"""
+&gt;       response = self.client.get("/test-protected")
+
+self       = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C155914050&gt;
+
+src\tests\middleware_tests\test_middleware.py:67: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py:514: in get
+    return super().get(
+        __class__  = &lt;class 'starlette.testclient.TestClient'&gt;
+        allow_redirects = None
+        auth       = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        cookies    = None
+        extensions = None
+        follow_redirects = None
+        headers    = None
+        params     = None
+        redirect   = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+        timeout    = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        url        = '/test-protected'
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py:1053: in get
+    return self.request(
+        auth       = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        cookies    = None
+        extensions = None
+        follow_redirects = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        headers    = None
+        params     = None
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+        timeout    = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        url        = '/test-protected'
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py:484: in request
+    return super().request(
+        __class__  = &lt;class 'starlette.testclient.TestClient'&gt;
+        allow_redirects = None
+        auth       = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        content    = None
+        cookies    = None
+        data       = None
+        extensions = None
+        files      = None
+        follow_redirects = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        headers    = None
+        json       = None
+        method     = 'GET'
+        params     = None
+        redirect   = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+        timeout    = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        url        = URL('http://testserver/test-protected')
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py:825: in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+        auth       = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        content    = None
+        cookies    = None
+        data       = None
+        extensions = None
+        files      = None
+        follow_redirects = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        headers    = None
+        json       = None
+        method     = 'GET'
+        params     = None
+        request    = &lt;Request('GET', 'http://testserver/test-protected')&gt;
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+        timeout    = &lt;httpx._client.UseClientDefault object at 0x000002C1557CD010&gt;
+        url        = URL('http://testserver/test-protected')
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py:914: in send
+    response = self._send_handling_auth(
+        auth       = &lt;httpx.Auth object at 0x000002C155A7F390&gt;
+        follow_redirects = True
+        request    = &lt;Request('GET', 'http://testserver/test-protected')&gt;
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+        stream     = False
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py:942: in _send_handling_auth
+    response = self._send_handling_redirects(
+        auth       = &lt;httpx.Auth object at 0x000002C155A7F390&gt;
+        auth_flow  = &lt;generator object Auth.sync_auth_flow at 0x000002C155A93920&gt;
+        follow_redirects = True
+        history    = []
+        request    = &lt;Request('GET', 'http://testserver/test-protected')&gt;
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py:979: in _send_handling_redirects
+    response = self._send_single_request(request)
+        follow_redirects = True
+        history    = []
+        request    = &lt;Request('GET', 'http://testserver/test-protected')&gt;
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\httpx\_client.py:1014: in _send_single_request
+    response = transport.handle_request(request)
+        request    = &lt;Request('GET', 'http://testserver/test-protected')&gt;
+        self       = &lt;starlette.testclient.TestClient object at 0x000002C1558B9550&gt;
+        start      = 277849.4352476
+        transport  = &lt;starlette.testclient._TestClientTransport object at 0x000002C1558B96A0&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py:377: in handle_request
+    raise exc
+        context    = None
+        default_port = 80
+        headers    = [(b'host', b'testserver'), (b'accept', b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')]
+        host       = 'testserver'
+        netloc     = 'testserver'
+        path       = '/test-protected'
+        port       = 80
+        portal     = &lt;anyio._backends._asyncio.BlockingPortal object at 0x000002C155A7FC50&gt;
+        query      = ''
+        raw_kwargs = {'headers': [('content-length', '21'), ('content-type', 'text/plain; charset=utf-8')], 'status_code': 500, 'stream': &lt;_io.BytesIO object at 0x000002C155AD9080&gt;}
+        raw_path   = b'/test-protected'
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        request    = &lt;Request('GET', 'http://testserver/test-protected')&gt;
+        request_complete = False
+        response_complete = &lt;anyio._backends._asyncio.Event object at 0x000002C155B05570&gt;
+        response_started = True
+        scheme     = 'http'
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;starlette.testclient._TestClientTransport object at 0x000002C1558B96A0&gt;
+        send       = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;
+        template   = None
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\testclient.py:374: in handle_request
+    portal.call(self.app, scope, receive, send)
+        context    = None
+        default_port = 80
+        headers    = [(b'host', b'testserver'), (b'accept', b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')]
+        host       = 'testserver'
+        netloc     = 'testserver'
+        path       = '/test-protected'
+        port       = 80
+        portal     = &lt;anyio._backends._asyncio.BlockingPortal object at 0x000002C155A7FC50&gt;
+        query      = ''
+        raw_kwargs = {'headers': [('content-length', '21'), ('content-type', 'text/plain; charset=utf-8')], 'status_code': 500, 'stream': &lt;_io.BytesIO object at 0x000002C155AD9080&gt;}
+        raw_path   = b'/test-protected'
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        request    = &lt;Request('GET', 'http://testserver/test-protected')&gt;
+        request_complete = False
+        response_complete = &lt;anyio._backends._asyncio.Event object at 0x000002C155B05570&gt;
+        response_started = True
+        scheme     = 'http'
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;starlette.testclient._TestClientTransport object at 0x000002C1558B96A0&gt;
+        send       = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;
+        template   = None
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\anyio\from_thread.py:290: in call
+    return cast(T_Retval, self.start_task_soon(func, *args).result())
+        args       = ({'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {...ls&gt;.receive at 0x000002C155B2A660&gt;, &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;)
+        func       = &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;
+        self       = &lt;anyio._backends._asyncio.BlockingPortal object at 0x000002C155A7FC50&gt;
+C:\Program Files\Python313\Lib\concurrent\futures\_base.py:456: in result
+    return self.__get_result()
+        self       = None
+        timeout    = None
+C:\Program Files\Python313\Lib\concurrent\futures\_base.py:401: in __get_result
+    raise self._exception
+        self       = None
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\anyio\from_thread.py:221: in _call_func
+    retval = await retval_or_awaitable
+        args       = ({'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {...ls&gt;.receive at 0x000002C155B2A660&gt;, &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;)
+        callback   = &lt;function BlockingPortal._call_func.&lt;locals&gt;.callback at 0x000002C155B2A0C0&gt;
+        func       = &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;
+        future     = &lt;Future at 0x2c155ad2830 state=finished raised HTTPException&gt;
+        kwargs     = {}
+        retval_or_awaitable = &lt;coroutine object FastAPI.__call__ at 0x000002C155B147C0&gt;
+        scope      = None
+        self       = &lt;anyio._backends._asyncio.BlockingPortal object at 0x000002C155A7FC50&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\fastapi\applications.py:1054: in __call__
+    await super().__call__(scope, receive, send)
+        __class__  = &lt;class 'fastapi.applications.FastAPI'&gt;
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;
+        send       = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\applications.py:113: in __call__
+    await self.middleware_stack(scope, receive, send)
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;
+        send       = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\errors.py:187: in __call__
+    raise exc
+        _send      = &lt;function ServerErrorMiddleware.__call__.&lt;locals&gt;._send at 0x000002C155B2A8E0&gt;
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        request    = &lt;starlette.requests.Request object at 0x000002C155AD28E0&gt;
+        response   = &lt;starlette.responses.PlainTextResponse object at 0x000002C155A71BE0&gt;
+        response_started = False
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;starlette.middleware.errors.ServerErrorMiddleware object at 0x000002C155A73CB0&gt;
+        send       = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\errors.py:165: in __call__
+    await self.app(scope, receive, _send)
+        _send      = &lt;function ServerErrorMiddleware.__call__.&lt;locals&gt;._send at 0x000002C155B2A8E0&gt;
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        request    = &lt;starlette.requests.Request object at 0x000002C155AD28E0&gt;
+        response   = &lt;starlette.responses.PlainTextResponse object at 0x000002C155A71BE0&gt;
+        response_started = False
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;starlette.middleware.errors.ServerErrorMiddleware object at 0x000002C155A73CB0&gt;
+        send       = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.send at 0x000002C155B298A0&gt;
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\base.py:185: in __call__
+    with collapse_excgroups():
+        call_next  = &lt;function BaseHTTPMiddleware.__call__.&lt;locals&gt;.call_next at 0x000002C155B29D00&gt;
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        request    = &lt;starlette.middleware.base._CachedRequest object at 0x000002C155A7FED0&gt;
+        response_sent = &lt;anyio._backends._asyncio.Event object at 0x000002C155ADDC10&gt;
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;src.app.middleware.middleware.AuthMiddleware object at 0x000002C155A73B60&gt;
+        send       = &lt;function ServerErrorMiddleware.__call__.&lt;locals&gt;._send at 0x000002C155B2A8E0&gt;
+        task_group = &lt;anyio._backends._asyncio.TaskGroup object at 0x000002C155AF9E50&gt;
+        wrapped_receive = &lt;bound method _CachedRequest.wrapped_receive of &lt;starlette.middleware.base._CachedRequest object at 0x000002C155A7FED0&gt;&gt;
+C:\Program Files\Python313\Lib\contextlib.py:162: in __exit__
+    self.gen.throw(value)
+        self       = &lt;contextlib._GeneratorContextManager object at 0x000002C155AEF3F0&gt;
+        traceback  = &lt;traceback object at 0x000002C155B3EB00&gt;
+        typ        = &lt;class 'ExceptionGroup'&gt;
+        value      = ExceptionGroup('unhandled errors in a TaskGroup', [HTTPException(status_code=401, detail={'status': 'fail', 'message': 'Missing or invalid token', 'error_code': 4104})])
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\_utils.py:82: in collapse_excgroups
+    raise exc
+..\..\..\..\AppData\Roaming\Python\Python313\site-packages\starlette\middleware\base.py:187: in __call__
+    response = await self.dispatch_func(request, call_next)
+        call_next  = &lt;function BaseHTTPMiddleware.__call__.&lt;locals&gt;.call_next at 0x000002C155B29D00&gt;
+        receive    = &lt;function _TestClientTransport.handle_request.&lt;locals&gt;.receive at 0x000002C155B2A660&gt;
+        request    = &lt;starlette.middleware.base._CachedRequest object at 0x000002C155A7FED0&gt;
+        response_sent = &lt;anyio._backends._asyncio.Event object at 0x000002C155ADDC10&gt;
+        scope      = {'app': &lt;fastapi.applications.FastAPI object at 0x000002C1558B8590&gt;, 'client': ['testclient', 50000], 'extensions': {'... b'*/*'), (b'accept-encoding', b'gzip, deflate'), (b'connection', b'keep-alive'), (b'user-agent', b'testclient')], ...}
+        self       = &lt;src.app.middleware.middleware.AuthMiddleware object at 0x000002C155A73B60&gt;
+        send       = &lt;function ServerErrorMiddleware.__call__.&lt;locals&gt;._send at 0x000002C155B2A8E0&gt;
+        task_group = &lt;anyio._backends._asyncio.TaskGroup object at 0x000002C155AF9E50&gt;
+        wrapped_receive = &lt;bound method _CachedRequest.wrapped_receive of &lt;starlette.middleware.base._CachedRequest object at 0x000002C155A7FED0&gt;&gt;
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;src.app.middleware.middleware.AuthMiddleware object at 0x000002C155A73B60&gt;, request = &lt;starlette.middleware.base._CachedRequest object at 0x000002C155A7FED0&gt;
+call_next = &lt;function BaseHTTPMiddleware.__call__.&lt;locals&gt;.call_next at 0x000002C155B29D00&gt;
+
+    async def dispatch(self, request: Request, call_next):
+      if any(request.url.path.startswith(route) for route in EXEMPT_ROUTES):
+          return await call_next(request)
+    
+      # Extract the Authorization header
+      auth_token = request.headers.get('Authorization')
+      if not auth_token or not auth_token.startswith('Bearer '):
+&gt;         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
+                              detail=Response.response(MISSING_OR_INVALID_TOKEN, Status.FAIL.value, TOKEN_MISSING))
+E         fastapi.exceptions.HTTPException: 401: {'status': 'fail', 'message': 'Missing or invalid token', 'error_code': 4104}
+
+auth_token = None
+call_next  = &lt;function BaseHTTPMiddleware.__call__.&lt;locals&gt;.call_next at 0x000002C155B29D00&gt;
+request    = &lt;starlette.middleware.base._CachedRequest object at 0x000002C155A7FED0&gt;
+self       = &lt;src.app.middleware.middleware.AuthMiddleware object at 0x000002C155A73B60&gt;
+
+src\app\middleware\middleware.py:23: HTTPException</failure></testcase><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_invalid_auth_header_format" time="0.022" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_valid_token" time="0.029" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_expired_token" time="0.030"><failure message="assert 200 == 401&#10; +  where 200 = &lt;Response [200 OK]&gt;.status_code">self = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C15586EF10&gt;
+
+    def test_expired_token(self):
+        """Test request with expired token"""
+        token = create_token(expired=True)
+        response = self.client.get(
+            "/test-protected",
+            headers={"Authorization": f"Bearer {token}"}
+        )
+&gt;       assert response.status_code == 401
+E       assert 200 == 401
+E        +  where 200 = &lt;Response [200 OK]&gt;.status_code
+
+response   = &lt;Response [200 OK]&gt;
+self       = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C15586EF10&gt;
+token      = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidGVzdC11c2VyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMjE1MzUsImlhdCI6MTczNTIxNzkzNSwibmJmIjoxNzM1MjE3OTM1fQ.CNuIRBGaIjC3HdCPY6O-WA0LomxeK3eB7Hpi9wh1UA4'
+
+src\tests\middleware_tests\test_middleware.py:98: AssertionError</failure></testcase><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_invalid_token" time="0.027" /><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_missing_user_id_in_token" time="0.008"><failure message="AttributeError: module 'datetime' has no attribute 'utcnow'">self = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C1558DCB50&gt;
+
+    def test_missing_user_id_in_token(self):
+        """Test token without user_id claim"""
+        payload = {
+            "role": Role.USER.value,
+&gt;           "exp": datetime.utcnow() + timedelta(days=1)
+        }
+E       AttributeError: module 'datetime' has no attribute 'utcnow'
+
+self       = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C1558DCB50&gt;
+
+src\tests\middleware_tests\test_middleware.py:116: AttributeError</failure></testcase><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_missing_role_in_token" time="0.005"><failure message="AttributeError: module 'datetime' has no attribute 'utcnow'">self = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C1558DCC50&gt;
+
+    def test_missing_role_in_token(self):
+        """Test token without role claim"""
+        payload = {
+            "user_id": "test-user",
+&gt;           "exp": datetime.utcnow() + timedelta(days=1)
+        }
+E       AttributeError: module 'datetime' has no attribute 'utcnow'
+
+self       = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C1558DCC50&gt;
+
+src\tests\middleware_tests\test_middleware.py:131: AttributeError</failure></testcase><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_user_context_setting" time="0.047"><failure message="AssertionError: Expected 'set_user_to_context' to have been called once. Called 0 times.">self = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C15585EA80&gt;
+mock_set_context = &lt;MagicMock name='set_user_to_context' id='3029389738736'&gt;
+
+    @patch('src.app.utils.context.set_user_to_context')
+    def test_user_context_setting(self, mock_set_context):
+        """Test that user context is properly set"""
+        token = create_token()
+        response = self.client.get(
+            "/test-protected",
+            headers={"Authorization": f"Bearer {token}"}
+        )
+    
+&gt;       mock_set_context.assert_called_once()
+
+mock_set_context = &lt;MagicMock name='set_user_to_context' id='3029389738736'&gt;
+response   = &lt;Response [200 OK]&gt;
+self       = &lt;src.tests.middleware_tests.test_middleware.TestAuthMiddleware object at 0x000002C15585EA80&gt;
+token      = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidGVzdC11c2VyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMjE1MzYsImlhdCI6MTczNTIxNzkzNiwibmJmIjoxNzM1MjE3OTM2fQ.CW075ZXCNWiQ6gyAJYJDQW93-VC4MgnWf3XGv_Qy7-U'
+
+src\tests\middleware_tests\test_middleware.py:151: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;MagicMock name='set_user_to_context' id='3029389738736'&gt;
+
+    def assert_called_once(self):
+        """assert that the mock was called only once.
+        """
+        if not self.call_count == 1:
+            msg = ("Expected '%s' to have been called once. Called %s times.%s"
+                   % (self._mock_name or 'mock',
+                      self.call_count,
+                      self._calls_repr()))
+&gt;           raise AssertionError(msg)
+E           AssertionError: Expected 'set_user_to_context' to have been called once. Called 0 times.
+
+msg        = "Expected 'set_user_to_context' to have been called once. Called 0 times."
+self       = &lt;MagicMock name='set_user_to_context' id='3029389738736'&gt;
+
+C:\Program Files\Python313\Lib\unittest\mock.py:956: AssertionError</failure></testcase><testcase classname="src.tests.middleware_tests.test_middleware.TestAuthMiddleware" name="test_different_user_roles" time="0.053" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_add_book_raises_database_error" time="0.021" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_add_book_success" time="0.023" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_delete_book_raises_database_error" time="0.012" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_delete_book_success" time="0.014" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_id_not_found" time="0.017" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_id_success" time="0.019" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_title_not_found" time="0.027" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_book_by_title_success" time="0.020" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_books_empty" time="0.015" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_get_books_success" time="0.026" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_availability_raises_database_error" time="0.024" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_availability_success" time="0.014" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_raises_database_error" time="0.014" /><testcase classname="src.tests.repository_tests.test_books_repository.TestBooksRepository" name="test_update_book_success" time="0.013" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_book_by_user_id_empty" time="0.017" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_book_by_user_id_success" time="0.030" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_books_empty" time="0.015" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_books_error" time="0.014" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_get_issue_books_success" time="0.015" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_remove_issue_book_raises_database_error" time="0.012" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_remove_issue_book_success" time="0.013" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_save_issue_book_raises_database_error" time="0.014" /><testcase classname="src.tests.repository_tests.test_issued_book_repository.TestIssuedBookRepository" name="test_save_issue_book_success" time="0.018" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_fetch_user_by_email_not_found" time="0.018" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_fetch_user_by_email_success" time="0.026" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_save_user_duplicate_entry_error" time="0.016" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_save_user_raises_database_error" time="0.029" /><testcase classname="src.tests.repository_tests.test_user_repository.TestUserRepository" name="test_save_user_success" time="0.016" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_add_book_existing_book" time="0.014" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_add_book_new_book" time="0.007" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_get_all_books" time="0.006" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_get_book_by_title_not_exist" time="0.011" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_get_book_by_title_success" time="0.005" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_all_book_by_id_not_exist" time="0.006" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_all_book_by_id_success" time="0.007" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_book_by_id_not_exist" time="0.007" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_remove_book_by_id_success" time="0.007" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_update_book_by_id_not_exist" time="0.009" /><testcase classname="src.tests.services_test.test_book_service.TestBookService" name="test_update_book_by_id_success" time="0.007" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_get_all_issued_books" time="0.007" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_get_issue_book_by_user_id" time="0.006" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_issue_book_not_available" time="0.006" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_issue_book_not_exists" time="0.006" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_issue_book_successfully" time="0.011" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_return_issue_book_not_exists" time="0.012" /><testcase classname="src.tests.services_test.test_issue_book_service.TestIssueBookService" name="test_return_issue_book_successfully" time="0.009" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_login_user_invalid_password" time="0.007" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_login_user_not_found" time="0.006" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_login_user_successfully" time="0.008" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_signup_user_already_exists" time="0.006" /><testcase classname="src.tests.services_test.test_user_service.TestUserService" name="test_signup_user_successfully" time="0.008" /><testcase classname="src.tests.utils.db.test_db" name="test_db_connection" time="0.022" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_delete" time="0.006" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_insert" time="0.003" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_select_with_all_parameters" time="0.005" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_select_with_minimum_parameters" time="0.003" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_select_with_where_clause" time="0.003" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_update" time="0.003" /><testcase classname="src.tests.utils.db.test_query.TestGenericQueryBuilder" name="test_update_single_column" time="0.004" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_admin_decorator_with_admin_role" time="0.005" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_admin_decorator_with_non_admin_role" time="0.003" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_check_password" time="3.407" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_create_jwt_token" time="0.003" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_decode_jwt_token" time="0.004" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_hash_password" time="1.157" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_user_decorator_with_non_user_role" time="0.004" /><testcase classname="src.tests.utils.test_utils.TestUtils" name="test_user_decorator_with_user_role" time="0.004" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_email_valid" time="0.013" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_name_valid" time="0.004" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_password_valid" time="0.003" /><testcase classname="src.tests.utils.validators.test_validators.TestValidators" name="test_is_year_valid" time="0.006" /></testsuite></testsuites>

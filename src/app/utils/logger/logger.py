@@ -1,8 +1,30 @@
 import logging
+from contextvars import ContextVar
 from logging.handlers import RotatingFileHandler
 from threading import Lock
-from flask import g
+from typing import Optional
+from fastapi import Request
+from starlette.middleware.base import BaseHTTPMiddleware, RequestResponseEndpoint
 
+user_id_context: ContextVar[Optional[str]] = ContextVar('user_id', default='unknown')
+user_role_context: ContextVar[Optional[str]] = ContextVar('user_role', default='unknown')
+
+class LoggerMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next: RequestResponseEndpoint):
+        try:
+            user = getattr(request.state, 'user', {})
+            user_id = user.get('user_id', 'unknown')
+            role = user.get('role', 'unknown')
+            # Set context variables
+            user_id_context.set(user_id)
+            user_role_context.set(role)
+
+            response = await call_next(request)
+            return response
+
+        except Exception as e:
+            Logger().error(f"Unhandled exception in middleware: {e}")
+            raise
 
 class Logger:
     _instance = None
@@ -32,7 +54,7 @@ class Logger:
         # Adding Handler
         self.logger.addHandler(file_handler)
 
-    def _sanitize_body(self, body):
+    def sanitize_body(self, body):
         """
         Redacts sensitive information like passwords from the request body.
         """
@@ -48,8 +70,8 @@ class Logger:
 
     def _get_context(self):
         """Retrieve user_id and role from Flask's `g`."""
-        user_id = getattr(g, "user_id", "unknown")
-        role = getattr(g, "role", "unknown")
+        user_id = user_id_context.get()
+        role = user_role_context.get()
         return f"for user_id={user_id} | role={role}"
 
     # Convenience methods for logging

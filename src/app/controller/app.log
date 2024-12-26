@@ -1,20 +1,89 @@
-2024-12-13 12:20:58,221 - DEBUG - Entering create_book
+2024-12-26 00:00:17,426 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 00:00:17,427 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 00:00:21,867 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 00:00:21,867 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 00:00:25,766 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 00:00:25,766 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 00:00:30,207 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 00:05:38,394 - ERROR - Error occurred in login: 'Logger' object has no attribute 'sanitize_body'
 User Context:
-  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
-  - role: admin
+  - user_id: Unknown
+  - role: Unknown
 Request Context:
   - method: POST
-  - path: /admin/book
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MDc0OTkwLCJpYXQiOjE3MzQwNzEzOTAsIm5iZiI6MTczNDA3MTM5MH0.8FOvlhyyvyEq-uXsImTPl7j-DKtNAG1icS8H-F_gfjs', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '9d9a8ed7-02d6-4722-91eb-b31b09f0bb23', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '71'}
-  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111'}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-13 12:20:58,254 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-13 12:20:58,255 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-13 12:20:58,256 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-14 21:40:04,801 - DEBUG - Entering signup
+  - path: /user/login
+  - body: {} - for user_id=unknown | role=unknown
+2024-12-26 00:05:38,397 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 00:05:38,398 - ERROR - Unhandled exception in middleware: 'Logger' object has no attribute 'sanitize_body' - for user_id=unknown | role=unknown
+2024-12-26 00:07:30,955 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 00:11:02,672 - ERROR - Error occurred in login: 'Logger' object has no attribute 'sanitize_body'
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - body: {} - for user_id=unknown | role=unknown
+2024-12-26 00:11:02,676 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 00:11:02,678 - ERROR - Unhandled exception in middleware: 'Logger' object has no attribute 'sanitize_body' - for user_id=unknown | role=unknown
+2024-12-26 00:11:36,670 - ERROR - Error occurred in login: 'Logger' object has no attribute 'sanitize_body'
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - body: {} - for user_id=unknown | role=unknown
+2024-12-26 00:11:36,673 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 00:11:36,674 - ERROR - Unhandled exception in middleware: 'Logger' object has no attribute 'sanitize_body' - for user_id=unknown | role=unknown
+2024-12-26 00:13:45,253 - ERROR - Error occurred in login: 'Logger' object has no attribute 'sanitize_body'
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - body: {} - for user_id=unknown | role=unknown
+2024-12-26 00:13:45,255 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 00:13:45,257 - ERROR - Unhandled exception in middleware: 'Logger' object has no attribute 'sanitize_body' - for user_id=unknown | role=unknown
+2024-12-26 00:16:12,474 - ERROR - Unhandled exception in middleware: object NoneType can't be used in 'await' expression - for user_id=unknown | role=unknown
+2024-12-26 00:16:32,271 - ERROR - Error occurred in login: 'Logger' object has no attribute 'sanitize_body'
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - body: {} - for user_id=unknown | role=unknown
+2024-12-26 00:16:32,271 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 00:16:32,272 - ERROR - Unhandled exception in middleware: 'Logger' object has no attribute 'sanitize_body' - for user_id=unknown | role=unknown
+2024-12-26 09:43:26,182 - ERROR - Error occurred in signup: 'Logger' object has no attribute 'sanitize_body'
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - body: {} - for user_id=unknown | role=unknown
+2024-12-26 09:43:26,184 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 09:43:26,187 - ERROR - Unhandled exception in middleware: 'Logger' object has no attribute 'sanitize_body' - for user_id=unknown | role=unknown
+2024-12-26 09:44:18,189 - ERROR - Error occurred in signup: 'Logger' object has no attribute 'sanitize_body'
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - body: {} - for user_id=unknown | role=unknown
+2024-12-26 09:44:18,191 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 09:44:18,192 - ERROR - Unhandled exception in middleware: 'Logger' object has no attribute 'sanitize_body' - for user_id=unknown | role=unknown
+2024-12-26 09:46:34,264 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 09:48:38,756 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 09:55:06,208 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 09:55:34,843 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 09:57:10,545 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 09:59:07,969 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 09:59:50,142 - DEBUG - Entering signup
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -22,14 +91,12 @@ Request Context:
   - method: POST
   - path: /user/signup
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'fdb7ddc0-5f9c-48e3-aaec-6ed6af38ed3e', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '175'}
-  - body: {'name': 'Garvit', 'email': 'garvitbanthiya2111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
-Function Context:
-  - handler: UserHandler
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '489bbfc3-ab64-4ab4-b1dc-dd2b6b5f2f03', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '185'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya31111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
  - for user_id=unknown | role=unknown
-2024-12-14 21:40:05,059 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
-2024-12-14 21:40:05,059 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
-2024-12-14 21:41:28,268 - DEBUG - Entering login
+2024-12-26 09:59:51,349 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 09:59:51,350 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 10:00:12,202 - DEBUG - Entering login
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -37,14 +104,12 @@ Request Context:
   - method: POST
   - path: /user/login
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '1cf7ba93-59b3-41f2-871d-6783cd6b785d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '94'}
-  - body: {'email': 'garvitbanthiya2111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'f4cb0e9f-f36c-49cc-a851-42efeec34449', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '104'}
+  - body: {'email': 'garvitbanthiya31111111111111111111111.it25@jecrc.ac.in', 'password': '***'}
  - for user_id=unknown | role=unknown
-2024-12-14 21:41:28,501 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-14 21:41:28,501 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-14 23:53:59,690 - DEBUG - Entering login
+2024-12-26 10:00:13,342 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:00:13,342 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 10:00:26,066 - DEBUG - Entering login
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -52,89 +117,13 @@ Request Context:
   - method: POST
   - path: /user/login
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '59dc5322-160d-4387-9126-cacde9606577', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '94'}
-  - body: {'email': 'garvitbanthiya2111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
- - for user_id=unknown | role=unknown
-2024-12-14 23:54:00,945 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-14 23:54:00,945 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-15 01:13:19,375 - DEBUG - Entering signup
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/signup
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '5833a5bd-47be-44a6-bd57-fd689bb9c19b', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '176'}
-  - body: {'name': 'Garvit', 'email': 'garvitbanthiya21111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
-Function Context:
-  - handler: UserHandler
- - for user_id=unknown | role=unknown
-2024-12-15 01:13:20,793 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:13:20,793 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
-2024-12-15 01:13:21,056 - DEBUG - Entering login
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/login
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'ab1c9c67-8186-4776-a9dd-cbb9f8a41658', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '95'}
-  - body: {'email': 'garvitbanthiya21111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
- - for user_id=unknown | role=unknown
-2024-12-15 01:13:22,261 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:13:22,261 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-15 01:13:22,371 - DEBUG - Entering login
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/login
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '9abb0ae0-1ac6-4156-8cce-0300140abde2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '66'}
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '842248aa-8f74-42e9-bb8f-16a87b3e9a9e', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
   - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
  - for user_id=unknown | role=unknown
-2024-12-15 01:13:23,541 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:13:23,542 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-15 01:13:48,915 - DEBUG - Entering signup
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/signup
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f01c576b-3fc8-45f6-8e23-058b648bff92', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '177'}
-  - body: {'name': 'Garvit', 'email': 'garvitbanthiya211111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
-Function Context:
-  - handler: UserHandler
- - for user_id=unknown | role=unknown
-2024-12-15 01:13:50,140 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:13:50,140 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
-2024-12-15 01:14:55,555 - DEBUG - Entering signup
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/signup
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8e2b6fb9-59c4-4376-9932-8f1b28f6cb50', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '178'}
-  - body: {'name': 'Garvit', 'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
-Function Context:
-  - handler: UserHandler
- - for user_id=unknown | role=unknown
-2024-12-15 01:14:56,820 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:14:56,820 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
-2024-12-15 01:15:12,401 - DEBUG - Entering login
+2024-12-26 10:00:27,199 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:00:27,199 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 10:00:34,334 - ERROR - Unhandled exception in middleware: object NoneType can't be used in 'await' expression - for user_id=unknown | role=unknown
+2024-12-26 10:01:09,514 - DEBUG - Entering login
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -142,44 +131,28 @@ Request Context:
   - method: POST
   - path: /user/login
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd589fff0-7449-43f8-9cbc-3985a0cab442', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
-  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
- - for user_id=unknown | role=unknown
-2024-12-15 01:15:13,941 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:15:13,943 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-15 01:16:16,785 - DEBUG - Entering login
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/login
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'b3c4d421-51e5-493e-8022-f0b2a0333c34', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
-  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
- - for user_id=unknown | role=unknown
-2024-12-15 01:16:18,048 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:16:18,049 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-15 01:18:53,636 - DEBUG - Entering login
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/login
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd6b43800-2c7a-471e-8f32-61b0de5bafbb', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '66'}
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '01e72219-dc89-404f-ba32-e851cc7b7f73', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
   - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
  - for user_id=unknown | role=unknown
-2024-12-15 01:18:54,860 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:18:54,861 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-15 01:19:05,655 - DEBUG - Entering create_book
+2024-12-26 10:01:10,650 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:01:10,650 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 10:01:27,058 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'c5ddef20-51eb-4927-937a-44edbd14f0df', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:01:28,197 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:01:28,197 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 10:01:35,767 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 10:03:33,630 - ERROR - Unhandled exception in middleware: 'State' object has no attribute 'get' - for user_id=unknown | role=unknown
+2024-12-26 10:05:14,097 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=unknown | role=unknown
+2024-12-26 10:06:24,256 - DEBUG - Entering create_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -187,15 +160,13 @@ Request Context:
   - method: POST
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '59704bbb-fbd8-4236-99b8-345034bf363c', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '71'}
-  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111'}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:05,675 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:05,676 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:05,676 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:18,800 - DEBUG - Entering create_book
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '674bce34-d2e8-4a2c-8a1b-594ead5a8f52', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '75'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:06:24,287 - INFO - Book added successfully - for user_id=unknown | role=unknown
+2024-12-26 10:06:24,288 - INFO - create_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:06:24,288 - DEBUG - Exiting create_book - for user_id=unknown | role=unknown
+2024-12-26 10:06:45,907 - DEBUG - Entering create_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -203,15 +174,20 @@ Request Context:
   - method: POST
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '064251ec-c39b-47fd-8309-61044b92a21f', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '71'}
-  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111'}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:18,827 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:18,828 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:18,828 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:30,039 - DEBUG - Entering get_all_books
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'ac39e529-cf83-438d-997e-f0269dc913e9', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '75'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:06:45,936 - INFO - Book added successfully - for user_id=unknown | role=unknown
+2024-12-26 10:06:45,936 - INFO - create_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:06:45,937 - DEBUG - Exiting create_book - for user_id=unknown | role=unknown
+2024-12-26 10:06:55,221 - ERROR - Error occurred in get_all_books: BookHandler.get_all_books() missing 1 required positional argument: 'request'
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+ - for user_id=unknown | role=unknown
+2024-12-26 10:06:55,221 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-26 10:06:55,223 - ERROR - Unhandled exception in middleware: BookHandler.get_all_books() missing 1 required positional argument: 'request' - for user_id=unknown | role=unknown
+2024-12-26 10:07:30,761 - DEBUG - Entering get_all_books
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -219,15 +195,13 @@ Request Context:
   - method: GET
   - path: /user/book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '3765094a-09bc-4ba3-8be7-02eff51dd644', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '81e82ca3-8317-4a34-914f-7ccc61dffc87', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:30,062 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:30,063 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:30,063 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:46,591 - DEBUG - Entering get_all_books
+ - for user_id=unknown | role=unknown
+2024-12-26 10:07:30,768 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-26 10:07:30,768 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:07:30,769 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-26 10:07:45,542 - DEBUG - Entering get_all_books
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -235,15 +209,13 @@ Request Context:
   - method: GET
   - path: /user/book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'cc073bb1-2412-40a0-9ced-1d149065cc48', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'f91ee3df-1ff0-4549-833e-420c85dd4fcf', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:46,596 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:46,597 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:46,598 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:58,588 - DEBUG - Entering update_book
+ - for user_id=unknown | role=unknown
+2024-12-26 10:07:45,545 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-26 10:07:45,546 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:07:45,546 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-26 10:07:57,402 - DEBUG - Entering update_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -251,142 +223,41 @@ Request Context:
   - method: PUT
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd614a935-a492-45d5-86ac-7cdcb7627f0c', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '127'}
-  - body: {'book_id': 'daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a', 'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:58,617 - INFO - Book update successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:58,617 - INFO - update_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:19:58,618 - DEBUG - Exiting update_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:14,996 - DEBUG - Entering remove_book
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'b4b4cd73-2ba8-473c-825b-f1fa7c4ac5eb', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '131'}
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:07:57,423 - INFO - Book update successfully - for user_id=unknown | role=unknown
+2024-12-26 10:07:57,424 - INFO - update_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:07:57,424 - DEBUG - Exiting update_book - for user_id=unknown | role=unknown
+2024-12-26 10:08:06,087 - DEBUG - Entering remove_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
 Request Context:
   - method: PATCH
-  - path: /admin/book/daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a
+  - path: /admin/book/74343cf0-a95c-4853-aefa-6d4d623b0830
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '22bff05d-f6d1-45b7-808e-26666fe6deb8', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'e86762df-005f-487d-afcf-402e7b2c097f', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
   - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:15,047 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:15,053 - INFO - remove_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:15,056 - DEBUG - Exiting remove_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:24,428 - DEBUG - Entering delete_book
+ - for user_id=unknown | role=unknown
+2024-12-26 10:08:06,117 - INFO - Book delete successfully - for user_id=unknown | role=unknown
+2024-12-26 10:08:06,117 - INFO - remove_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:08:06,117 - DEBUG - Exiting remove_book - for user_id=unknown | role=unknown
+2024-12-26 10:08:24,721 - DEBUG - Entering delete_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
 Request Context:
   - method: DELETE
-  - path: /admin/book/daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a
+  - path: /admin/book/74343cf0-a95c-4853-aefa-6d4d623b0830
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '453f8a66-20b0-4280-84c9-eab70d4c7594', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '8452526d-21ae-43fe-982f-50c51c73ece6', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:24,455 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:24,456 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:24,456 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:33,338 - DEBUG - Entering get_all_books
-User Context:
-  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
-  - role: admin
-Request Context:
-  - method: GET
-  - path: /user/book
-  - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8fb7a1dd-b121-4529-83ce-4db715acd806', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
-  - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:33,343 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:33,344 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:20:33,345 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:21:05,526 - DEBUG - Entering get_issued_books
-User Context:
-  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
-  - role: admin
-Request Context:
-  - method: GET
-  - path: /book/issue-book
-  - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'd7037e74-c142-4cb3-bda6-2b98e149359a', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
-  - body: {}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:21:05,531 - INFO - Issue book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:21:05,531 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:21:05,532 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:21:29,472 - DEBUG - Entering login
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/login
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '96268a27-79e3-4037-b9c3-3648bb91e4f1', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
-  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
  - for user_id=unknown | role=unknown
-2024-12-15 01:21:30,862 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-15 01:21:30,863 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-15 01:21:43,085 - DEBUG - Entering get_all_books
-User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
-Request Context:
-  - method: GET
-  - path: /user/book
-  - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '99aff7b7-fb58-4630-a5b1-2d0cabf0e6c2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
-  - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:21:43,089 - INFO - Book fetch successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:21:43,090 - INFO - get_all_books executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:21:43,090 - DEBUG - Exiting get_all_books - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:21:53,078 - DEBUG - Entering issue_book_by_user
-User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
-Request Context:
-  - method: POST
-  - path: /book/issue-book
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '6764b3d3-8cc9-401a-94a3-d6d942d003c7', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '91'}
-  - body: {'book_id': 'daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a', 'return_date': '2024-12-24'}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:21:53,083 - ERROR - book doesn't exist - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:21:53,084 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:21:53,085 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:22:50,183 - DEBUG - Entering get_all_books
-User Context:
-  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
-  - role: admin
-Request Context:
-  - method: GET
-  - path: /user/book
-  - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f239dcb4-31f6-4aa4-8e0a-39af78a3d5da', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
-  - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:22:50,186 - INFO - Book fetch successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:22:50,187 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:22:50,187 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:22:59,917 - DEBUG - Entering create_book
+2024-12-26 10:08:24,741 - INFO - Book delete successfully - for user_id=unknown | role=unknown
+2024-12-26 10:08:24,742 - INFO - delete_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:08:24,742 - DEBUG - Exiting delete_book - for user_id=unknown | role=unknown
+2024-12-26 10:14:28,296 - DEBUG - Entering create_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -394,142 +265,57 @@ Request Context:
   - method: POST
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0MjA5MzM0LCJpYXQiOjE3MzQyMDU3MzQsIm5iZiI6MTczNDIwNTczNH0.AuR2-dtswOvIpZcmGSNmBJfYTkBLKOrfuIRtelrJXxA', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '04f7cec9-c104-4681-86db-ce76913e6d47', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '72'}
-  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
-Function Context:
-  - handler: BookHandler
- - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:22:59,935 - INFO - Book add successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:22:59,936 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:22:59,936 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-15 01:23:09,493 - DEBUG - Entering issue_book_by_user
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'b5d8d84c-150d-4d2e-8a37-efa840b77d62', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:14:28,319 - INFO - Book added successfully - for user_id=unknown | role=unknown
+2024-12-26 10:14:28,320 - INFO - create_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:14:28,320 - DEBUG - Exiting create_book - for user_id=unknown | role=unknown
+2024-12-26 10:14:46,485 - DEBUG - Entering get_all_books
 User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
-Request Context:
-  - method: POST
-  - path: /book/issue-book
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a5da5205-10a7-4db9-b6cc-2d54c6e39cec', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '91'}
-  - body: {'book_id': 'daa0e65b-cb63-4ac2-8d0c-312f0d8e2b8a', 'return_date': '2024-12-24'}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:09,498 - ERROR - book doesn't exist - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:09,499 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:09,499 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:19,081 - DEBUG - Entering get_all_books
-User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
+  - user_id: 3f9c6536-2299-4c75-b8e2-a07ce3f44dbc
   - role: user
 Request Context:
   - method: GET
   - path: /user/book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8cc4a5f7-4375-42e9-a180-730dc9bde0d1', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiM2Y5YzY1MzYtMjI5OS00Yzc1LWI4ZTItYTA3Y2UzZjQ0ZGJjIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTEwMTMsImlhdCI6MTczNTE4NzQxMywibmJmIjoxNzM1MTg3NDEzfQ.rYCBm3QCuSDo9z-usgsH78NhJcZYg5-kN2LYd8TXzPk', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '677d748a-9b79-472d-8227-459adc4de541', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:19,086 - INFO - Book fetch successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:19,087 - INFO - get_all_books executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:19,087 - DEBUG - Exiting get_all_books - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:40,354 - DEBUG - Entering issue_book_by_user
-User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
-Request Context:
-  - method: POST
-  - path: /book/issue-book
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '3756290d-4312-47b1-96ff-536a57a9c0d2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '91'}
-  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'return_date': '2024-12-24'}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:40,393 - INFO - Book issued successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:40,394 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:40,395 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:49,178 - DEBUG - Entering get_issued_books
-User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
-Request Context:
-  - method: GET
-  - path: /book/issue-book
-  - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '49919caf-92a9-4e23-add6-b7adebceb2cc', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
-  - body: {}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:49,182 - INFO - Issue book fetch successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:49,183 - INFO - get_issued_books executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:49,183 - DEBUG - Exiting get_issued_books - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:57,210 - DEBUG - Entering return_book_by_user
-User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
-Request Context:
-  - method: PATCH
-  - path: /book/return-book/52d163e5-4af8-4f92-abb9-0ac926a94bf4
-  - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQyMDk0OTAsImlhdCI6MTczNDIwNTg5MCwibmJmIjoxNzM0MjA1ODkwfQ._EaT5ssXMFjaXz-8km1oOolN8A2EJENSMoQhp1LXrhE', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '13ff6404-56a9-4976-9fa6-49329e06542d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
-  - body: {}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:57,251 - INFO - Book return successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:57,252 - INFO - return_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-15 01:23:57,252 - DEBUG - Exiting return_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:18:52,616 - DEBUG - Entering login
-User Context:
-  - user_id: Unknown
-  - role: Unknown
-Request Context:
-  - method: POST
-  - path: /user/login
-  - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '2461646b-18fd-4d88-98c3-65d68d4045d5', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '97'}
-  - body: {'email': 'garvitbanthiya2111111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
  - for user_id=unknown | role=unknown
-2024-12-16 10:18:53,105 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-16 10:18:53,106 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-16 10:19:01,142 - DEBUG - Entering issue_book_by_user
+2024-12-26 10:14:46,489 - INFO - Book fetched successfully - for user_id=unknown | role=unknown
+2024-12-26 10:14:46,490 - INFO - get_all_books executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:14:46,490 - DEBUG - Exiting get_all_books - for user_id=unknown | role=unknown
+2024-12-26 10:20:07,348 - DEBUG - Entering create_book
 User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
 Request Context:
   - method: POST
-  - path: /book/issue-book
+  - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQzMjgxMzMsImlhdCI6MTczNDMyNDUzMywibmJmIjoxNzM0MzI0NTMzfQ.VCZmVGoAl3Zr-SueakMZOStlSKY5bzvnYs0gGpf-4i4', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '237b0a6f-1278-4ba4-9f3e-7195e9e6eeaa', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '107'}
-  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'return_date': '2024-12-24', 'bb': 'fd'}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:19:01,176 - INFO - Book issued successfully - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:19:01,177 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:19:01,177 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:23:57,671 - DEBUG - Entering issue_book_by_user
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '8cd84a56-f3aa-40e0-9aaa-a9a6b3af9b1e', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:20:07,378 - INFO - Book added successfully - for user_id=unknown | role=unknown
+2024-12-26 10:20:07,379 - INFO - create_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:20:07,379 - DEBUG - Exiting create_book - for user_id=unknown | role=unknown
+2024-12-26 10:21:27,134 - ERROR - Unhandled exception in middleware: object tuple can't be used in 'await' expression - for user_id=unknown | role=unknown
+2024-12-26 10:28:14,565 - ERROR - Unhandled exception in middleware: object tuple can't be used in 'await' expression - for user_id=unknown | role=unknown
+2024-12-26 10:28:21,359 - DEBUG - Entering create_book
 User Context:
-  - user_id: 78f80675-3ca0-4450-b08f-21b8bd2dc554
-  - role: user
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
 Request Context:
   - method: POST
-  - path: /book/issue-book
+  - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNzhmODA2NzUtM2NhMC00NDUwLWIwOGYtMjFiOGJkMmRjNTU0Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQzMjgxMzMsImlhdCI6MTczNDMyNDUzMywibmJmIjoxNzM0MzI0NTMzfQ.VCZmVGoAl3Zr-SueakMZOStlSKY5bzvnYs0gGpf-4i4', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '96f14105-8868-4cab-83d7-22b2b12698df', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '107'}
-  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'return_date': '2024-12-24', 'bb': 'fd'}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:23:57,682 - ERROR - Validation Error: [{"type":"extra_forbidden","loc":["bb"],"msg":"Extra inputs are not permitted","input":"fd","url":"https://errors.pydantic.dev/2.10/v/extra_forbidden"}] - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:23:57,682 - INFO - issue_book_by_user executed successfully. - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-16 10:23:57,682 - DEBUG - Exiting issue_book_by_user - for user_id=78f80675-3ca0-4450-b08f-21b8bd2dc554 | role=user
-2024-12-17 09:33:10,628 - DEBUG - Entering signup
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '464b824a-0d0d-41bc-9c91-bd3aba425615', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:28:21,379 - INFO - Book added successfully - for user_id=unknown | role=unknown
+2024-12-26 10:28:21,379 - INFO - create_book executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:28:21,380 - DEBUG - Exiting create_book - for user_id=unknown | role=unknown
+2024-12-26 10:51:58,665 - DEBUG - Entering signup
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -537,14 +323,54 @@ Request Context:
   - method: POST
   - path: /user/signup
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f82262f1-2d42-4a90-8b6b-1f941f90a554', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '179'}
-  - body: {'name': 'Garvit', 'email': 'garvitbanthiya21111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
-Function Context:
-  - handler: UserHandler
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '47f677f4-2d61-46f4-8705-4feb1134331c', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '187'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya3111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
  - for user_id=unknown | role=unknown
-2024-12-17 09:33:10,978 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
-2024-12-17 09:33:10,979 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
-2024-12-17 09:33:11,107 - DEBUG - Entering login
+2024-12-26 10:51:58,923 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:51:58,923 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 10:53:27,099 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '184699ca-8272-4bf7-86d2-e01af0313bc8', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '188'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya31111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+ - for user_id=unknown | role=unknown
+2024-12-26 10:53:27,347 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 10:53:27,347 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 10:54:45,401 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '01510803-07a5-4315-8d2f-19a167192b49', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:54:45,402 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:54:45,402 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:54:45,402 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:55:03,456 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTkxMDg4LCJpYXQiOjE3MzUxODc0ODgsIm5iZiI6MTczNTE4NzQ4OH0.SlpOIW9DJlG-Gkz14SmoIt9LEe-O_UqzqCY_c5qyv3Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '9e342c3b-f408-4ca9-a6d1-30ab58b030b0', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:55:03,457 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:55:03,457 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:55:03,457 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 10:55:09,993 - ERROR - Unhandled exception in middleware: object tuple can't be used in 'await' expression - for user_id=3f9c6536-2299-4c75-b8e2-a07ce3f44dbc | role=user
+2024-12-26 11:05:49,682 - DEBUG - Entering login
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -552,14 +378,36 @@ Request Context:
   - method: POST
   - path: /user/login
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '919bd5c6-c812-4dfd-8853-62811d66e853', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '98'}
-  - body: {'email': 'garvitbanthiya21111111111111111.it25@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '133f6a42-540f-4c57-bc0e-760316953858', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '107'}
+  - body: {'email': 'garvitbanthiya31111111111111111111111111.it25@jecrc.ac.in', 'password': '***'}
  - for user_id=unknown | role=unknown
-2024-12-17 09:33:11,690 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-17 09:33:11,692 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-17 09:33:11,793 - DEBUG - Entering login
+2024-12-26 11:05:49,913 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 11:05:49,914 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 11:05:53,119 - ERROR - Unhandled exception in middleware: object tuple can't be used in 'await' expression - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:06:50,688 - ERROR - Unhandled exception in middleware: object tuple can't be used in 'await' expression - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:10:10,623 - ERROR - Unhandled exception in middleware: object tuple can't be used in 'await' expression - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:11:14,552 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'd6881c14-2249-4760-90bd-b91f56f9d952', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:11:14,553 - ERROR - book doesn't exist - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:11:14,553 - ERROR - Error occurred in issue_book_by_user: 500: {'status': 'fail', 'message': 'Something went wrong', 'error_code': 5001}
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'} - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:11:14,553 - DEBUG - Exiting issue_book_by_user - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:18:06,548 - DEBUG - Entering login
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -567,14 +415,12 @@ Request Context:
   - method: POST
   - path: /user/login
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'ba6d0f3c-ff80-4f2f-8c17-32ea268ff357', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '66'}
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'bd66910a-69b2-4c4d-8671-8d22f9c2074c', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
   - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
-Function Context:
-  - handler: UserHandler
  - for user_id=unknown | role=unknown
-2024-12-17 09:33:12,358 - INFO - login executed successfully. - for user_id=unknown | role=unknown
-2024-12-17 09:33:12,359 - DEBUG - Exiting login - for user_id=unknown | role=unknown
-2024-12-17 09:33:12,449 - DEBUG - Entering create_book
+2024-12-26 11:18:06,778 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 11:18:06,778 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 11:18:08,829 - DEBUG - Entering create_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -582,15 +428,40 @@ Request Context:
   - method: POST
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '41498fff-e92e-4f22-8f21-655877443206', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '72'}
-  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
-Function Context:
-  - handler: BookHandler
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk1Njg2LCJpYXQiOjE3MzUxOTIwODYsIm5iZiI6MTczNTE5MjA4Nn0.uIFzhMbttmQ-Ii6yCCZzyYLn-2FYIJee6TfYA2OUCB8', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '95c07c08-ae02-40fa-b910-3c08e78271b8', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,462 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,462 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,462 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,542 - DEBUG - Entering create_book
+2024-12-26 11:18:08,845 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:18:08,845 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:18:08,845 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:18:15,618 - ERROR - Unhandled exception in middleware: object tuple can't be used in 'await' expression - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:18:27,925 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '93999e13-e1ab-4b9a-942a-0b7f94cc8e9a', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:18:27,926 - ERROR - book doesn't exist - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:18:27,927 - ERROR - Error occurred in issue_book_by_user: 500: {'status': 'fail', 'message': 'Something went wrong', 'error_code': 5001}
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'} - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:18:27,927 - DEBUG - Exiting issue_book_by_user - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:18:35,856 - ERROR - Unhandled exception in middleware: object JSONResponse can't be used in 'await' expression - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:20:04,851 - ERROR - Unhandled exception in middleware: object JSONResponse can't be used in 'await' expression - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:22:03,121 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:23:26,692 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:25:26,097 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:26:25,291 - DEBUG - Entering create_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -598,15 +469,60 @@ Request Context:
   - method: POST
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '0d4bab8a-6098-4b59-be1d-a5874a44845a', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '72'}
-  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111'}
-Function Context:
-  - handler: BookHandler
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk1Njg2LCJpYXQiOjE3MzUxOTIwODYsIm5iZiI6MTczNTE5MjA4Nn0.uIFzhMbttmQ-Ii6yCCZzyYLn-2FYIJee6TfYA2OUCB8', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'e18b9614-df40-406c-a152-301eb9e99fe1', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,551 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,551 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,551 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,636 - DEBUG - Entering get_all_books
+2024-12-26 11:26:25,326 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:26:25,327 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:26:25,327 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:26:33,870 - ERROR - Unhandled exception in middleware: object JSONResponse can't be used in 'await' expression - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:27:07,132 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk1Njg2LCJpYXQiOjE3MzUxOTIwODYsIm5iZiI6MTczNTE5MjA4Nn0.uIFzhMbttmQ-Ii6yCCZzyYLn-2FYIJee6TfYA2OUCB8', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '0f82a93a-c9ef-4238-b422-6bb654b5ffbd', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:27:07,151 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:27:07,152 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:27:07,152 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:28:23,376 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk1Njg2LCJpYXQiOjE3MzUxOTIwODYsIm5iZiI6MTczNTE5MjA4Nn0.uIFzhMbttmQ-Ii6yCCZzyYLn-2FYIJee6TfYA2OUCB8', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '30ad86a6-91c5-465b-97e6-66a1485775b6', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '76'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:28:23,396 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:28:23,397 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:28:23,398 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:28:33,693 - ERROR - Unhandled exception in middleware: object JSONResponse can't be used in 'await' expression - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:35:29,138 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:39:41,871 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:40:40,140 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:44:04,164 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '5a7c541a-ac2d-42ce-b14a-cb5f73ffc6c9', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 11:44:05,311 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 11:44:05,312 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 11:44:11,970 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:44:54,746 - DEBUG - Entering get_all_books
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -614,15 +530,196 @@ Request Context:
   - method: GET
   - path: /user/book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'be243ecb-cd85-4775-9d30-95abf955bf5f', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk3MjQ1LCJpYXQiOjE3MzUxOTM2NDUsIm5iZiI6MTczNTE5MzY0NX0.qTmKrUxOjAba6Kkd-lsFaup-y66ZhACh5xnJGi4DYvk', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '92cda25d-dd31-4009-9ef2-915b52292620', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,637 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,637 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,637 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,729 - DEBUG - Entering get_all_books
+2024-12-26 11:44:54,750 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:44:54,750 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:44:54,751 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:45:31,356 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:47:52,534 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:48:35,316 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:49:43,828 - ERROR - Unhandled exception in middleware: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:51:08,060 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk3MjQ1LCJpYXQiOjE3MzUxOTM2NDUsIm5iZiI6MTczNTE5MzY0NX0.qTmKrUxOjAba6Kkd-lsFaup-y66ZhACh5xnJGi4DYvk', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'c7865f63-e239-4750-9bac-7f09900fa33c', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '80'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:51:08,089 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:51:08,090 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:51:08,090 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:53:29,573 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '0fe957c9-77fa-44c2-8470-4f4aa0e9f832', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:53:29,578 - ERROR - book doesn't exist - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:53:29,578 - ERROR - Error occurred in issue_book_by_user: 500: {'status': 'fail', 'message': 'Something went wrong', 'error_code': 5001}
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'} - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:53:29,579 - DEBUG - Exiting issue_book_by_user - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:17,135 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'e6a174d5-8eef-489b-a6a4-8f6e6203e972', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:17,141 - ERROR - book doesn't exist - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:17,141 - ERROR - Error occurred in issue_book_by_user: 500: {'status': 'fail', 'message': "book doesn't exist", 'error_code': 5001}
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24'} - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:17,142 - DEBUG - Exiting issue_book_by_user - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:44,275 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'b735666a-52ae-4f40-a889-23c8bf6575c7', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:44,278 - INFO - Book fetched successfully - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:44,279 - INFO - get_all_books executed successfully. - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:44,279 - DEBUG - Exiting get_all_books - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:49,285 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'e0d77ae8-0aa1-439c-8ce0-d6d2e6bda82d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': 'd8791882-d89d-4f28-aadc-addd8eeacaf9', 'return_date': '2024-12-24'}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:49,325 - INFO - Book issued successfully - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:49,325 - INFO - issue_book_by_user executed successfully. - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:55:49,325 - DEBUG - Exiting issue_book_by_user - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:00,418 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '680c3489-aff6-4a24-8f8b-56ca462ad8a3', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:00,422 - INFO - Issue book fetched successfully - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:00,422 - INFO - get_issued_books executed successfully. - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:00,423 - DEBUG - Exiting get_issued_books - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:09,100 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: b9ed2b74-976e-419e-b61f-844deb545202
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/d8791882-d89d-4f28-aadc-addd8eeacaf9
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjllZDJiNzQtOTc2ZS00MTllLWI2MWYtODQ0ZGViNTQ1MjAyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTQ5NDksImlhdCI6MTczNTE5MTM0OSwibmJmIjoxNzM1MTkxMzQ5fQ.5fA6iRxzFG2o7kPmcIyg8lIY-MHsPEMDsuamkcI9fOs', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '414a2f98-7f2b-431d-9d8c-11a22ff042be', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:09,133 - INFO - Book returned successfully - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:09,134 - INFO - return_book_by_user executed successfully. - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:56:09,134 - DEBUG - Exiting return_book_by_user - for user_id=b9ed2b74-976e-419e-b61f-844deb545202 | role=user
+2024-12-26 11:59:46,547 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'c30452f0-8f1d-42f1-9d0a-08871ce6a388', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '189'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya311111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+ - for user_id=unknown | role=unknown
+2024-12-26 11:59:47,711 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 11:59:47,712 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 11:59:47,901 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'a6ed9d9f-50d4-4c63-96e1-748248503f38', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '108'}
+  - body: {'email': 'garvitbanthiya311111111111111111111111111.it25@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 11:59:49,032 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 11:59:49,033 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 11:59:49,145 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '9f7cc083-8d4e-490e-bce8-25990ed5f2d8', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 11:59:50,273 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 11:59:50,274 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 11:59:50,375 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'eaf20d6d-3975-43f9-a9b3-9fa1bd95d117', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '80'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,392 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,393 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,393 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,498 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '71a61f4a-e719-4a8e-8933-7840e5d5c205', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '80'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi11111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,519 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,519 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,519 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,639 - DEBUG - Entering get_all_books
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -630,15 +727,27 @@ Request Context:
   - method: GET
   - path: /user/book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '4ca6e843-29d1-4132-90aa-40137ef5479d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '4c415450-cb6e-4ca0-a436-feedba414619', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,730 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,730 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,730 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,807 - DEBUG - Entering update_book
+2024-12-26 11:59:50,643 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,644 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,644 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,734 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '59b9ebaf-e155-4b23-8e2e-2b508caeff59', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,738 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,738 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,738 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,834 - DEBUG - Entering update_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -646,47 +755,41 @@ Request Context:
   - method: PUT
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '45a98820-22a5-4ce9-960f-5a19ba73e327', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '128'}
-  - body: {'book_id': '52d163e5-4af8-4f92-abb9-0ac926a94bf4', 'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111'}
-Function Context:
-  - handler: BookHandler
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '9b6091bd-904e-47c1-833e-992ac4f542a8', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '136'}
+  - body: {'book_id': 'd8791882-d89d-4f28-aadc-addd8eeacaf9', 'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111111111'}
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,816 - INFO - Book update successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,816 - INFO - update_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,817 - DEBUG - Exiting update_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,902 - DEBUG - Entering remove_book
+2024-12-26 11:59:50,853 - INFO - Book update successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,854 - INFO - update_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,854 - DEBUG - Exiting update_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,967 - DEBUG - Entering remove_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
 Request Context:
   - method: PATCH
-  - path: /admin/book/52d163e5-4af8-4f92-abb9-0ac926a94bf4
+  - path: /admin/book/d8791882-d89d-4f28-aadc-addd8eeacaf9
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'efa862a1-932d-4c85-b248-7d363575f5b6', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'f370fcc0-ab24-422d-b18a-838aacb4caa3', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
   - body: {}
-Function Context:
-  - handler: BookHandler
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,910 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,910 - INFO - remove_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,910 - DEBUG - Exiting remove_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,978 - DEBUG - Entering delete_book
+2024-12-26 11:59:50,988 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,989 - INFO - remove_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:50,989 - DEBUG - Exiting remove_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,110 - DEBUG - Entering delete_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
 Request Context:
   - method: DELETE
-  - path: /admin/book/52d163e5-4af8-4f92-abb9-0ac926a94bf4
+  - path: /admin/book/d8791882-d89d-4f28-aadc-addd8eeacaf9
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a5bdd4fd-9922-4e2d-9b70-3a4b013863b2', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '0670b832-0cb3-41fa-a3c2-b67ecba42ee0', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,987 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,987 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:12,987 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,087 - DEBUG - Entering get_issued_books
+2024-12-26 11:59:51,131 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,132 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,132 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,252 - DEBUG - Entering get_issued_books
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -694,15 +797,13 @@ Request Context:
   - method: GET
   - path: /book/issue-book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'f25e8cfd-df9c-47aa-ba06-4aadf694a1c5', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '39c62ef7-8e02-4d3c-9175-a92505a0614d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: IssueBookHandler
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,088 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,088 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,088 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,178 - DEBUG - Entering create_book
+2024-12-26 11:59:51,256 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,257 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,257 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,351 - DEBUG - Entering create_book
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -710,15 +811,13 @@ Request Context:
   - method: POST
   - path: /admin/book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '8541da01-8b21-4120-b03c-024e9834c371', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '73'}
-  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111'}
-Function Context:
-  - handler: BookHandler
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '28445bb8-3aab-4164-827c-25db38d98489', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '81'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111111111'}
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,186 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,186 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,186 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,270 - DEBUG - Entering get_issued_books
+2024-12-26 11:59:51,377 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,377 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,377 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,489 - DEBUG - Entering get_issued_books
 User Context:
   - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
   - role: admin
@@ -726,79 +825,97 @@ Request Context:
   - method: GET
   - path: /book/issue-book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM0NDExNzkyLCJpYXQiOjE3MzQ0MDgxOTIsIm5iZiI6MTczNDQwODE5Mn0.-cYxXj5r5IXPIqdC0MeR2AwzbhsG5Stk_HBYG_Qm5GY', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a22b6349-755a-48fa-a1c0-3c6076f8deb0', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'fa74065a-1c92-4902-b217-9782754bb00d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: IssueBookHandler
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,271 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,272 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,272 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
-2024-12-17 09:33:13,349 - DEBUG - Entering get_all_books
+2024-12-26 11:59:51,493 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,494 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,494 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 11:59:51,601 - DEBUG - Entering get_all_books
 User Context:
-  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - user_id: 8ee9c4f4-ef61-41a3-813a-74991719493f
   - role: user
 Request Context:
   - method: GET
   - path: /user/book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': '4f0aba41-4957-4527-bcdf-5f8ec53c3c1d', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGVlOWM0ZjQtZWY2MS00MWEzLTgxM2EtNzQ5OTE3MTk0OTNmIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTgxODksImlhdCI6MTczNTE5NDU4OSwibmJmIjoxNzM1MTk0NTg5fQ.EFCkrDM7v810IxKtmXLCWEPR4LIs-oomlwMkSR8cX7Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '0de90c3e-e06b-4fad-bd1a-a6ff1a17ce0f', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: BookHandler
- - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,350 - INFO - Book fetched successfully - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,350 - INFO - get_all_books executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,350 - DEBUG - Exiting get_all_books - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,443 - DEBUG - Entering issue_book_by_user
+ - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,604 - INFO - Book fetched successfully - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,605 - INFO - get_all_books executed successfully. - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,605 - DEBUG - Exiting get_all_books - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,704 - DEBUG - Entering issue_book_by_user
 User Context:
-  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - user_id: 8ee9c4f4-ef61-41a3-813a-74991719493f
   - role: user
 Request Context:
   - method: POST
   - path: /book/issue-book
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'c6ff3814-5a94-4dd7-a1e3-bfa44feb1b85', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '107'}
-  - body: {'book_id': '74343cf0-a95c-4853-aefa-6d4d623b0830', 'return_date': '2024-12-24', 'bb': 'fd'}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,458 - ERROR - Validation Error: [{"type":"extra_forbidden","loc":["bb"],"msg":"Extra inputs are not permitted","input":"fd","url":"https://errors.pydantic.dev/2.10/v/extra_forbidden"}] - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,459 - INFO - issue_book_by_user executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,459 - DEBUG - Exiting issue_book_by_user - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,520 - DEBUG - Entering get_issued_books
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGVlOWM0ZjQtZWY2MS00MWEzLTgxM2EtNzQ5OTE3MTk0OTNmIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTgxODksImlhdCI6MTczNTE5NDU4OSwibmJmIjoxNzM1MTk0NTg5fQ.EFCkrDM7v810IxKtmXLCWEPR4LIs-oomlwMkSR8cX7Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '1d4ffb37-3e5c-4957-b754-26756bae2022', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b1', 'return_date': '2024-12-24'}
+ - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,748 - INFO - Book issued successfully - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,749 - INFO - issue_book_by_user executed successfully. - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,749 - DEBUG - Exiting issue_book_by_user - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,852 - DEBUG - Entering get_issued_books
 User Context:
-  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - user_id: 8ee9c4f4-ef61-41a3-813a-74991719493f
   - role: user
 Request Context:
   - method: GET
   - path: /book/issue-book
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'cf876df1-6073-4e2f-a06f-22d360299087', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGVlOWM0ZjQtZWY2MS00MWEzLTgxM2EtNzQ5OTE3MTk0OTNmIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTgxODksImlhdCI6MTczNTE5NDU4OSwibmJmIjoxNzM1MTk0NTg5fQ.EFCkrDM7v810IxKtmXLCWEPR4LIs-oomlwMkSR8cX7Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '7d0df8ee-607c-463f-880b-a7c25d2aa519', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
   - body: {}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,521 - INFO - Issue book fetched successfully - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,521 - INFO - get_issued_books executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,522 - DEBUG - Exiting get_issued_books - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,597 - DEBUG - Entering return_book_by_user
+ - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,856 - INFO - Issue book fetched successfully - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,856 - INFO - get_issued_books executed successfully. - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,857 - DEBUG - Exiting get_issued_books - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,946 - DEBUG - Entering return_book_by_user
 User Context:
-  - user_id: 6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d
+  - user_id: 8ee9c4f4-ef61-41a3-813a-74991719493f
   - role: user
 Request Context:
   - method: PATCH
-  - path: /book/return-book/74343cf0-a95c-4853-aefa-6d4d623b0830
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
   - client_ip: 127.0.0.1
-  - headers: {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNmI3NmQ1YmMtNWYyNy00YjVkLTljZDktMzFhZGZiM2YzMzlkIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzQ0MTE3OTEsImlhdCI6MTczNDQwODE5MSwibmJmIjoxNzM0NDA4MTkxfQ.zos8SKuWVDMTofIG7XZNcjKgGcX0GFbL77fO8LZP2x8', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'a97171b2-be71-4ee0-bf03-d8f07ab24282', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '0'}
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOGVlOWM0ZjQtZWY2MS00MWEzLTgxM2EtNzQ5OTE3MTk0OTNmIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUxOTgxODksImlhdCI6MTczNTE5NDU4OSwibmJmIjoxNzM1MTk0NTg5fQ.EFCkrDM7v810IxKtmXLCWEPR4LIs-oomlwMkSR8cX7Y', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '08f1249a-8b3c-4c50-bfd3-d37cc2f929c0', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
   - body: {}
-Function Context:
-  - handler: IssueBookHandler
- - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,607 - INFO - Book returned successfully - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,607 - INFO - return_book_by_user executed successfully. - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 09:33:13,607 - DEBUG - Exiting return_book_by_user - for user_id=6b76d5bc-5f27-4b5d-9cd9-31adfb3f339d | role=user
-2024-12-17 11:24:05,873 - DEBUG - Entering signup
+ - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,993 - INFO - Book returned successfully - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,993 - INFO - return_book_by_user executed successfully. - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 11:59:51,994 - DEBUG - Exiting return_book_by_user - for user_id=8ee9c4f4-ef61-41a3-813a-74991719493f | role=user
+2024-12-26 12:01:43,447 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '3da9d108-e68f-445b-bffd-42993ee1929f', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '81'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:01:43,476 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:01:43,477 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:01:43,477 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:02:48,631 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MTk4MTkwLCJpYXQiOjE3MzUxOTQ1OTAsIm5iZiI6MTczNTE5NDU5MH0.N5zAb6qdpTHQmh9AqgU20DTHB3FWDxAjtc9Vb1gG29U', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '8f50aa0a-9f5a-4889-bea8-1312623b83c8', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '81'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:02:48,660 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:02:48,660 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:02:48,661 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 12:24:28,242 - DEBUG - Entering signup
 User Context:
   - user_id: Unknown
   - role: Unknown
@@ -806,10 +923,661 @@ Request Context:
   - method: POST
   - path: /user/signup
   - client_ip: 127.0.0.1
-  - headers: {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.43.0', 'Accept': '*/*', 'Postman-Token': 'c02b4cd7-3838-4496-a870-41e55ad8010e', 'Host': '127.0.0.1:5000', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Content-Length': '180'}
-  - body: {'name': 'Garvit', 'email': 'garvitbanthiya211111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
-Function Context:
-  - handler: UserHandler
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '4f9bc095-90e3-4041-89d2-b6ea59310638', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '190'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya3111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
  - for user_id=unknown | role=unknown
-2024-12-17 11:24:07,046 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
-2024-12-17 11:24:07,047 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 12:24:29,398 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 12:24:29,399 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 13:43:16,952 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'dc6e4163-696c-4d98-be65-e24b5c58cc18', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '189'}
+  - body: {'name': 'G', 'email': 'garvitbanthiya31111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+ - for user_id=unknown | role=unknown
+2024-12-26 13:43:16,954 - ERROR - 'JSONResponse' object has no attribute 'strip' - for user_id=unknown | role=unknown
+2024-12-26 13:43:16,955 - ERROR - Error occurred in signup: 500: {'status': 'fail', 'message': "'JSONResponse' object has no attribute 'strip'", 'error_code': 5001}
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - body: {'name': 'G', 'email': 'garvitbanthiya31111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'} - for user_id=unknown | role=unknown
+2024-12-26 13:43:16,955 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 13:45:27,948 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'd22cd4d6-2042-4584-8bf3-a6789a6a20bb', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '190'}
+  - body: {'name': 'G', 'email': 'garvitbanthiya311111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+ - for user_id=unknown | role=unknown
+2024-12-26 13:45:27,950 - ERROR - 'JSONResponse' object has no attribute 'strip' - for user_id=unknown | role=unknown
+2024-12-26 13:45:27,950 - ERROR - Error occurred in signup: 500: {'status': 'fail', 'message': "'JSONResponse' object has no attribute 'strip'", 'error_code': 5001}
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - body: {'name': 'G', 'email': 'garvitbanthiya311111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'} - for user_id=unknown | role=unknown
+2024-12-26 13:45:27,950 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 13:58:29,363 - ERROR - Unhandled exception in middleware: 'int' object has no attribute 'value' - for user_id=unknown | role=unknown
+2024-12-26 14:06:07,167 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'd7b380a5-36c7-456c-82bf-dd1c66699fbe', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:06:08,313 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 14:06:08,314 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 14:06:13,433 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA1NzY4LCJpYXQiOjE3MzUyMDIxNjgsIm5iZiI6MTczNTIwMjE2OH0.n9DKkW-CmpdijNxXUdOTOOVCOWArjDH4aKkd7enzErg', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '80b78972-c5d9-4ea1-8047-a8d9e6a5e152', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '81'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:06:13,451 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:06:13,452 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:06:13,452 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:06:31,741 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'bfa829bd-b075-4dcd-8566-2336a61c33f8', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '116'}
+  - body: {'email': 'garvitbanthiya31111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:06:31,745 - ERROR - Incorrect email password - for user_id=unknown | role=unknown
+2024-12-26 14:06:31,746 - ERROR - Error occurred in login: 500: {'status': 'fail', 'message': 'Incorrect email password', 'error_code': 5001}
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - body: {'email': 'garvitbanthiya31111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***'} - for user_id=unknown | role=unknown
+2024-12-26 14:06:31,746 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 14:06:50,026 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '0e37adc4-41b0-4e74-ad4f-ecf8d0563074', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '115'}
+  - body: {'email': 'garvitbanthiya3111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:06:50,030 - ERROR - Incorrect email password - for user_id=unknown | role=unknown
+2024-12-26 14:06:50,031 - ERROR - Error occurred in login: 500: {'status': 'fail', 'message': 'Incorrect email password', 'error_code': 5001}
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - body: {'email': 'garvitbanthiya3111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***'} - for user_id=unknown | role=unknown
+2024-12-26 14:06:50,031 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 14:08:38,327 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '05871550-0444-431f-8c71-9cb01709575d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '196'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya3111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:08:39,488 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 14:08:39,489 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 14:08:46,581 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '2f460eda-553c-4adf-8442-ad4242ca9ec5', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '115'}
+  - body: {'email': 'garvitbanthiya3111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:08:47,733 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 14:08:47,733 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 14:08:56,062 - ERROR - Unhandled exception in middleware: object JSONResponse can't be used in 'await' expression - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:17:29,407 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '3d43841c-744c-41a8-93d0-34869a88dad2', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '90'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b', 'return_date': '2024-12-24'}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:17:29,423 - ERROR - book doesn't exist - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:17:29,424 - INFO - issue_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:17:29,424 - DEBUG - Exiting issue_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:00,571 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'e7482446-8b13-4902-a184-378f5020b458', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '90'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b', 'return_date': '2024-12-24'}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:00,577 - ERROR - book doesn't exist - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:00,578 - INFO - issue_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:00,578 - DEBUG - Exiting issue_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:25,653 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'f733fbe3-7c30-4f84-be14-4bdf6d961b75', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b1', 'return_date': '2024-12-24'}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:25,693 - INFO - Book issued successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:25,694 - INFO - issue_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:25,694 - DEBUG - Exiting issue_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:34,927 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '2e79edc4-0774-4b41-a658-66d13d107738', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b1', 'return_date': '2024-12-24'}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:34,968 - INFO - Book issued successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:34,969 - INFO - issue_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:34,969 - DEBUG - Exiting issue_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:37,464 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '770ee772-3ebf-4255-adea-f133bce16d87', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b1', 'return_date': '2024-12-24'}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:37,509 - INFO - Book issued successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:37,510 - INFO - issue_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:37,510 - DEBUG - Exiting issue_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:39,963 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '72a721e8-0a8f-4582-ac05-fd07d75ccebf', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b1', 'return_date': '2024-12-24'}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:40,004 - INFO - Book issued successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:40,005 - INFO - issue_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:40,005 - DEBUG - Exiting issue_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:42,231 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'f9fa91ce-2123-44be-a230-fbe3a6e21908', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b1', 'return_date': '2024-12-24'}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:42,235 - ERROR - book doesn't available - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:42,235 - INFO - issue_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:42,236 - DEBUG - Exiting issue_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:53,432 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '592c848a-8b0a-438e-aa26-0ee84651a417', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:53,470 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:53,471 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:53,471 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:55,853 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '18d94faa-1e2b-4d4f-8489-ae35bfa1a634', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:55,881 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:55,882 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:55,882 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:57,967 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '00afd671-446a-472c-b7f3-6b998aeed372', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:57,998 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:57,998 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:18:57,999 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:00,472 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'b1faed2c-1bc4-4dc9-bb78-43a6cfff26e3', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:00,514 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:00,514 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:00,515 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:02,873 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '6c1e8a60-0faf-4807-8dd3-f0f9ea222b8d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:02,911 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:02,911 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:02,912 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:05,346 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '479eaf7d-675d-4c46-939e-e5f222470106', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:05,369 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:05,370 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:05,370 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:07,434 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'd9b4e3ef-e046-483e-aab7-cd90aa3eecb4', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:07,463 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:07,464 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:07,465 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:09,663 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: bc1d493c-a118-49b0-9d17-d2293f4e308b
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYmMxZDQ5M2MtYTExOC00OWIwLTlkMTctZDIyOTNmNGUzMDhiIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDU5MjcsImlhdCI6MTczNTIwMjMyNywibmJmIjoxNzM1MjAyMzI3fQ.IYcesWR4UQMqQYDZcEjoCXcu3JIhgDxIFzuNZ8-kQ8w', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '14409c32-d75f-45c6-a263-926420e6af2a', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:09,693 - INFO - Book returned successfully - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:09,693 - INFO - return_book_by_user executed successfully. - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:19:09,693 - DEBUG - Exiting return_book_by_user - for user_id=bc1d493c-a118-49b0-9d17-d2293f4e308b | role=user
+2024-12-26 14:33:08,483 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'd1112c35-3ae1-4377-9d86-41522a42df99', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '197'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya31111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:33:09,639 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 14:33:09,640 - DEBUG - Exiting signup - for user_id=unknown | role=unknown
+2024-12-26 14:33:09,826 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '2509fc35-a2a1-42ce-bd25-9546020da031', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '116'}
+  - body: {'email': 'garvitbanthiya31111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:33:10,970 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 14:33:10,971 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 14:33:11,066 - DEBUG - Entering login
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/login
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '4c871a23-edaa-4335-83e0-72196dbee312', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '66'}
+  - body: {'email': 'admin@jecrc.ac.in', 'password': '***'}
+ - for user_id=unknown | role=unknown
+2024-12-26 14:33:12,197 - INFO - login executed successfully. - for user_id=unknown | role=unknown
+2024-12-26 14:33:12,197 - DEBUG - Exiting login - for user_id=unknown | role=unknown
+2024-12-26 14:33:12,433 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '93389172-0d1f-467f-b0fd-d80f49f86d8d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '81'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,459 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,460 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,460 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,581 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '3a76c779-6602-4b95-9b0d-1d898587db9c', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,585 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,585 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,586 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,680 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '92ef37ba-0fb9-4c3b-9c61-8a5ff14764a0', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,684 - INFO - Book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,684 - INFO - get_all_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,685 - DEBUG - Exiting get_all_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,779 - DEBUG - Entering update_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: PUT
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'cdfa3135-8b32-4c53-b276-c4ea945363ff', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '137'}
+  - body: {'book_id': '9acda28b-7790-450e-ab95-0083b198d4b1', 'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,805 - INFO - Book update successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,805 - INFO - update_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,806 - DEBUG - Exiting update_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,930 - DEBUG - Entering remove_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: PATCH
+  - path: /admin/book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'c618e2e2-bcc6-404d-8b65-3cba2b20e467', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,948 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,949 - INFO - remove_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:12,949 - DEBUG - Exiting remove_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,054 - DEBUG - Entering delete_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: DELETE
+  - path: /admin/book/9acda28b-7790-450e-ab95-0083b198d4b1
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '2bfe0cc5-4089-4144-9a36-537dcd1f644d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,075 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,076 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,076 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,199 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '1f551f67-cf29-46c2-abb7-fb55262d7a6f', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,204 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,204 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,205 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,324 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'd99f4cbe-988a-40cb-af34-bf8d57363322', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '82'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,343 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,343 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,344 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,419 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'f9af89c0-0717-4fb7-9211-51be5445b698', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,424 - INFO - Issue book fetched successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,425 - INFO - get_issued_books executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,425 - DEBUG - Exiting get_issued_books - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:13,545 - DEBUG - Entering get_all_books
+User Context:
+  - user_id: b2e85779-ca76-4dcd-a047-4262ddac7786
+  - role: user
+Request Context:
+  - method: GET
+  - path: /user/book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjJlODU3NzktY2E3Ni00ZGNkLWEwNDctNDI2MmRkYWM3Nzg2Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDczOTAsImlhdCI6MTczNTIwMzc5MCwibmJmIjoxNzM1MjAzNzkwfQ.8AjIXOQ1apCVW-AhNX7w51X88SMZthEdySiORb7GqBk', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': 'ec0ab322-e138-4113-8150-c030dd4cb5aa', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,550 - INFO - Book fetched successfully - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,551 - INFO - get_all_books executed successfully. - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,551 - DEBUG - Exiting get_all_books - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,628 - DEBUG - Entering issue_book_by_user
+User Context:
+  - user_id: b2e85779-ca76-4dcd-a047-4262ddac7786
+  - role: user
+Request Context:
+  - method: POST
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjJlODU3NzktY2E3Ni00ZGNkLWEwNDctNDI2MmRkYWM3Nzg2Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDczOTAsImlhdCI6MTczNTIwMzc5MCwibmJmIjoxNzM1MjAzNzkwfQ.8AjIXOQ1apCVW-AhNX7w51X88SMZthEdySiORb7GqBk', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '84566d8c-1850-41ee-ab1b-f0df245175e8', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '91'}
+  - body: {'book_id': 'd9ac2e24-c749-4c31-be48-d25480e0d3c0', 'return_date': '2024-12-24'}
+ - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,672 - INFO - Book issued successfully - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,673 - INFO - issue_book_by_user executed successfully. - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,673 - DEBUG - Exiting issue_book_by_user - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,767 - DEBUG - Entering get_issued_books
+User Context:
+  - user_id: b2e85779-ca76-4dcd-a047-4262ddac7786
+  - role: user
+Request Context:
+  - method: GET
+  - path: /book/issue-book
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjJlODU3NzktY2E3Ni00ZGNkLWEwNDctNDI2MmRkYWM3Nzg2Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDczOTAsImlhdCI6MTczNTIwMzc5MCwibmJmIjoxNzM1MjAzNzkwfQ.8AjIXOQ1apCVW-AhNX7w51X88SMZthEdySiORb7GqBk', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '3210be2a-f384-4463-b9db-ff257b854e32', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,772 - INFO - Issue book fetched successfully - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,772 - INFO - get_issued_books executed successfully. - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,773 - DEBUG - Exiting get_issued_books - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,848 - DEBUG - Entering return_book_by_user
+User Context:
+  - user_id: b2e85779-ca76-4dcd-a047-4262ddac7786
+  - role: user
+Request Context:
+  - method: PATCH
+  - path: /book/return-book/d9ac2e24-c749-4c31-be48-d25480e0d3c0
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjJlODU3NzktY2E3Ni00ZGNkLWEwNDctNDI2MmRkYWM3Nzg2Iiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzUyMDczOTAsImlhdCI6MTczNTIwMzc5MCwibmJmIjoxNzM1MjAzNzkwfQ.8AjIXOQ1apCVW-AhNX7w51X88SMZthEdySiORb7GqBk', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '5973d6ce-6a72-46ab-9df2-3ee4317c265d', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '0'}
+  - body: {}
+ - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,885 - INFO - Book returned successfully - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,886 - INFO - return_book_by_user executed successfully. - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:13,886 - DEBUG - Exiting return_book_by_user - for user_id=b2e85779-ca76-4dcd-a047-4262ddac7786 | role=user
+2024-12-26 14:33:38,641 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '186d9e3f-7f46-44f2-b992-6b9ba2fc6fee', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '82'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:38,660 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:38,660 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:33:38,660 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:44,484 - DEBUG - Entering create_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: POST
+  - path: /admin/book
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '23a32722-19b4-492b-a80c-879e14c9c4d3', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '82'}
+  - body: {'title': 'Pinocchio', 'author': 'Carlo Collodi1111111111111111111111'}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:44,502 - INFO - Book added successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:44,502 - INFO - create_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:44,503 - DEBUG - Exiting create_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:49,298 - DEBUG - Entering delete_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: DELETE
+  - path: /admin/book/d9ac2e24-c749-4c31-be48-d25480e0d3c0
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '67cb6dcc-fed0-4235-aaf2-66fbd4847a2b', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:49,328 - INFO - Book delete successfully - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:49,329 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:49,329 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:52,842 - DEBUG - Entering delete_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: DELETE
+  - path: /admin/book/d9ac2e24-c749-4c31-be48-d25480e0d3c0
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '36326961-94a2-4670-bd12-ebe8889d6773', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:52,847 - ERROR - Book does not exist - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:52,847 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:37:52,848 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:39:45,889 - DEBUG - Entering delete_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: DELETE
+  - path: /admin/book/d9ac2e24-c749-4c31-be48-d25480e0d3c0
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '56d632b3-de81-4ef8-a856-b7357be98593', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:39:45,894 - ERROR - Book does not exist - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:39:45,895 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 14:39:45,895 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 15:05:30,279 - DEBUG - Entering delete_book
+User Context:
+  - user_id: 1982119d-cec9-4a45-b229-7549bfa244be
+  - role: admin
+Request Context:
+  - method: DELETE
+  - path: /admin/book/d9ac2e24-c749-4c31-be48-d25480e0d3c0
+  - client_ip: 127.0.0.1
+  - headers: {'authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTk4MjExOWQtY2VjOS00YTQ1LWIyMjktNzU0OWJmYTI0NGJlIiwicm9sZSI6ImFkbWluIiwiZXhwIjoxNzM1MjA3MzkyLCJpYXQiOjE3MzUyMDM3OTIsIm5iZiI6MTczNTIwMzc5Mn0.9qckXq9NWxX09TTqDaZsI1pFqgSaQAZOS-5C5HQhzU0', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '8c45f362-b4a3-4cbe-888d-03428cae6af3', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive'}
+  - body: {}
+ - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 15:05:30,286 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-26 15:05:30,287 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin

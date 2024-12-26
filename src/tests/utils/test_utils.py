@@ -1,23 +1,23 @@
 import unittest
 from unittest.mock import patch
 
-from flask import Flask,g
+import pytest
+from fastapi import Request, HTTPException
 
 from src.app.config.enumeration import Role
+from src.app.utils.errors.error import CustomHTTPException
 from src.app.utils.utils import Utils
 
 
 class TestUtils(unittest.TestCase):
     def setUp(self):
-        app = Flask(__name__)
-        app.app_context().push()
 
         @Utils.admin
-        def admin_only_function(*args, **kwargs):
+        def admin_only_function(request:Request):
             return True
 
         @Utils.user
-        def user_only_function(*args, **kwargs):
+        def user_only_function(request:Request):
             return True
 
         self.admin_only_function = admin_only_function
@@ -49,39 +49,73 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(decoded_payload["user_id"], user_id)
         self.assertEqual(decoded_payload["role"], role)
 
-    @patch("flask.g.get")
-    def test_admin_decorator_with_admin_role(self, mock_g_get):
-        mock_g_get.return_value = Role.ADMIN.value
+    def test_admin_decorator_with_admin_role(self):
+        mock_scope = {
+            "type": "http",
+            "headers": [],
+            "method": "GET",
+            "path": "/",
+            "query_string": b"",
+            "client": ("127.0.0.1", 8000),
+        }
+        mock_request = Request(mock_scope)
+        mock_request.state.user = {"role": "admin"}
 
-        result = self.admin_only_function()
+        result = self.admin_only_function(mock_request)
 
-        self.assertEqual(result, True)
+        self.assertTrue(result)
 
-    @patch("flask.g.get")
-    def test_admin_decorator_with_non_admin_role(self, mock_g_get):
-        mock_g_get.return_value = Role.USER.value
+    def test_admin_decorator_with_non_admin_role(self):
+        mock_scope = {
+            "type": "http",
+            "headers": [],
+            "method": "GET",
+            "path": "/",
+            "query_string": b"",
+            "client": ("127.0.0.1", 8000),
+        }
+        mock_request = Request(mock_scope)
+        mock_request.state.user = {"role": "user"}
+        with pytest.raises(CustomHTTPException) as e:
+            self.admin_only_function(mock_request)
+            exception =e.value
+            self.assertEqual(exception["status_code"], 403)
+            self.assertEqual(exception["message"], "Unauthorized: Admin role required")
 
-        result, status_code = self.admin_only_function()
 
-        self.assertEqual(status_code, 403)
-        self.assertEqual(result.get_json(), {"message": "Unauthorized: Admin role required"})
 
-    @patch("flask.g.get")
-    def test_user_decorator_with_user_role(self, mock_g_get):
-        mock_g_get.return_value = Role.USER.value
+    def test_user_decorator_with_user_role(self):
+        mock_scope = {
+            "type": "http",
+            "headers": [],
+            "method": "GET",
+            "path": "/",
+            "query_string": b"",
+            "client": ("127.0.0.1", 8000),
+        }
+        mock_request = Request(mock_scope)
+        mock_request.state.user = {"role": "user"}
 
-        result = self.user_only_function()
+        result = self.user_only_function(mock_request)
 
-        self.assertEqual(result, True)
+        self.assertTrue(result)
 
-    @patch("flask.g.get")
-    def test_user_decorator_with_non_user_role(self, mock_g_get):
-        mock_g_get.return_value = Role.ADMIN.value
-
-        result, status_code = self.user_only_function()
-
-        self.assertEqual(status_code, 403)
-        self.assertEqual(result.get_json(), {"message": "Unauthorized: User role required"})
+    def test_user_decorator_with_non_user_role(self):
+        mock_scope = {
+            "type": "http",
+            "headers": [],
+            "method": "GET",
+            "path": "/",
+            "query_string": b"",
+            "client": ("127.0.0.1", 8000),
+        }
+        mock_request = Request(mock_scope)
+        mock_request.state.user = {"role": "admin"}
+        with pytest.raises(CustomHTTPException) as e:
+            self.user_only_function(mock_request)
+            exception = e.value
+            self.assertEqual(exception["status_code"], 403)
+            self.assertEqual(exception["message"], "Unauthorized: User role required")
 
 
 

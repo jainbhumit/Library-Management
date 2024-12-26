@@ -2,9 +2,15 @@ from bcrypt import hashpw, checkpw, gensalt
 import jwt as jwt
 import datetime
 
-from flask import jsonify,g
+from fastapi import Request, HTTPException
+from starlette.responses import JSONResponse
 
-from src.app.config.enumeration import Role
+from src.app.config.custome_error_code import TOKEN_INVALID, INVALID_ACCESS
+from src.app.config.enumeration import Role, Status
+from src.app.config.messages import INVALID_TOKEN
+from src.app.model.responses import Response, CustomErrorResponse
+from src.app.utils.context import get_user_from_context
+from src.app.utils.errors.error import CustomHTTPException
 
 
 class Utils:
@@ -60,9 +66,14 @@ class Utils:
     @staticmethod
     def admin(f):
         def wrapped_func(*args, **kwargs):
-            # Check if the user role in g is 'admin'
-            if g.get("role") != Role.ADMIN.value:
-                return jsonify({"message": "Unauthorized: Admin role required"}), 403
+            request = next((arg for arg in args if isinstance(arg,Request)), kwargs.get("request"))
+            if not request:
+                raise CustomHTTPException(401,TOKEN_INVALID,"Request context not available")
+
+            user = get_user_from_context(request)
+            if not user or user.get("role") != Role.ADMIN.value:
+                raise CustomHTTPException(403,TOKEN_INVALID,"Unauthorized: Admin role required")
+
             return f(*args, **kwargs)
 
         return wrapped_func
@@ -70,7 +81,14 @@ class Utils:
     @staticmethod
     def user(f):
         def wrapped_func(*args, **kwargs):
-            if g.get("role") != Role.USER.value:
-                return jsonify({"message":"Unauthorized: User role required"}), 403
+            request = next((arg for arg in args if isinstance(arg, Request)), kwargs.get("request"))
+
+            if not request:
+                raise CustomHTTPException(401,TOKEN_INVALID,"Request context not available")
+
+            user = get_user_from_context(request)
+            if not user or user.get("role") != Role.USER.value:
+                raise CustomHTTPException(403, TOKEN_INVALID, "Unauthorized: User role required")
+
             return f(*args, **kwargs)
         return wrapped_func

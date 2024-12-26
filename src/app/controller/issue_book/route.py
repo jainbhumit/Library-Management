@@ -1,31 +1,24 @@
-from flask import Blueprint, request, jsonify
+from fastapi import APIRouter,Request
+from starlette import status
+
 from src.app.controller.issue_book.handler import IssueBookHandler
-from src.app.middleware.middleware import auth_middleware
+from src.app.dto.issue_book import IssueBookDTO
 from src.app.services.issue_book_service import IssueBookService
 
-def create_issue_book_route(issue_book_service:IssueBookService) -> Blueprint:
-    issue_book_routes_blueprint = Blueprint('issue_book_route', __name__)
-    issue_book_routes_blueprint.before_request(auth_middleware)
+def create_issue_book_route(issue_book_service:IssueBookService):
+    router = APIRouter(prefix="/book", tags=["issue_book"])
     issue_book_handler = IssueBookHandler.create(issue_book_service)
 
-    issue_book_routes_blueprint.add_url_rule(
-        '/issue-book',
-        'issue-book',
-        issue_book_handler.issue_book_by_user,
-        methods=['POST']
-    )
+    @router.post("/issue-book",status_code=status.HTTP_201_CREATED)
+    async def issue_book_by_user(request:Request,request_body:IssueBookDTO):
+        return await issue_book_handler.issue_book_by_user(request,request_body)
 
-    issue_book_routes_blueprint.add_url_rule(
-        '/return-book/<book_id>',
-        'return-book',
-        issue_book_handler.return_book_by_user,
-        methods=['PATCH']
-    )
+    @router.patch("/return-book/{book_id}")
+    async def return_book_by_user(book_id,request: Request):
+        return await issue_book_handler.return_book_by_user(book_id,request)
 
-    issue_book_routes_blueprint.add_url_rule(
-        '/issue-book',
-        'get-issue-book',
-        issue_book_handler.get_issued_books,
-        methods=['GET']
-    )
-    return issue_book_routes_blueprint
+    @router.get("/issue-book")
+    async def get_issued_books(request: Request):
+        return await issue_book_handler.get_issued_books(request)
+
+    return router

@@ -1,149 +1,197 @@
-import unittest
-from unittest.mock import MagicMock, patch
-from flask import Flask, request
-from src.app.controller.user.handler import UserHandler
-from src.app.services.user_service import UserService
-from src.app.model.user import User
-from src.app.config.messages import *
+import pytest
+from unittest.mock import Mock, AsyncMock
+from fastapi import HTTPException, Request
+
+from src.app.config.custome_error_code import UNEXPECTED_ERROR, ALREADY_EXISTS, INVALID_CREDENTIALS
 from src.app.config.enumeration import Status
-from src.app.utils.validators.validators import Validators
+from src.app.controller.user.handler import UserHandler
+from src.app.dto.user import LoginDTO, SignupDTO
+from src.app.model.user import User
+from src.app.utils.errors.error import UserExistsError
+from src.app.config.messages import *
 
 
-class TestUserHandler(unittest.TestCase):
+@pytest.fixture
+def login_dto():
+    """Login DTO fixture"""
+    return LoginDTO(
+        email="test@jecrc.ac.in",
+        password="Test@123"
+    )
 
-    def setUp(self):
-        # Initialize Flask app and test client
-        self.app = Flask(__name__)
-        self.app.testing = True
-        self.client = self.app.test_client()
 
-        # Mock UserService
-        self.mock_user_service = MagicMock(spec=UserService)
+@pytest.fixture
+def signup_dto():
+    """Signup DTO fixture"""
+    return SignupDTO(
+        name="Test User",
+        email="test@jecrc.ac.in",
+        password="Test@123",
+        year="1st",
+        branch="CS",
+        role="user"
+    )
+
+
+@pytest.fixture
+def sample_user():
+    """Sample user fixture"""
+    return User(
+        name="Test User",
+        email="test@jecrc.ac.in",
+        password="hashedpassword",
+        year="1st",
+        branch="CS",
+        role="user",
+        id="550e8400-e29b-41d4-a716-446655440000"
+    )
+
+
+class TestUserHandler:
+    def setup_method(self):
+        """Setup method that runs before each test"""
+        self.mock_user_service = Mock()
         self.user_handler = UserHandler.create(self.mock_user_service)
 
-        # Test data
-        self.valid_signup_payload = {
-            "name": "John Doe",
-            "email": "john.doe@jecrc.ac.in",
-            "password": "StrongPass123!",
-            "year": "1",
-            "branch": "IT",
-            "role": "user"
-        }
-        self.invalid_email_payload = {
-            "name": "John Doe",
-            "email": "invalid_email",
-            "password": "StrongPass123!",
-            "year": "2023",
-            "branch": "CSE",
-            "role": "USER"
-        }
-        self.valid_login_payload = {
-            "email": "john.doe@jecrc.ac.in",
-            "password": "StrongPass123!"
+        # Create mock request
+        mock_scope = {
+            "type": "http",
+            "headers": [],
+            "method": "POST",
+            "path": "/",
+            "query_string": b"",
+            "client": ("127.0.0.1", 8000),
         }
 
-        # Mock User object
-        self.mock_user = User(
-            name="John Doe",
-            email="john.doe@example.com",
-            password="StrongPass123!",
-            year="2023",
-            branch="CSE"
+        async def mock_receive():
+            return {"type": "http.request", "body": b""}
+
+        self.mock_request = Request(mock_scope, receive=mock_receive)
+
+    @pytest.mark.asyncio
+    async def test_login_success(self, login_dto, sample_user):
+        # Mock service layer response
+        self.mock_user_service.login_user.return_value = sample_user
+
+        # Call the handler
+        response = await self.user_handler.login(self.mock_request, login_dto)
+
+        # Verify response
+        assert response["status"] == Status.SUCCESS.value
+        assert response["message"] == TOKEN_GENERATE_SUCCESSFULLY
+        assert "token" in response["data"]
+        assert response["data"]["role"] == sample_user.role
+
+        # Verify service was called correctly
+        self.mock_user_service.login_user.assert_called_once_with(
+            login_dto.email,
+            login_dto.password.strip()
         )
-        self.mock_user.id = "123"
-        self.mock_user.role = "USER"
 
-    @patch("src.app.utils.utils.Utils.create_jwt_token", return_value="mocked_jwt_token")
-    def test_signup_success(self, mock_create_jwt_token):
-        """Test successful signup."""
-        with self.app.test_request_context(method="POST", json=self.valid_signup_payload):
-            self.mock_user_service.signup_user.return_value = None
+    @pytest.mark.asyncio
+    async def test_login_invalid_credentials(self, login_dto):
+        # Mock service layer response for invalid credentials
+        self.mock_user_service.login_user.return_value = None
 
-            response, status_code = self.user_handler.signup()
-            self.assertEqual(status_code, 200)
-            self.assertEqual(response["message"], TOKEN_GENERATE_SUCCESSFULLY)
-            self.assertEqual(response["data"]["token"], "mocked_jwt_token")
+        # Call the handler
+        response = await self.user_handler.login(self.mock_request, login_dto)
 
-    def test_signup_invalid_email(self):
-        """Test signup with invalid email."""
-        with self.app.test_request_context(method="POST", json=self.invalid_email_payload):
-            response, status_code = self.user_handler.signup()
-            self.assertEqual(status_code, 422)
-            self.assertEqual(response["message"], EMAIL_IS_NOT_VALID)
+        # Verify response
+        if hasattr(response, 'body'):
+            # If it's a JSONResponse
+            response_body = response.body.decode()
+            import json
+            response_data = json.loads(response_body)
+            assert response.status_code == 401
+        else:
+            # If it's a dict
+            response_data = response
 
-    @patch("src.app.utils.utils.Utils.create_jwt_token", return_value="mocked_jwt_token")
-    def test_login_success(self, mock_create_jwt_token):
-        """Test successful login."""
-        with self.app.test_request_context(method="POST", json=self.valid_login_payload):
-            self.mock_user_service.login_user.return_value = self.mock_user
+        assert response_data["error_code"] == INVALID_CREDENTIALS
+        assert response_data["message"] == INCORRECT_EMAIL_PASSWORD
 
-            response, status_code = self.user_handler.login()
-            self.assertEqual(status_code, 200)
-            self.assertEqual(response["message"], TOKEN_GENERATE_SUCCESSFULLY)
-            self.assertEqual(response["data"]["token"], "mocked_jwt_token")
-            self.assertEqual(response["data"]["role"], self.mock_user.role)
+    @pytest.mark.asyncio
+    async def test_login_unexpected_error(self, login_dto):
+        # Mock service layer error
+        self.mock_user_service.login_user.side_effect = Exception("Unexpected error")
 
-    def test_login_invalid_email(self):
-        """Test login with invalid email."""
-        invalid_login_payload = {
-            "email": "invalid_email",
-            "password": "StrongPass123!"
-        }
-        with self.app.test_request_context(method="POST", json=invalid_login_payload):
-            response, status_code = self.user_handler.login()
-            self.assertEqual(status_code, 422)
-            self.assertEqual(response["message"], EMAIL_IS_NOT_VALID)
+        # Call the handler
+        response = await self.user_handler.login(self.mock_request, login_dto)
 
-    def test_login_user_not_found(self):
-        """Test login with user not found."""
-        with self.app.test_request_context(method="POST", json=self.valid_login_payload):
-            self.mock_user_service.login_user.side_effect = Exception(INCORRECT_EMAIL_PASSWORD)
+        if hasattr(response, 'body'):
+            # If it's a JSONResponse
+            response_body = response.body.decode()
+            import json
+            response_data = json.loads(response_body)
+            assert response.status_code == 500
+        else:
+            # If it's a dict
+            response_data = response
 
-            response, status_code = self.user_handler.login()
-            self.assertEqual(status_code, 400)
-            self.assertEqual(response["message"], INCORRECT_EMAIL_PASSWORD)
+        assert response_data["error_code"] == UNEXPECTED_ERROR
 
-    def test_signup_validation_failure(self):
-        """Test signup with validation errors for other fields."""
-        invalid_payload = {
-            "name": "",
-            "email": "john.doe@example.com",
-            "password": "short",
-            "year": "abcd",
-            "branch": "",
-            "role": "INVALID_ROLE"
-        }
-        with self.app.test_request_context(method="POST", json=invalid_payload):
-            response, status_code = self.user_handler.signup()
-            self.assertEqual(status_code, 422)
-            self.assertEqual(response["message"], NAME_NOT_VALID)
+    @pytest.mark.asyncio
+    async def test_signup_success(self, signup_dto):
+        # Mock service layer response
+        self.mock_user_service.signup_user.return_value = None
 
-    def test_signup_user_already_exists(self):
-        """Test signup with a user that already exists."""
-        with self.app.test_request_context(method="POST", json=self.valid_signup_payload):
-            self.mock_user_service.signup_user.side_effect = Exception(USER_ALREADY_EXISTS)
+        # Call the handler
+        response = await self.user_handler.signup(self.mock_request, signup_dto)
 
-            response, status_code = self.user_handler.signup()
-            self.assertEqual(status_code, 400)
-            self.assertEqual(response["message"], USER_ALREADY_EXISTS)
+        # Verify response
+        assert response["status"] == Status.SUCCESS.value
+        assert response["message"] == TOKEN_GENERATE_SUCCESSFULLY
+        assert "token" in response["data"]
+        assert "role" in response["data"]
 
-    def test_signup_unexpected_error(self):
-        """Test signup with an unexpected error."""
-        with self.app.test_request_context(method="POST", json=self.valid_signup_payload):
-            self.mock_user_service.signup_user.side_effect = Exception("Unexpected Error")
+        # Verify service was called with correct user object
+        called_user = self.mock_user_service.signup_user.call_args[0][0]
+        assert called_user.name == signup_dto.name.strip()
+        assert called_user.email == signup_dto.email.strip().lower()
+        assert called_user.password == signup_dto.password.strip()
+        assert called_user.year == signup_dto.year.strip()
+        assert called_user.branch == signup_dto.branch.strip()
 
-            response, status_code = self.user_handler.signup()
-            self.assertEqual(status_code, 400)
-            self.assertEqual(response["message"], "Unexpected Error")
+    @pytest.mark.asyncio
+    async def test_signup_user_exists(self, signup_dto):
+        # Mock service layer error for existing user
+        self.mock_user_service.signup_user.side_effect = UserExistsError("User already exists")
 
-    def test_login_unexpected_error(self):
-        """Test login with an unexpected error."""
-        with self.app.test_request_context(method="POST", json=self.valid_login_payload):
-            self.mock_user_service.login_user.side_effect = Exception("Unexpected Error")
+        # Call the handler
+        response = await self.user_handler.signup(self.mock_request, signup_dto)
 
-            response, status_code = self.user_handler.login()
-            self.assertEqual(status_code, 400)
-            self.assertEqual(response["message"], "Unexpected Error")
+        # Verify response
+        if hasattr(response, 'body'):
+            # If it's a JSONResponse
+            response_body = response.body.decode()
+            import json
+            response_data = json.loads(response_body)
+            assert response.status_code == 200
+        else:
+            # If it's a dict
+            response_data = response
 
+        assert response_data["error_code"] == ALREADY_EXISTS
+        assert "User already exists" in response_data["message"]
 
+    @pytest.mark.asyncio
+    async def test_signup_unexpected_error(self, signup_dto):
+        # Mock service layer error
+        self.mock_user_service.signup_user.side_effect = Exception("Unexpected error")
+
+        # Call the handler
+        response = await self.user_handler.signup(self.mock_request, signup_dto)
+
+        # Verify response
+        if hasattr(response, 'body'):
+            # If it's a JSONResponse
+            response_body = response.body.decode()
+            import json
+            response_data = json.loads(response_body)
+            assert response.status_code == 500
+        else:
+            # If it's a dict
+            response_data = response
+
+        assert response_data["error_code"] == UNEXPECTED_ERROR
+        assert "Unexpected error" in response_data["message"]

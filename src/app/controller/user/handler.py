@@ -1,18 +1,20 @@
-from flask import request, jsonify
-from werkzeug.routing import ValidationError
+from fastapi import HTTPException,Request
 from dataclasses import dataclass
+
+from starlette import status
 
 from src.app.config.enumeration import Status
 from src.app.config.messages import *
-from src.app.config.custome_error_code import VALIDATION_FAILURE, UNEXPECTED_ERROR
-from src.app.model.responses import Response
+from src.app.config.custome_error_code import VALIDATION_FAILURE, UNEXPECTED_ERROR, INVALID_CREDENTIALS,ALREADY_EXISTS
+from src.app.dto.user import LoginDTO, SignupDTO
+from src.app.model.responses import Response, CustomErrorResponse
 from src.app.model.user import User
 from src.app.services.user_service import UserService
+from src.app.utils.errors.error import UserExistsError
 from src.app.utils.logger.api_logger import api_logger
 from src.app.utils.utils import Utils
 from src.app.utils.validators.validators import Validators
 from src.app.utils.logger.logger import Logger
-
 
 @dataclass
 class UserHandler:
@@ -24,51 +26,70 @@ class UserHandler:
         return cls(user_service)
 
     @api_logger(logger)
-    def login(self):
-        request_body = request.get_json()
+    def login(self, request:Request,request_body: LoginDTO):
         try:
-            email = request_body['email'].strip().lower()
-            if not Validators.is_email_valid(email):
-                return  Response.response(EMAIL_IS_NOT_VALID,Status.FAIL.value,VALIDATION_FAILURE),422
-            password = request_body['password'].strip()
+            email = request_body.email
+            password = request_body.password.strip()
 
+            # Call the service layer to authenticate the user
             user = self.user_service.login_user(email, password)
+            if not user:
+                return CustomErrorResponse.error_response(
+                    Response.response(INCORRECT_EMAIL_PASSWORD,Status.FAIL.value,INVALID_CREDENTIALS),
+                    401
+                )
 
+            # Generate token
             token = Utils.create_jwt_token(user.id, user.role)
-            return Response.response(TOKEN_GENERATE_SUCCESSFULLY,Status.SUCCESS.value,data={'token': token, 'role': user.role}),200
+            return Response.response(TOKEN_GENERATE_SUCCESSFULLY,Status.SUCCESS.value,data={'token': token, 'role': user.role})
+        except HTTPException as e:
+            raise HTTPException(
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                detail=Response.response(str(e),Status.FAIL.value,UNEXPECTED_ERROR)
+            )
         except Exception as e:
-            return Response.response(str(e),Status.FAIL.value,UNEXPECTED_ERROR),400
-
+            self.logger.error(str(e))
+            return CustomErrorResponse.error_response(
+                Response.response(str(e), Status.FAIL.value, UNEXPECTED_ERROR),
+                500
+            )
     @api_logger(logger)
-    def signup(self):
-        request_body = request.get_json()
+    def signup(self,request:Request, request_body: SignupDTO):
         try:
-            name = request_body['name'].strip()
-            if not Validators.is_name_valid(name):
-                return Response.response(NAME_NOT_VALID, Status.FAIL.value, VALIDATION_FAILURE), 422
-            email = request_body['email'].strip().lower()
-            if not Validators.is_email_valid(email):
-                return Response.response(EMAIL_IS_NOT_VALID, Status.FAIL.value, VALIDATION_FAILURE), 422
-            password = request_body['password'].strip()
-            if not Validators.is_password_valid(password):
-                return Response.response(PASSWORD_NOT_VALID, Status.FAIL.value, VALIDATION_FAILURE), 422
-            year = request_body['year'].strip()
-            if not Validators.is_year_valid(year):
-                return Response.response(YEAR_NOT_VALID, Status.FAIL.value, VALIDATION_FAILURE), 422
-            branch = request_body['branch'].strip()
-            if not Validators.is_branch_valid(branch):
-                return Response.response(BRANCH_NOT_VALID, Status.FAIL.value, VALIDATION_FAILURE), 422
-            role = request_body['role'].strip()
-            if not Validators.is_valid_role(role):
-                return Response.response(ROLE_NOT_VALID, Status.FAIL.value, VALIDATION_FAILURE), 422
+            # Validate and process the input
+            name = request_body.name.strip()
+            email = str(request_body.email).strip().lower()
+            password = request_body.password.strip()
+            year = request_body.year.strip()
+            branch = request_body.branch.strip()
+            role = request_body.role.strip()
 
-            user = User(name=name, email=email, password=password, year=year,branch=branch)
+            # Create user
+            user = User(name=name, email=email, password=password, year=year, branch=branch)
 
             self.user_service.signup_user(user)
+
+            # Generate token
             token = Utils.create_jwt_token(user.id, user.role)
-            return Response.response(TOKEN_GENERATE_SUCCESSFULLY, Status.SUCCESS.value,
-                                     data={'token': token, 'role': user.role}), 200
 
-
+            return Response.response(
+                message=TOKEN_GENERATE_SUCCESSFULLY,
+                status=Status.SUCCESS.value,
+                data={"token": token, "role": user.role}
+            )
+        except UserExistsError as e:
+            return CustomErrorResponse.error_response(
+                Response.response(str(e), Status.FAIL.value, ALREADY_EXISTS),
+                200
+            )
+        except HTTPException as e:
+            return CustomErrorResponse.error_response(
+                Response.response(str(e),Status.FAIL.value,UNEXPECTED_ERROR),
+                500
+            )
         except Exception as e:
-            return Response.response(str(e),Status.FAIL.value,UNEXPECTED_ERROR),400
+            self.logger.error(str(e))
+            return CustomErrorResponse.error_response(
+                Response.response(str(e),Status.FAIL.value,UNEXPECTED_ERROR),
+                500
+            )

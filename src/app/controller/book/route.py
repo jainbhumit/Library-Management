@@ -1,51 +1,39 @@
-from flask import Blueprint
+from http import HTTPStatus
+
+from fastapi import APIRouter,Request
+from starlette import status
 
 from src.app.controller.book.handler import BookHandler
-from src.app.middleware.middleware import auth_middleware
+from src.app.dto.book import CreateBookDTO, UpdateBookDTO
 from src.app.services.book_service import BookService
 
 
 def create_book_route(book_service:BookService):
-    book_route_blueprint = Blueprint('book_route', __name__)
-    book_route_blueprint.before_request(auth_middleware)
+    router = APIRouter()
     book_handler = BookHandler(book_service)
 
-    book_route_blueprint.add_url_rule(
-        '/admin/book',
-        "create-book",
-        book_handler.create_book,
-        methods=['POST']
-    )
+    @router.post("/admin/book",status_code=status.HTTP_201_CREATED)
+    async def create_book(request:Request,request_body:CreateBookDTO):
+        return await book_handler.create_book(request,request_body)
 
-    book_route_blueprint.add_url_rule(
-        '/admin/book',
-        "update-book",
-        book_handler.update_book,
-        methods=['PUT']
-    )
+    @router.put("/admin/book")
+    async def update_book(request: Request, request_body: UpdateBookDTO):
+        return await book_handler.update_book(request, request_body)
 
-    book_route_blueprint.add_url_rule(
-        '/admin/book/<book_id>',
-        "remove-book",
-        book_handler.remove_book,
-        methods=['PATCH']
-    )
+    @router.patch("/admin/book/{book_id}")
+    async def remove_book(book_id:str,request: Request):
+        return await book_handler.remove_book(book_id,request)
 
-    book_route_blueprint.add_url_rule(
-        '/admin/book/<book_id>',
-        "delete-book",
-        book_handler.delete_book,
-        methods=['DELETE']
-    )
+    @router.delete("/admin/book/{book_id}")
+    async def delete_book(book_id:str,request: Request):
+        return await book_handler.delete_book(book_id,request)
 
-    book_route_blueprint.add_url_rule(
-        '/user/book',
-        "get-book",
-        book_handler.get_all_books,
-        methods=['GET']
-    )
+    @router.get("/user/book")
+    async def get_all_books(request:Request):
+        return await book_handler.get_all_books(request)
 
-    return book_route_blueprint
+
+    return router
 
 
 

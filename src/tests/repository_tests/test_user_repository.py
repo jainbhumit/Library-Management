@@ -4,15 +4,7 @@ from src.app.repositories.user_repository import UserRepository
 from src.app.model.user import User
 from src.app.utils.errors.error import DatabaseError
 
-# class MockTest:
-#
-#     def insert(self, table, data):
-#         print("hello")
-#         query = "INSERT INTO user ..."
-#         values = ("1", "John Doe", "john.doe@example.com", "Admin", 2024, "CS", "securepassword")
-#         return query, values
 
-# Mock the DB class
 class TestUserRepository(unittest.TestCase):
 
     @patch("src.app.utils.db.db.DB")
