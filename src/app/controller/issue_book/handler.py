@@ -35,12 +35,6 @@ class IssueBookHandler:
         try:
             user_ctx = get_user_from_context(request)
             user_id = user_ctx.get('user_id')
-            if not user_id:
-                self.logger.error(INVALID_TOKEN)
-                return CustomErrorResponse.error_response(
-                    Response.response(INVALID_TOKEN,Status.FAIL.value,INVALID_CREDENTIALS),
-                    500
-                )
 
             borrow_date = datetime.now().date()
 
@@ -79,12 +73,6 @@ class IssueBookHandler:
         try:
             user_ctx = get_user_from_context(request)
             user_id = user_ctx.get('user_id')
-            if not user_id:
-                self.logger.error(INVALID_TOKEN)
-                return CustomErrorResponse.error_response(
-                    Response.response(INVALID_TOKEN, Status.FAIL.value, INVALID_CREDENTIALS),
-                    500
-                )
 
             self.issue_book_service.return_issue_book(user_id, book_id)
             self.logger.info(RETURN_SUCCESSFULLY)
@@ -111,12 +99,6 @@ class IssueBookHandler:
         if role == Role.USER.value:
             try:
                 user_id = user_ctx.get('user_id')
-                if not user_id:
-                    self.logger.error(INVALID_TOKEN)
-                    return CustomErrorResponse.error_response(
-                        Response.response(INVALID_TOKEN, Status.FAIL.value, INVALID_CREDENTIALS),
-                        500
-                    )
 
                 issued_books = self.issue_book_service.get_issue_book_by_user_id(user_id)
                 self.logger.info(ISSUE_BOOK_FETCH_SUCCESSFULLY)

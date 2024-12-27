@@ -20,8 +20,18 @@ class TestUtils(unittest.TestCase):
         def user_only_function(request:Request):
             return True
 
+        @Utils.admin
+        def admin_only_function_without_request():
+            return True
+
+        @Utils.user
+        def user_only_function_without_request():
+            return True
+
         self.admin_only_function = admin_only_function
         self.user_only_function = user_only_function
+        self.admin_only_function_without_request = admin_only_function_without_request
+        self.user_only_function_without_request = user_only_function_without_request
 
     def test_hash_password(self):
         password = "mypassword"
@@ -82,6 +92,12 @@ class TestUtils(unittest.TestCase):
             self.assertEqual(exception["status_code"], 403)
             self.assertEqual(exception["message"], "Unauthorized: Admin role required")
 
+    def test_admin_decorator_with_no_request_arg(self):
+        with pytest.raises(CustomHTTPException) as e:
+            self.admin_only_function_without_request()
+            exception =e.value
+            self.assertEqual(exception["status_code"], 401)
+            self.assertEqual(exception["message"], "Request context not available")
 
 
     def test_user_decorator_with_user_role(self):
@@ -116,6 +132,13 @@ class TestUtils(unittest.TestCase):
             exception = e.value
             self.assertEqual(exception["status_code"], 403)
             self.assertEqual(exception["message"], "Unauthorized: User role required")
+
+    def test_user_decorator_with_no_request_arg(self):
+        with pytest.raises(CustomHTTPException) as e:
+            self.user_only_function_without_request()
+            exception =e.value
+            self.assertEqual(exception["status_code"], 401)
+            self.assertEqual(exception["message"], "Request context not available")
 
 
 

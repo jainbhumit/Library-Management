@@ -8,10 +8,6 @@ class BookService:
     def __init__(self,book_repository:BooksRepository):
         self.book_repository = book_repository
 
-    def __repr__(self):
-        print(f"<class: Bookservice>")
-        pass
-
     def add_book(self,new_book:Books):
         book = self.book_repository.get_book_by_title(new_book.title)
         if book is None:

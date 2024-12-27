@@ -1581,3 +1581,16 @@ Request Context:
  - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
 2024-12-26 15:05:30,286 - INFO - delete_book executed successfully. - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
 2024-12-26 15:05:30,287 - DEBUG - Exiting delete_book - for user_id=1982119d-cec9-4a45-b229-7549bfa244be | role=admin
+2024-12-27 10:55:55,237 - DEBUG - Entering signup
+User Context:
+  - user_id: Unknown
+  - role: Unknown
+Request Context:
+  - method: POST
+  - path: /user/signup
+  - client_ip: 127.0.0.1
+  - headers: {'content-type': 'application/json', 'user-agent': 'PostmanRuntime/7.43.0', 'accept': '*/*', 'postman-token': '794963fc-7554-4dd5-8ee4-a9aa6f30cbe7', 'host': '127.0.0.1:5000', 'accept-encoding': 'gzip, deflate, br', 'connection': 'keep-alive', 'content-length': '200'}
+  - body: {'name': 'Garvit', 'email': 'garvitbanthiya31111111111111111111111111111111111111.it25@jecrc.ac.in', 'password': '***', 'year': '1', 'branch': 'cs', 'role': 'user'}
+ - for user_id=unknown | role=unknown
+2024-12-27 10:55:56,423 - INFO - signup executed successfully. - for user_id=unknown | role=unknown
+2024-12-27 10:55:56,424 - DEBUG - Exiting signup - for user_id=unknown | role=unknown

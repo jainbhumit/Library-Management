@@ -138,6 +138,18 @@ class TestIssueBookHandler:
         assert "Book not found" in response_data["message"]
 
     @pytest.mark.asyncio
+    async def test_issue_book_unexpected_error(self, mock_request, issue_book_dto):
+        self.mock_service.issue_book.side_effect = Exception
+        response = await self.handler.issue_book_by_user(mock_request, issue_book_dto)
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 500
+        else:
+            response_data = response
+        assert response_data["error_code"] == UNEXPECTED_ERROR
+
+    @pytest.mark.asyncio
     async def test_return_book_success(self, mock_request):
         book_id = "test-book-id"
 
@@ -172,6 +184,19 @@ class TestIssueBookHandler:
         assert "Issue record not found" in response_data["message"]
 
     @pytest.mark.asyncio
+    async def test_return_book_unexpected_error(self, mock_request):
+        book_id = "test-book-id"
+        self.mock_service.return_issue_book.side_effect = Exception
+        response = await self.handler.return_book_by_user(book_id, mock_request)
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 500
+        else:
+            response_data = response
+        assert response_data["error_code"] == DB_ERROR
+
+    @pytest.mark.asyncio
     async def test_get_issued_books_user(self, mock_request, sample_issued_book):
         self.mock_service.get_issue_book_by_user_id.return_value = [sample_issued_book]
 
@@ -203,7 +228,20 @@ class TestIssueBookHandler:
         assert response_data["status"] == Status.SUCCESS.value
         assert len(response_data["data"]) == 1
         assert response_data["data"][0]["book_id"] == sample_issued_book.book_id
+    @pytest.mark.asyncio
+    async def test_get_issued_books_admin_all_error(self, admin_request_no_params, sample_issued_book):
+        self.mock_service.get_all_issued_books.return_value = Exception
 
+        response = await self.handler.get_issued_books(admin_request_no_params)
+
+        if hasattr(response, 'body'):
+            response_body = response.body.decode()
+            response_data = json.loads(response_body)
+            assert response.status_code == 500
+        else:
+            response_data = response
+
+        assert response_data["error_code"] == UNEXPECTED_ERROR
     @pytest.mark.asyncio
     async def test_get_issued_books_admin_by_user(self, admin_request, sample_issued_book):
         self.mock_service.get_issue_book_by_user_id.return_value = [sample_issued_book]
@@ -220,12 +258,12 @@ class TestIssueBookHandler:
         assert len(response_data["data"]) == 1
         assert response_data["data"][0]["book_id"] == sample_issued_book.book_id
 
-    @pytest.mark.asyncio
-    async def test_invalid_token(self, mock_request, issue_book_dto):
-        # Remove user_id from context
-        mock_request.state.user = {"role": Role.USER.value}
 
-        response = await self.handler.issue_book_by_user(mock_request, issue_book_dto)
+    @pytest.mark.asyncio
+    async def test_get_issued_books_admin_by_user_error(self, admin_request, sample_issued_book):
+        self.mock_service.get_issue_book_by_user_id.return_value = Exception
+
+        response = await self.handler.get_issued_books(admin_request)
 
         if hasattr(response, 'body'):
             response_body = response.body.decode()
@@ -234,8 +272,7 @@ class TestIssueBookHandler:
         else:
             response_data = response
 
-        assert response_data["error_code"] == INVALID_CREDENTIALS
-        assert INVALID_TOKEN in response_data["message"]
+        assert response_data["error_code"] == UNEXPECTED_ERROR
 
     @pytest.mark.asyncio
     async def test_invalid_operation(self, mock_request, issue_book_dto):

@@ -1,13 +1,15 @@
+from logging import exception
+
 import pytest
 from unittest.mock import Mock, AsyncMock
 from fastapi import HTTPException, Request
 
-from src.app.config.custome_error_code import UNEXPECTED_ERROR, ALREADY_EXISTS, INVALID_CREDENTIALS
+from src.app.config.custome_error_code import UNEXPECTED_ERROR, ALREADY_EXISTS, INVALID_CREDENTIALS, VALIDATION_FAILURE
 from src.app.config.enumeration import Status
 from src.app.controller.user.handler import UserHandler
 from src.app.dto.user import LoginDTO, SignupDTO
 from src.app.model.user import User
-from src.app.utils.errors.error import UserExistsError
+from src.app.utils.errors.error import UserExistsError, CustomHTTPException
 from src.app.config.messages import *
 
 

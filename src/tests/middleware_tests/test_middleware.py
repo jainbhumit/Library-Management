@@ -1,7 +1,9 @@
+from logging import exception
+
 import pytest
 from fastapi import FastAPI, Request, HTTPException
 from starlette.testclient import TestClient
-from unittest.mock import patch, Mock
+from unittest.mock import patch, Mock, MagicMock
 import jwt
 import datetime
 
@@ -33,12 +35,12 @@ async def test_signup():
 client = TestClient(app)
 
 
-def create_token(user_id="test-user", role=Role.USER.value, expired=False):
+def create_token(user_id="test-user", role="user", expired=False):
     """Helper function to create JWT tokens for testing"""
     payload = {
         "user_id": user_id,
         "role": role,
-        "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=1),  # Token expires in 1 hour
+        "exp": datetime.datetime.utcnow() - datetime.timedelta(hours=1) if expired else datetime.datetime.utcnow() + datetime.timedelta(hours=1),
         "iat": datetime.datetime.utcnow(),  # Issued at
         "nbf": datetime.datetime.utcnow(),  # Not before
     }
@@ -64,10 +66,12 @@ class TestAuthMiddleware:
 
     def test_missing_auth_header(self):
         """Test request without Authorization header"""
-        response = self.client.get("/test-protected")
-        assert response.status_code == 401
-        assert response.json()["message"] == MISSING_OR_INVALID_TOKEN
-        assert response.json()["error_code"] == TOKEN_MISSING
+        with pytest.raises(HTTPException) as e:
+            self.client.get("/test-protected")
+            exception = e.value
+            assert exception.status_code == 401
+            assert exception.json()["message"] == MISSING_OR_INVALID_TOKEN
+            assert exception.json()["error_code"] == TOKEN_MISSING
 
     def test_invalid_auth_header_format(self):
         """Test request with invalid Authorization header format"""
@@ -113,33 +117,35 @@ class TestAuthMiddleware:
         """Test token without user_id claim"""
         payload = {
             "role": Role.USER.value,
-            "exp": datetime.utcnow() + timedelta(days=1)
+            "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=1),
+            "iat": datetime.datetime.utcnow(),  # Issued at
+            "nbf": datetime.datetime.utcnow(),  # Not before
         }
-        token = jwt.encode(payload, "your-secret-key", algorithm="HS256")
-        response = self.client.get(
-            "/test-protected",
-            headers={"Authorization": f"Bearer {token}"}
-        )
-        assert response.status_code == 401
-        assert response.json()["message"] == INVALID_TOKEN
-        assert response.json()["error_code"] == TOKEN_INVALID
+        token = jwt.encode(payload, "SECRET", algorithm="HS256")
+        with pytest.raises(HTTPException) as e:
+             self.client.get("/test-protected",headers={"Authorization": f"Bearer {token}"})
+             exception = e.value
+             assert exception.status_code == 401
+             assert exception.json()["message"] == INVALID_TOKEN
+             assert exception.json()["error_code"] == TOKEN_INVALID
 
     def test_missing_role_in_token(self):
         """Test token without role claim"""
         payload = {
             "user_id": "test-user",
-            "exp": datetime.utcnow() + timedelta(days=1)
+            "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=1),
+            "iat": datetime.datetime.utcnow(),  # Issued at
+            "nbf": datetime.datetime.utcnow(),  # Not before
         }
-        token = jwt.encode(payload, "your-secret-key", algorithm="HS256")
-        response = self.client.get(
-            "/test-protected",
-            headers={"Authorization": f"Bearer {token}"}
-        )
-        assert response.status_code == 401
-        assert response.json()["message"] == INVALID_TOKEN
-        assert response.json()["error_code"] == TOKEN_INVALID
+        token = jwt.encode(payload, "SECRET", algorithm="HS256")
+        with pytest.raises(HTTPException) as e:
+            self.client.get("/test-protected", headers={"Authorization": f"Bearer {token}"})
+            exception = e.value
+            assert exception.status_code == 401
+            assert exception.json()["message"] == INVALID_TOKEN
+            assert exception.json()["error_code"] == TOKEN_INVALID
 
-    @patch('src.app.utils.context.set_user_to_context')
+    @patch('src.app.middleware.middleware.set_user_to_context')
     def test_user_context_setting(self, mock_set_context):
         """Test that user context is properly set"""
         token = create_token()
